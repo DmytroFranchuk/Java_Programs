@@ -1,0 +1,5 @@
+Greenfelder-[auto: PEUGEOT ::: salary: 8545.65]
+Roob-[auto: TESLA ::: salary: 8662.22]
+Osinski-[auto: TESLA ::: salary: 9036.68]
+Jenkins-[auto: INFINITI ::: salary: 8717.81]
+Bruen-[auto: MAZDA ::: salary: 5444.59]
