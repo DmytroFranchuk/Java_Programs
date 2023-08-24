@@ -1,0 +1,60 @@
+//        try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(pathFileReport)))) {
+//            String parseLine = reader.readLine();
+//
+//            parseLine = reader.readLine();
+//            System.out.println(parseLine);
+//            String[] values = parseLine.split("(,)");
+//
+//            String pattern = "\"([^\"]+)\":\\s*\"([^\"]+)\"";
+//            Pattern p = Pattern.compile(pattern);
+//
+//            for (int i = 0; i < values.length; i++) {
+//                Matcher m = p.matcher(values[i]);
+//                while (m.find()) {
+//                    String key = m.group(1);
+//                    String value = m.group(2);
+//                    System.out.println("Key: " + key + " : " + "Value: " + value);
+//                }
+//
+//            }
+
+//            if (parseLine.equals("[")) {
+//                while (!parseLine.equals("]")) {
+//                    parseLine = reader.readLine();
+//                    if (!parseLine.equals("]")) {
+//                        String[] values = parseLine.split("(, )");
+//                        System.out.println(parseLine);
+//                    }
+//                }
+//            }
+
+
+//            String input = "{\"CATEGOR Y\": \"FOOD#1\"}";
+//            String pattern = "\"([^\"]+)\":\\s*\"([^\"]+)\"";
+//
+//            Pattern p = Pattern.compile(pattern);
+//            Matcher m = p.matcher(input);
+//
+//            while (m.find()) {
+//                String key = m.group(1);
+//                String value = m.group(2);
+//                System.out.println("Key: " + key);
+//                System.out.println("Value: " + value);
+//            }
+
+
+//            if (headerLine != null) { // Проверка, что заголовок не пустой.
+//                String[] headers = headerLine.split("(, )"); // Разделение заголовка на отдельные поля.
+//                String line;
+//                int rowIndex = 1; // Индекс строки, начиная с 1.
+//                while ((line = reader.readLine()) != null) { // Чтение оставшихся строк CSV файла.
+//                    String[] values = line.split("(, )"); // Разделение строки на отдельные значения.
+//                    for (int i = 0; i < headers.length; i++) {
+////                        index.putIfAbsent(headers[i], new LinkedHashMap<>());
+////                        index.get(headers[i]).put(values[i], rowIndex);
+//                        indexValue(headers[i], values[i], rowIndex); // Индексация значения по заголовку и индексу строки.
+//                    }
+//                    rowIndex++; // Увеличение индекса строки для следующей итерации.
+//                }
+////                System.out.println(index);
+//        }
