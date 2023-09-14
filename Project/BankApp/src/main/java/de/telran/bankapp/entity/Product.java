@@ -1,49 +1,57 @@
 package de.telran.bankapp.entity;
 
+import de.telran.bankapp.entity.enums.ProductType;
+import de.telran.bankapp.entity.enums.Status;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.Objects;
+import java.util.HashSet;
+import java.util.Set;
 
-@AllArgsConstructor
+@Entity
+@Table(name = "products")
 @Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Product {
-    private int id;
-    private int manager_id;
-    private String name;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false, unique = true, updatable = false)
+    private Long id;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "manager_id", referencedColumnName = "id")
+    private Manager manager;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "type")
+    private ProductType type;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "status")
     private Status status;
-    private int currency_code;
-    private double interest_rate;
+
+    @Column(name = "currency_code")
+    private int currencyCode;
+
+    @Column(name = "interest_rate")
+    private BigDecimal interestRate;
+
+    @Column(name = "`limit`")
     private Integer limit;
-    private LocalDateTime created_at;
-    private LocalDateTime updated_at;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Product product = (Product) o;
-        return id == product.id && Objects.equals(name, product.name);
-    }
+    @Column(name = "created_at")
+    private LocalDateTime createdAt;
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, name);
-    }
+    @Column(name = "updated_at")
+    private LocalDateTime updatedAt;
 
-    @Override
-    public String toString() {
-        return "Product{" +
-                "id=" + id +
-                ", manager_id=" + manager_id +
-                ", name='" + name + '\'' +
-                ", status=" + status +
-                ", currency_code=" + currency_code +
-                ", interest_rate=" + interest_rate +
-                ", limit=" + limit +
-                ", created_at=" + created_at +
-                ", updated_at=" + updated_at +
-                '}';
-    }
+    @OneToMany(mappedBy = "product",
+            cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY)
+    private Set<Agreement> agreements = new HashSet<>();
 }

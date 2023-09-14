@@ -1,46 +1,44 @@
 package de.telran.bankapp.entity;
 
+import de.telran.bankapp.entity.enums.TransactionType;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.Objects;
-import java.util.UUID;
-@AllArgsConstructor
+
+@Entity
+@Table(name = "transactions")
 @Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Transaction {
-    private UUID id;
-    private UUID debit_account_id;
-    private UUID credit_account_id;
-    private int type;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false, unique = true, updatable = false)
+    private Long id;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "debit_account_id", referencedColumnName = "id")
+    private Account debitAccount;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "credit_account_id", referencedColumnName = "id")
+    private Account creditAccount;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "type")
+    private TransactionType type;
+
+    @Column(name = "amount")
     private BigDecimal amount;
+
+    @Column(name = "description")
     private String description;
-    private LocalDateTime created_at;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Transaction that = (Transaction) o;
-        return type == that.type && Objects.equals(id, that.id);
-    }
+    @Column(name = "created_at")
+    private LocalDateTime createdAt;
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, type);
-    }
-
-    @Override
-    public String toString() {
-        return "Transaction{" +
-                "id=" + id +
-                ", debit_account_id=" + debit_account_id +
-                ", credit_account_id=" + credit_account_id +
-                ", type=" + type +
-                ", amount=" + amount +
-                ", description='" + description + '\'' +
-                ", created_at=" + created_at +
-                '}';
-    }
 }

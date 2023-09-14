@@ -1,51 +1,71 @@
 package de.telran.bankapp.entity;
 
+import de.telran.bankapp.entity.enums.AccountType;
+import de.telran.bankapp.entity.enums.CurrencyCode;
+import de.telran.bankapp.entity.enums.Status;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.Objects;
-import java.util.UUID;
+import java.util.HashSet;
+import java.util.Set;
 
-@AllArgsConstructor
+
+@Entity
+@Table(name = "accounts")
 @Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Account {
-    private UUID id;
-    private UUID client_id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false, unique = true, updatable = false)
+    private Long id;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "client_id", referencedColumnName = "id")
+    private Client client;
+
+    @Column(name = "name")
     private String name;
-    private int type;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "type")
+    private AccountType type;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "status")
     private Status status;
+
+    @Column(name = "balance")
     private BigDecimal balance;
-    private int currency_code;
-    private LocalDateTime created_at;
-    private LocalDateTime updated_at;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Account account = (Account) o;
-        return Objects.equals(id, account.id) && Objects.equals(client_id, account.client_id);
-    }
+    @Enumerated(EnumType.STRING)
+    @Column(name = "currency_code")
+    private CurrencyCode currencyCode;
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, client_id);
-    }
+    @Column(name = "created_at")
+    private LocalDateTime createdAt;
 
-    @Override
-    public String toString() {
-        return "\nAccount{" +
-                "id=" + id +
-                ", client_id=" + client_id +
-                ", name='" + name + '\'' +
-                ", type=" + type +
-                ", status=" + status +
-                ", balance=" + balance +
-                ", currency_code=" + currency_code +
-                ", created_at=" + created_at +
-                ", updated_at=" + updated_at +
-                '}';
-    }
+    @Column(name = "updated_at")
+    private LocalDateTime updatedAt;
+
+    @OneToOne(mappedBy = "account",
+            cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY)
+    private Agreement agreement;
+
+    @OneToMany(mappedBy = "debitAccount",
+            cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY)
+    private Set<Transaction> debitTransactions = new HashSet<>();
+
+    @OneToMany(mappedBy = "creditAccount",
+            cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY)
+    private Set<Transaction> creditTransactions = new HashSet<>();
+
 }

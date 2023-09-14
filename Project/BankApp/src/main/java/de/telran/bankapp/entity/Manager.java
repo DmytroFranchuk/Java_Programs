@@ -1,21 +1,38 @@
 package de.telran.bankapp.entity;
 
+import de.telran.bankapp.entity.enums.Status;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "managers")
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
 public class Manager {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", nullable = false, unique = true, updatable = false)
+    @Column(name = "id", unique = true, nullable = false, updatable = false)
     private Long id;
+
+    @OneToMany(
+            mappedBy = "manager",
+            cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY)
+    private Set<Client> clients = new HashSet<>();
+
+    @OneToMany(mappedBy = "manager",
+            cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY)
+    private Set<Product> products = new HashSet<>();
 
     @Column(name = "first_name")
     private String firstName;

@@ -1,12 +1,14 @@
 package de.telran.bankapp.entity;
 
+import de.telran.bankapp.entity.enums.Status;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
-import java.util.Objects;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "clients")
@@ -19,8 +21,9 @@ public class Client {
     @Column(name = "id", nullable = false, unique = true, updatable = false)
     private Long id;
 
-    @Column(name = "manager_id")
-    private Long managerId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "manager_id", referencedColumnName = "id")
+    private Manager manager;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "status")
@@ -49,5 +52,10 @@ public class Client {
 
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
+
+    @OneToMany(mappedBy = "client",
+            cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY)
+    private Set<Account> accounts = new HashSet<>();
 
 }
