@@ -1,5 +1,6 @@
 package de.telran.bankapp.entity;
 
+import de.telran.bankapp.entity.enums.CurrencyCode;
 import de.telran.bankapp.entity.enums.ProductType;
 import de.telran.bankapp.entity.enums.Status;
 import jakarta.persistence.*;
@@ -10,6 +11,7 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 @Entity
@@ -35,14 +37,15 @@ public class Product {
     @Column(name = "status")
     private Status status;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "currency_code")
-    private int currencyCode;
+    private CurrencyCode currencyCode;
 
     @Column(name = "interest_rate")
     private BigDecimal interestRate;
 
     @Column(name = "`limit`")
-    private Integer limit;
+    private BigDecimal limit;
 
     @Column(name = "created_at")
     private LocalDateTime createdAt;
@@ -54,4 +57,17 @@ public class Product {
             cascade = CascadeType.ALL,
             fetch = FetchType.LAZY)
     private Set<Agreement> agreements = new HashSet<>();
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Product product = (Product) o;
+        return Objects.equals(id, product.id) && Objects.equals(manager, product.manager);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, manager);
+    }
 }
