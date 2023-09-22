@@ -66,7 +66,7 @@ databaseChangeLog:
                   value: 169486
               - column:
                   name: type
-                  value: INVESTMENT_ACCOUNT
+                  value: DEBIT_ACCOUNT
               - column:
                   name: status
                   value: ACTIVE

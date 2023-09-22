@@ -11,7 +11,7 @@ databaseChangeLog:
                   value: 8549850
               - column:
                   name: account_id
-                  value: 806948500
+                  value: 806948501
               - column:
                   name: product_id
                   value: 1
@@ -57,7 +57,7 @@ databaseChangeLog:
             columns:
               - column:
                   name: account_id
-                  value: 806948501
+                  value: 806948503
               - column:
                   name: product_id
                   value: 2
@@ -102,7 +102,30 @@ databaseChangeLog:
             columns:
               - column:
                   name: account_id
-                  value: 806948503
+                  value: 806948505
+              - column:
+                  name: product_id
+                  value: 4
+              - column:
+                  name: interest_rate
+                  value: 1.51
+              - column:
+                  name: status
+                  value: ACTIVE
+              - column:
+                  name: sum
+                  value: 2392.44
+
+  - changeSet:
+      id: 1694854985471-6
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: agreements
+            columns:
+              - column:
+                  name: account_id
+                  value: 806948506
               - column:
                   name: product_id
                   value: 4

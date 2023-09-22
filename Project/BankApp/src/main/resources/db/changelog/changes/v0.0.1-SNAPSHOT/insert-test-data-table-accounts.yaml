@@ -171,3 +171,119 @@ databaseChangeLog:
               - column:
                   name: currency_code
                   value: EUR
+
+  - changeSet:
+      id: 1694854985470-7
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: accounts
+            columns:
+              - column:
+                  name: id
+                  value: 067688213
+              - column:
+                  name: client_id
+                  value: 1694854982
+              - column:
+                  name: name
+                  value: payment account 1
+              - column:
+                  name: type
+                  value: CREDIT
+              - column:
+                  name: status
+                  value: ACTIVE
+              - column:
+                  name: balance
+                  value: 2522.90
+              - column:
+                  name: currency_code
+                  value: EUR
+
+  - changeSet:
+      id: 1694854985470-8
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: accounts
+            columns:
+              - column:
+                  name: id
+                  value: 100000990
+              - column:
+                  name: client_id
+                  value: 1694854982
+              - column:
+                  name: name
+                  value: payment account 1
+              - column:
+                  name: type
+                  value: CREDIT
+              - column:
+                  name: status
+                  value: ACTIVE
+              - column:
+                  name: balance
+                  value: 2522.90
+              - column:
+                  name: currency_code
+                  value: EUR
+
+  - changeSet:
+      id: 1694854985470-9
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: accounts
+            columns:
+              - column:
+                  name: id
+                  value: 200000990
+              - column:
+                  name: client_id
+                  value: 1694854982
+              - column:
+                  name: name
+                  value: payment account 1
+              - column:
+                  name: type
+                  value: CREDIT
+              - column:
+                  name: status
+                  value: ACTIVE
+              - column:
+                  name: balance
+                  value: 2522.90
+              - column:
+                  name: currency_code
+                  value: EUR
+
+  - changeSet:
+      id: 1694854985470-10
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: accounts
+            columns:
+              - column:
+                  name: id
+                  value: 200000203
+              - column:
+                  name: client_id
+                  value: 1694854982
+              - column:
+                  name: name
+                  value: payment account 1
+              - column:
+                  name: type
+                  value: CREDIT
+              - column:
+                  name: status
+                  value: ACTIVE
+              - column:
+                  name: balance
+                  value: 2522.90
+              - column:
+                  name: currency_code
+                  value: EUR

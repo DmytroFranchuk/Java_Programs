@@ -68,6 +68,13 @@ CREATE TABLE IF NOT EXISTS transactions (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+ALTER TABLE clients ADD FOREIGN KEY (manager_id) REFERENCES managers(id);
+ALTER TABLE products ADD FOREIGN KEY (manager_id) REFERENCES managers(id);
+ALTER TABLE accounts ADD FOREIGN KEY (client_id) REFERENCES clients(id);
+ALTER TABLE agreements ADD FOREIGN KEY (product_id) REFERENCES products(id);
+ALTER TABLE agreements ADD FOREIGN KEY (account_id) REFERENCES accounts(id);
+ALTER TABLE transactions ADD FOREIGN KEY (debit_account_id) REFERENCES accounts(id);
+ALTER TABLE transactions ADD FOREIGN KEY (credit_account_id) REFERENCES accounts(id);
 
 
 

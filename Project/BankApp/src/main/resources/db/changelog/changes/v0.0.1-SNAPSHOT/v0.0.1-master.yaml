@@ -1,6 +1,9 @@
 databaseChangeLog:
+#  - include:
+#      file: db/changelog/changes/v0.0.1-SNAPSHOT/create-tables-dbSql.yaml
+
   - include:
-      file: db/changelog/changes/v0.0.1-SNAPSHOT/create-tables-dbSql.yaml
+      file: db/changelog/changes/v0.0.1-SNAPSHOT/create-tables-structure.yaml
 
   - include:
       file: db/changelog/changes/v0.0.1-SNAPSHOT/insert-test-data-table-managers.yaml
