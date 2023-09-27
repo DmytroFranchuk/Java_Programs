@@ -1,0 +1,63 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1694854985467-1
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: managers
+            columns:
+              - column:
+                  name: id
+                  value: 169485
+              - column:
+                  name: first_name
+                  value: Minor
+              - column:
+                  name: last_name
+                  value: Lora
+              - column:
+                  name: status_manager
+                  value: BLOCKED
+              - column:
+                  name: description
+                  value: Account management
+
+  - changeSet:
+      id: 1694854985467-2
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: managers
+            columns:
+              - column:
+                  name: first_name
+                  value: Kilsh
+              - column:
+                  name: last_name
+                  value: Natalia
+              - column:
+                  name: status_manager
+                  value: ACTIVE
+              - column:
+                  name: description
+                  value: Applications and inquiries
+
+  - changeSet:
+      id: 1694854985467-3
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: managers
+            columns:
+              - column:
+                  name: first_name
+                  value: Almadov
+              - column:
+                  name: last_name
+                  value: Rinat
+              - column:
+                  name: status_manager
+                  value: INACTIVE
+              - column:
+                  name: description
+                  value: Consulting and support

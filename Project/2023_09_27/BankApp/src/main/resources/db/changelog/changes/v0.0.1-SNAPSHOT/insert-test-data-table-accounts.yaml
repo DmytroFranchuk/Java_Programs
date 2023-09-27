@@ -1,0 +1,289 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1694854985470-1
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: accounts
+            columns:
+              - column:
+                  name: id
+                  value: 806948501
+              - column:
+                  name: client_id
+                  value: 1694854980
+              - column:
+                  name: name_account
+                  value: payment account 1
+              - column:
+                  name: type_account
+                  value: DEBIT
+              - column:
+                  name: status_account
+                  value: ACTIVE
+              - column:
+                  name: balance
+                  value: 1232.43
+              - column:
+                  name: currency_code
+                  value: USD
+  - changeSet:
+      id: 1694854985470-2
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: accounts
+            columns:
+              - column:
+                  name: id
+                  value: 806948502
+              - column:
+                  name: client_id
+                  value: 1694854981
+              - column:
+                  name: name_account
+                  value: payment account 1
+              - column:
+                  name: type_account
+                  value: CREDIT
+              - column:
+                  name: status_account
+                  value: ACTIVE
+              - column:
+                  name: balance
+                  value: 543.73
+              - column:
+                  name: currency_code
+                  value: EUR
+
+  - changeSet:
+      id: 1694854985470-3
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: accounts
+            columns:
+              - column:
+                  name: id
+                  value: 806948503
+              - column:
+                  name: client_id
+                  value: 1694854982
+              - column:
+                  name: name_account
+                  value: payment account 1
+              - column:
+                  name: type_account
+                  value: DEBIT
+              - column:
+                  name: status_account
+                  value: ACTIVE
+              - column:
+                  name: balance
+                  value: 2222.33
+              - column:
+                  name: currency_code
+                  value: EUR
+
+  - changeSet:
+      id: 1694854985470-4
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: accounts
+            columns:
+              - column:
+                  name: id
+                  value: 806948504
+              - column:
+                  name: client_id
+                  value: 1694854980
+              - column:
+                  name: name_account
+                  value: payment account 1
+              - column:
+                  name: type_account
+                  value: CREDIT
+              - column:
+                  name: status_account
+                  value: ACTIVE
+              - column:
+                  name: balance
+                  value: 2522.90
+              - column:
+                  name: currency_code
+                  value: EUR
+
+  - changeSet:
+      id: 1694854985470-5
+      author: d.franchuk
+      changes:
+        - insert:
+            tableName: accounts
+            columns:
+              - column:
+                  name: id
+                  value: 806948505
+              - column:
+                  name: client_id
+                  value: 1694854980
+              - column:
+                  name: name_account
+                  value: payment account 1
+              - column:
+                  name: type_account
+                  value: DEBIT
+              - column:
+                  name: status_account
+                  value: ACTIVE
+              - column:
+                  name: balance
+                  value: 222.35
+              - column:
+                  name: currency_code
+                  value: EUR
+
+#  - changeSet:
+#      id: 1694854985470-6
+#      author: d.franchuk
+#      changes:
+#        - insert:
+#            tableName: accounts
+#            columns:
+#              - column:
+#                  name: id
+#                  value: 806948505
+#              - column:
+#                  name: client_id
+#                  value: 806948502
+#              - column:
+#                  name: name_account
+#                  value: payment account 1
+#              - column:
+#                  name: type_account
+#                  value: CREDIT
+#              - column:
+#                  name: status_account
+#                  value: ACTIVE
+#              - column:
+#                  name: balance
+#                  value: 2522.90
+#              - column:
+#                  name: currency_code
+#                  value: EUR
+#
+#  - changeSet:
+#      id: 1694854985470-7
+#      author: d.franchuk
+#      changes:
+#        - insert:
+#            tableName: accounts
+#            columns:
+#              - column:
+#                  name: id
+#                  value: 806948503
+#              - column:
+#                  name: client_id
+#                  value: 806948504
+#              - column:
+#                  name: name_account
+#                  value: payment account 1
+#              - column:
+#                  name: type_account
+#                  value: CREDIT
+#              - column:
+#                  name: status_account
+#                  value: ACTIVE
+#              - column:
+#                  name: balance
+#                  value: 2522.90
+#              - column:
+#                  name: currency_code
+#                  value: EUR
+#
+#  - changeSet:
+#      id: 1694854985470-8
+#      author: d.franchuk
+#      changes:
+#        - insert:
+#            tableName: accounts
+#            columns:
+#              - column:
+#                  name: id
+#                  value: 806948502
+#              - column:
+#                  name: client_id
+#                  value: 806948504
+#              - column:
+#                  name: name_account
+#                  value: payment account 1
+#              - column:
+#                  name: type_account
+#                  value: CREDIT
+#              - column:
+#                  name: status_account
+#                  value: ACTIVE
+#              - column:
+#                  name: balance
+#                  value: 2522.90
+#              - column:
+#                  name: currency_code
+#                  value: EUR
+#
+#  - changeSet:
+#      id: 1694854985470-9
+#      author: d.franchuk
+#      changes:
+#        - insert:
+#            tableName: accounts
+#            columns:
+#              - column:
+#                  name: id
+#                  value: 806948502
+#              - column:
+#                  name: client_id
+#                  value: 806948504
+#              - column:
+#                  name: name_account
+#                  value: payment account 1
+#              - column:
+#                  name: type_account
+#                  value: CREDIT
+#              - column:
+#                  name: status_account
+#                  value: ACTIVE
+#              - column:
+#                  name: balance
+#                  value: 2522.90
+#              - column:
+#                  name: currency_code
+#                  value: EUR
+#
+#  - changeSet:
+#      id: 1694854985470-10
+#      author: d.franchuk
+#      changes:
+#        - insert:
+#            tableName: accounts
+#            columns:
+#              - column:
+#                  name: id
+#                  value: 806948502
+#              - column:
+#                  name: client_id
+#                  value: 806948505
+#              - column:
+#                  name: name_account
+#                  value: payment account 1
+#              - column:
+#                  name: type_account
+#                  value: CREDIT
+#              - column:
+#                  name: status_account
+#                  value: ACTIVE
+#              - column:
+#                  name: balance
+#                  value: 2522.90
+#              - column:
+#                  name: currency_code
+#                  value: EUR
