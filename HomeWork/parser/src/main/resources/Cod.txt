@@ -1,0 +1,15 @@
+//            for (int i = 0; i < args.length; i++) {
+//                String arg = args[i];
+//                if ("-a".equals(arg) || "-d".equals(arg)) {
+//                    sortMode = arg;
+//                } else if ("-s".equals(arg) || "-i".equals(arg)) {
+//                    dataType = arg;
+//                } else if (outputFileName == null) {
+//                    outputFileName = arg;
+//                } else {
+//                    inputFiles.add(arg);
+//                }
+//            }
+
+(args[0].equals("-s") && args[1].equals("-s")) || (args[0].equals("-i") && args[1].equals("-i")) ||
+                    (args[0].equals("-s") && args[1].equals("-i")) || (args[0].equals("-i") && args[1].equals("-s"))
