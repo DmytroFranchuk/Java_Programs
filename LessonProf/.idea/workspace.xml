@@ -5,19 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_02_11_2023_nestedClass/CommandLineParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_02_11_2023_nestedClass/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_02_11_2023_nestedClass/nestedClass/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_07_11_2023/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/parser/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/parser/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/parser/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/parser/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/parser/src/main/java/de/telran/CommandLineParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/parser/src/main/java/de/telran/CommandLineParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/parser/src/main/resources/Cod.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/parser/src/main/resources/Cod.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/desc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/intro/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/intro/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/AuditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/CreateTradeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/SimpleAuditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/SimpleTradingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/Trade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/TradeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/TradingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/reactor/ReactorCoolingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/reactor/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/reactor/Thermometer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/CustomerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/PricingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/PricingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/SimpleCustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/SimplePricingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/Trade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/dummyTest/DummyObjectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/mockTest/SimpleAuditServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/reactorTest/ReactorCoolingSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/reactorTest/ThermometerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/spiesTest/MockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/spiesTest/TestSpyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/stubTest/SaboteurDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/stubTest/SimplePricingServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/stubTest/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/tasks/taski/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/tasks/taski/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/tasks/taski/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/Конспект.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023/MerchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/ls_09_11_2023_mockitoTest/praktika/tasks/taski/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/pr_10_11_2023/ProductServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_07_11_2023/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_07_11_2023_unitTest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +67,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -41,35 +85,51 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Java/2/Java_Programs/LessonProf/src/main/java/org/ls_09_11_2023_mockitoTest/praktika",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.34470376",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_09_11_2023_mockitoTest\praktika" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.pr_10_11_2023" />
+      <recent name="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.ls_02_11_2023_UnitTests" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.ls_07_11_2023.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_02_11_2023_nestedClass.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.ls_07_11_2023_unitTest.Main" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_02_11_2023_nestedClass.*" />
+          <option name="PATTERN" value="org.ls_07_11_2023_unitTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,23 +137,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.ls_07_11_2023.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_07_11_2023.Main" />
+    <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_07_11_2023.*" />
+          <option name="PATTERN" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski" />
+      <option name="MAIN_CLASS_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.LibraryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.addBookSameAuthor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LessonProf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski" />
+      <option name="MAIN_CLASS_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.LibraryTest" />
+      <option name="METHOD_NAME" value="addBookSameAuthor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.removeBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LessonProf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski" />
+      <option name="MAIN_CLASS_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.LibraryTest" />
+      <option name="METHOD_NAME" value="removeBookTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.removeBookTestBookOfNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LessonProf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski" />
+      <option name="MAIN_CLASS_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.LibraryTest" />
+      <option name="METHOD_NAME" value="removeBookTestBookOfNull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.ls_07_11_2023.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.LibraryTest" />
+        <item itemvalue="JUnit.LibraryTest.removeBookTest" />
+        <item itemvalue="JUnit.LibraryTest.removeBookTestBookOfNull" />
+        <item itemvalue="JUnit.LibraryTest.addBookSameAuthor" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +222,7 @@
       <workItem from="1699264334497" duration="3335000" />
       <workItem from="1699349434603" duration="3859000" />
       <workItem from="1699383537154" duration="860000" />
+      <workItem from="1699528981209" duration="78988000" />
     </task>
     <servers />
   </component>

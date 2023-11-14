@@ -1,0 +1,56 @@
+Добавить библиотеку Mockito в ваш pom.xml можно с помощью кода
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>5.7.0</version>
+            <scope>test</scope>
+        </dependency>
+
+Есть два способа активировать работу библиотеки Mockito в ваших unit-тестах.
+Первый способ – это добавить специальную аннотацию @ExtendWith(MockitoExtension.class):
+
+    @ExtendWith(MockitoExtension.class)
+    public class MockitoAnnotationTest {
+        ...
+    }
+
+Второй способ – включить ее работу вызвав метод openMocks():
+
+    public class MockitoAnnotationTest {
+        @BeforeEach
+        public void init() {
+            MockitoAnnotations.openMocks(this);
+       }
+    }
+
+Есть два способа работы с мок-объектами в Mockito.
+Первый – это создать полностью виртуальный объект
+
+    ИмяКласса имяПеременной = Mockito.mock(ИмяКласса.class);
+
+    @ExtendWith(MockitoExtension.class)
+    class MockTest {
+        @Test
+        public void whenNotUseMockAnnotation_thenCorrect() {
+            List mockList = Mockito.mock(ArrayList.class);
+            //эти методы не будут ничего делать – это заглушки
+            mockList.add("one");
+            mockList.add("two");
+        }
+    }
+
+
+второй – это обернуть существующий объект в некую обертку.
+    @ExtendWith(MockitoExtension.class)
+    class MockTest {
+        @Mock
+        List mockList;
+
+        @Test
+        public void whenNotUseMockAnnotation_thenCorrect() {
+            //эти методы не будут ничего делать – это заглушки
+            mockList.add("one");
+            mockList.add("two");
+        }
+    }
