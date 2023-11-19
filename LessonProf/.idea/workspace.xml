@@ -5,58 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/desc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/AddressBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/intro/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/intro/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/AuditService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/CreateTradeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/SimpleAuditService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/SimpleTradingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/Trade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/TradeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/TradingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/reactor/ReactorCoolingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/reactor/Sensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/reactor/Thermometer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/CustomerNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/Price.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/PricingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/PricingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/SimpleCustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/SimplePricingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/Trade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/dummyTest/DummyObjectDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/mockTest/SimpleAuditServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/reactorTest/ReactorCoolingSystemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/reactorTest/ThermometerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/spiesTest/MockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/spiesTest/TestSpyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/stubTest/SaboteurDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/stubTest/SimplePricingServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/stubTest/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/tasks/taski/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/tasks/taski/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/tasks/taski/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/Конспект.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023/MerchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/ls_09_11_2023_mockitoTest/praktika/tasks/taski/LibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/pr_10_11_2023/ProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_16_11_2023_io/FileStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_16_11_2023_io/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_16_11_2023_io/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_16_11_2023_io/translater/DictionaryReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_16_11_2023_io/translater/Dictonry.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_16_11_2023_io/translater/Translater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/NewCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/PrivilegedCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/VipCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/incorect/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/incorect/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/incorect/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/incorect/NewCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/incorect/PrivilegedCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/incorect/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/RetailProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/ValidationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/WholesaleProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/incorect/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/incorect/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/incorect/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/incorect/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/incorect/ValidationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/correct/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/correct/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/correct/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/correct/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/correct/service/ValidationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/incorect/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/incorect/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/incorect/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_07_11_2023/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_07_11_2023_unitTest/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023_Mockito/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023/MerchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023_Mockito/MerchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023_Mockito/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023_Mockito/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/pr_10_11_2023/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/pr_10_11_2023/ProductServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +61,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,22 +90,27 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Java/2/Java_Programs/LessonProf/src/main/java/org/ls_09_11_2023_mockitoTest/praktika",
+    "last_opened_file_path": "E:/110723-m-be/alg_dz",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.34470376",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "6b1f582ee5f7e04cdba30ff3db40e2b6",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_09_11_2023_mockitoTest\praktika" />
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\pr_17_11_2023_SOLID\o\correct" />
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\pr_17_11_2023_SOLID\o\incorect" />
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\pr_17_11_2023_SOLID\s\correct" />
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\pr_17_11_2023_SOLID\d" />
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\pr_17_11_2023_SOLID\i" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -120,16 +120,18 @@
       <recent name="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.pr_17_11_2023_SOLID.l.correct" />
+      <recent name="org.pr_17_11_2023_SOLID.l.incorect" />
       <recent name="org.ls_02_11_2023_UnitTests" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_07_11_2023_unitTest.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.pr_17_11_2023_SOLID.l.correct.Main" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_07_11_2023_unitTest.*" />
+          <option name="PATTERN" value="org.pr_17_11_2023_SOLID.l.correct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,64 +139,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="org.pr_17_11_2023_SOLID.l.incorect.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pr_17_11_2023_SOLID.l.incorect.Main" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.*" />
+          <option name="PATTERN" value="org.pr_17_11_2023_SOLID.l.incorect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski" />
-      <option name="MAIN_CLASS_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.LibraryTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.addBookSameAuthor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductServiceTest.checkFulldeletion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.*" />
+          <option name="PATTERN" value="org.pr_10_11_2023.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski" />
-      <option name="MAIN_CLASS_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.LibraryTest" />
-      <option name="METHOD_NAME" value="addBookSameAuthor" />
+      <option name="PACKAGE_NAME" value="org.pr_10_11_2023" />
+      <option name="MAIN_CLASS_NAME" value="org.pr_10_11_2023.ProductServiceTest" />
+      <option name="METHOD_NAME" value="checkFulldeletion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.removeBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductServiceTest.checkIfInactiveStatusWasSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.*" />
+          <option name="PATTERN" value="org.pr_10_11_2023.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski" />
-      <option name="MAIN_CLASS_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.LibraryTest" />
-      <option name="METHOD_NAME" value="removeBookTest" />
+      <option name="PACKAGE_NAME" value="org.pr_10_11_2023" />
+      <option name="MAIN_CLASS_NAME" value="org.pr_10_11_2023.ProductServiceTest" />
+      <option name="METHOD_NAME" value="checkIfInactiveStatusWasSet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.removeBookTestBookOfNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductServiceTest.mockAndSpyDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.*" />
+          <option name="PATTERN" value="org.pr_10_11_2023.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski" />
-      <option name="MAIN_CLASS_NAME" value="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski.LibraryTest" />
-      <option name="METHOD_NAME" value="removeBookTestBookOfNull" />
+      <option name="PACKAGE_NAME" value="org.pr_10_11_2023" />
+      <option name="MAIN_CLASS_NAME" value="org.pr_10_11_2023.ProductServiceTest" />
+      <option name="METHOD_NAME" value="mockAndSpyDemo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,10 +203,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.LibraryTest" />
-        <item itemvalue="JUnit.LibraryTest.removeBookTest" />
-        <item itemvalue="JUnit.LibraryTest.removeBookTestBookOfNull" />
-        <item itemvalue="JUnit.LibraryTest.addBookSameAuthor" />
+        <item itemvalue="Application.org.pr_17_11_2023_SOLID.l.incorect.Main" />
+        <item itemvalue="JUnit.ProductServiceTest.mockAndSpyDemo" />
+        <item itemvalue="JUnit.ProductServiceTest.checkIfInactiveStatusWasSet" />
+        <item itemvalue="JUnit.ProductServiceTest.checkFulldeletion" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +222,8 @@
       <workItem from="1699264334497" duration="3335000" />
       <workItem from="1699349434603" duration="3859000" />
       <workItem from="1699383537154" duration="860000" />
-      <workItem from="1699528981209" duration="78988000" />
+      <workItem from="1699528981209" duration="85625000" />
+      <workItem from="1700127181493" duration="23807000" />
     </task>
     <servers />
   </component>

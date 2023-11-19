@@ -1,4 +1,4 @@
-package org.pr_10_11_2023;
+package org.pr_10_11_2023_Mockito;
 
 public class Main {
     public static void main(String[] args) {
