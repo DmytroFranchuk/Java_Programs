@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cat>
+    <age>3</age>
+    <color>Black</color>
+    <weight>4.56</weight>
+    <owner owner_name="Alex">
+        <phone>+111111</phone>
+    </owner>
+    <food_list>
+        <foods>
+            <label>Hills</label>
+            <requiredQuantity>4</requiredQuantity>
+        </foods>
+        <foods>
+            <label>Purina</label>
+            <requiredQuantity>5</requiredQuantity>
+        </foods>
+    </food_list>
+</cat>

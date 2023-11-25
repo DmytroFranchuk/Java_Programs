@@ -5,20 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Example0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/num.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_21_11_2023_serialzajia/propertiesSystem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_21_11_2023_serialzajia/task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_21_11_2023_serialzajia/task3/NumsSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_21_11_2023_serialzajia/user/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/json/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/json/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/json/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/json/PersonDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/json/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/net/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/net/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/url/MainUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_1_serializ/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_1_serializ/LoadCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_1_serializ/SaveCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_2_tojson/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_2_tojson/LoadCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_2_tojson/SaveCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_3_toxml/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_3_toxml/LoadCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_3_toxml/SaveCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/LoadCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/SaveCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -49,37 +51,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Java/2/Java_Programs/LessonProf",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.34470376",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "6b1f582ee5f7e04cdba30ff3db40e2b6",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java/2/Java_Programs/LessonProf/src/main/java/org/pr_24_11_2023_Serializasia/task_4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.34470376&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6b1f582ee5f7e04cdba30ff3db40e2b6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\pr_24_11_2023_Serializasia\task_4" />
       <recent name="C:\Java\2\Java_Programs\LessonProf" />
       <recent name="C:\Java\2\Java_Programs\LessonProf\target" />
       <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java" />
       <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\pr_17_11_2023_SOLID\o\correct" />
-      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\pr_17_11_2023_SOLID\o\incorect" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -92,18 +94,19 @@
       <recent name="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.pr_24_11_2023_Serializasia.task_3" />
       <recent name="org.pr_17_11_2023_SOLID.l.correct" />
       <recent name="org.pr_17_11_2023_SOLID.l.incorect" />
       <recent name="org.ls_02_11_2023_UnitTests" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_23_11_2023_json_net_url.net.Client" />
+  <component name="RunManager" selected="Application.LoadCat">
+    <configuration name="LoadCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pr_24_11_2023_Serializasia.task_1_serializ.LoadCat" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_23_11_2023_json_net_url.net.*" />
+          <option name="PATTERN" value="org.pr_24_11_2023_Serializasia.task_1_serializ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_23_11_2023_json_net_url.json.Main" />
+    <configuration name="SaveCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pr_24_11_2023_Serializasia.task_2_tojson.SaveCat" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_23_11_2023_json_net_url.json.*" />
+          <option name="PATTERN" value="org.pr_24_11_2023_Serializasia.task_2_tojson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_23_11_2023_json_net_url.url.MainUrl" />
+    <configuration name="org.pr_24_11_2023_Serializasia.task_1_serializ.SaveCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pr_24_11_2023_Serializasia.task_1_serializ.SaveCat" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_23_11_2023_json_net_url.url.*" />
+          <option name="PATTERN" value="org.pr_24_11_2023_Serializasia.task_1_serializ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_23_11_2023_json_net_url.net.Server" />
+    <configuration name="org.pr_24_11_2023_Serializasia.task_2_tojson.LoadCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pr_24_11_2023_Serializasia.task_2_tojson.LoadCat" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_23_11_2023_json_net_url.net.*" />
+          <option name="PATTERN" value="org.pr_24_11_2023_Serializasia.task_2_tojson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.ls_21_11_2023_serialzajia.task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_21_11_2023_serialzajia.task3.Main" />
+    <configuration name="org.pr_24_11_2023_Serializasia.task_4_tobigxml.LoadCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pr_24_11_2023_Serializasia.task_4_tobigxml.LoadCat" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_21_11_2023_serialzajia.task3.*" />
+          <option name="PATTERN" value="org.pr_24_11_2023_Serializasia.task_4_tobigxml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +167,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.MainUrl" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.org.ls_21_11_2023_serialzajia.task3.Main" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.org.pr_24_11_2023_Serializasia.task_1_serializ.SaveCat" />
+      <item itemvalue="Application.org.pr_24_11_2023_Serializasia.task_2_tojson.LoadCat" />
+      <item itemvalue="Application.org.pr_24_11_2023_Serializasia.task_4_tobigxml.LoadCat" />
+      <item itemvalue="Application.LoadCat" />
+      <item itemvalue="Application.SaveCat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainUrl" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.org.ls_21_11_2023_serialzajia.task3.Main" />
+        <item itemvalue="Application.LoadCat" />
+        <item itemvalue="Application.org.pr_24_11_2023_Serializasia.task_1_serializ.SaveCat" />
+        <item itemvalue="Application.org.pr_24_11_2023_Serializasia.task_4_tobigxml.LoadCat" />
+        <item itemvalue="Application.SaveCat" />
+        <item itemvalue="Application.org.pr_24_11_2023_Serializasia.task_2_tojson.LoadCat" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +202,9 @@
       <workItem from="1700564588034" duration="108000" />
       <workItem from="1700564831237" duration="4016000" />
       <workItem from="1700572692356" duration="13372000" />
+      <workItem from="1700769688817" duration="3215000" />
+      <workItem from="1700815170232" duration="5654000" />
+      <workItem from="1700823362573" duration="6180000" />
     </task>
     <servers />
   </component>

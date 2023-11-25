@@ -1,0 +1,33 @@
+[ {
+  "brand" : "Toyota",
+  "year" : 2022,
+  "price" : 25000.5,
+  "engine" : {
+    "type" : "V8",
+    "horsepower" : 300
+  }
+}, {
+  "brand" : "Ford",
+  "year" : 2023,
+  "price" : 27000.75,
+  "engine" : {
+    "type" : "V6",
+    "horsepower" : 250
+  }
+}, {
+  "brand" : "Honda",
+  "year" : 2021,
+  "price" : 22000.3,
+  "engine" : {
+    "type" : "V12",
+    "horsepower" : 350
+  }
+}, {
+  "brand" : "BMW",
+  "year" : 2024,
+  "price" : 30000.8,
+  "engine" : {
+    "type" : "V10",
+    "horsepower" : 320
+  }
+} ]
