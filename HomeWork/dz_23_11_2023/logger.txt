@@ -1,0 +1,5 @@
+2023-11-26, 20:15:32, message - логировать всё
+2023-11-26, 20:15:32, message - Debug text message
+2023-11-26, 20:15:32, message - Info text message
+2023-11-26, 20:15:32, message - Warning text message
+2023-11-26, 20:15:32, message - Error text message
