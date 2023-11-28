@@ -5,24 +5,137 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_1_serializ/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_1_serializ/LoadCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_1_serializ/SaveCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_2_tojson/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_2_tojson/LoadCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_2_tojson/SaveCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_3_toxml/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_3_toxml/LoadCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_3_toxml/SaveCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/LoadCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/SaveCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/CallableNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/LambdaInterfaceNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/starter/Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/starter/Starter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/starter/Starter3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/taskLesson.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account.data" beforeDir="false" afterPath="$PROJECT_DIR$/Account.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_02_11_2023_nestedClass/CommandLineParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_02_nestedClass/CommandLineParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_02_11_2023_nestedClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_02_nestedClass/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_02_11_2023_nestedClass/nestedClass/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_02_nestedClass/nestedClass/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_07_11_2023_unitTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_07_unitTest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/desc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/desc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/dummy/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/dummy/AddressBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/dummy/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/dummy/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/dummy/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/dummy/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/intro/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/intro/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/intro/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/intro/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/AuditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/mock/AuditService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/CreateTradeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/mock/CreateTradeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/SimpleAuditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/mock/SimpleAuditService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/SimpleTradingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/mock/SimpleTradingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/Trade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/mock/Trade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/TradeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/mock/TradeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/mock/TradingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/mock/TradingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/reactor/ReactorCoolingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/reactor/ReactorCoolingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/reactor/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/reactor/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/reactor/Thermometer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/reactor/Thermometer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/stub/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/CustomerNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/stub/CustomerNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/stub/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/stub/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/stub/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/PricingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/stub/PricingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/PricingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/stub/PricingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/SimpleCustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/stub/SimpleCustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/SimplePricingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/stub/SimplePricingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/stub/Trade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/stub/Trade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/dummyTest/DummyObjectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/test/dummyTest/DummyObjectDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/mockTest/SimpleAuditServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/test/mockTest/SimpleAuditServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/reactorTest/ReactorCoolingSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/test/reactorTest/ReactorCoolingSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/reactorTest/ThermometerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/test/reactorTest/ThermometerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/spiesTest/MockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/test/spiesTest/MockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/spiesTest/TestSpyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/test/spiesTest/TestSpyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/stubTest/SaboteurDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/test/stubTest/SaboteurDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/stubTest/SimplePricingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/test/stubTest/SimplePricingServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/mockito/test/stubTest/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/mockito/test/stubTest/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/tasks/taski/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/tasks/taski/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/tasks/taski/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/tasks/taski/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/praktika/tasks/taski/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/praktika/tasks/taski/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_09_11_2023_mockitoTest/Конспект.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_09_mockitoTest/Конспект.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_14_11_2023_pattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_14_pattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_14_11_2023_pattern/stroitel/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_14_pattern/stroitel/Form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_14_11_2023_pattern/stroitel/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_14_pattern/stroitel/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_16_11_2023_io/FileStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_16_io/FileStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_16_11_2023_io/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_16_io/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_16_11_2023_io/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_16_io/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_16_11_2023_io/translater/DictionaryReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_16_io/translater/DictionaryReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_16_11_2023_io/translater/Dictonry.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_16_io/translater/Dictonry.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_16_11_2023_io/translater/Translater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_16_io/translater/Translater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_21_11_2023_serialzajia/propertiesSystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_21_serialzajia/propertiesSystem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_21_11_2023_serialzajia/task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_21_serialzajia/task3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_21_11_2023_serialzajia/task3/NumsSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_21_serialzajia/task3/NumsSorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_21_11_2023_serialzajia/user/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_21_serialzajia/user/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_21_11_2023_serialzajia/user/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_21_serialzajia/user/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/json/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_23_json_net_url/json/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/json/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_23_json_net_url/json/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/json/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_23_json_net_url/json/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/json/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_23_json_net_url/json/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/json/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_23_json_net_url/json/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/net/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_23_json_net_url/net/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/net/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_23_json_net_url/net/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_23_11_2023_json_net_url/url/MainUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_23_json_net_url/url/MainUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023_Mockito/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_10_Mockito/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023_Mockito/MerchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_10_Mockito/MerchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023_Mockito/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_10_Mockito/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_10_11_2023_Mockito/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_10_Mockito/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/correct/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/correct/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/correct/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/NewCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/correct/NewCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/PrivilegedCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/correct/PrivilegedCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/correct/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/correct/VipCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/correct/VipCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/incorect/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/incorect/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/incorect/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/incorect/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/incorect/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/incorect/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/incorect/NewCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/incorect/NewCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/incorect/PrivilegedCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/incorect/PrivilegedCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/l/incorect/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/l/incorect/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/o/correct/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/o/correct/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/o/correct/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/o/correct/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/RetailProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/o/correct/RetailProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/ValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/o/correct/ValidationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/correct/WholesaleProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/o/correct/WholesaleProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/incorect/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/o/incorect/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/incorect/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/o/incorect/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/incorect/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/o/incorect/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/incorect/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/o/incorect/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/o/incorect/ValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/o/incorect/ValidationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/correct/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/s/correct/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/correct/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/s/correct/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/correct/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/s/correct/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/correct/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/s/correct/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/correct/service/ValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/s/correct/service/ValidationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/incorect/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/s/incorect/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/incorect/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/s/incorect/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_17_11_2023_SOLID/s/incorect/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_17_SOLID/s/incorect/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_1_serializ/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_1_serializ/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_1_serializ/LoadCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_1_serializ/LoadCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_1_serializ/SaveCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_1_serializ/SaveCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_2_tojson/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_2_tojson/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_2_tojson/LoadCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_2_tojson/LoadCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_2_tojson/SaveCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_2_tojson/SaveCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_3_toxml/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_3_toxml/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_3_toxml/LoadCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_3_toxml/LoadCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_3_toxml/SaveCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_3_toxml/SaveCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_4_tobigxml/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_4_tobigxml/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/LoadCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_4_tobigxml/LoadCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_4_tobigxml/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_24_11_2023_Serializasia/task_4_tobigxml/SaveCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_11_24_Serializasia/task_4_tobigxml/SaveCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ls_09_11_2023_mockitoTest/praktika/tasks/taski/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ls_2023_11_09_mockitoTest/praktika/tasks/taski/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/pr_10_11_2023/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/pr_10_11_2023/ProductServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +155,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -100,13 +213,13 @@
       <recent name="org.ls_02_11_2023_UnitTests" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoadCat">
-    <configuration name="LoadCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pr_24_11_2023_Serializasia.task_1_serializ.LoadCat" />
+  <component name="RunManager" selected="Application.Starter3">
+    <configuration name="CallableNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_28_lambda.CallableNew" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.pr_24_11_2023_Serializasia.task_1_serializ.*" />
+          <option name="PATTERN" value="org.ls_2023_11_28_lambda.starter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaveCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pr_24_11_2023_Serializasia.task_2_tojson.SaveCat" />
+    <configuration name="LambdaInterfaceNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_28_lambda.LambdaInterfaceNew" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.pr_24_11_2023_Serializasia.task_2_tojson.*" />
+          <option name="PATTERN" value="org.ls_2023_11_28_lambda.starter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.pr_24_11_2023_Serializasia.task_1_serializ.SaveCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pr_24_11_2023_Serializasia.task_1_serializ.SaveCat" />
+    <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_28_lambda.starter.Starter" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.pr_24_11_2023_Serializasia.task_1_serializ.*" />
+          <option name="PATTERN" value="org.ls_2023_11_28_lambda.starter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.pr_24_11_2023_Serializasia.task_2_tojson.LoadCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pr_24_11_2023_Serializasia.task_2_tojson.LoadCat" />
+    <configuration name="Starter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_28_lambda.starter.Starter2" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.pr_24_11_2023_Serializasia.task_2_tojson.*" />
+          <option name="PATTERN" value="org.ls_2023_11_28_lambda.starter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.pr_24_11_2023_Serializasia.task_4_tobigxml.LoadCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pr_24_11_2023_Serializasia.task_4_tobigxml.LoadCat" />
+    <configuration name="Starter3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_28_lambda.starter.Starter3" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.pr_24_11_2023_Serializasia.task_4_tobigxml.*" />
+          <option name="PATTERN" value="org.ls_2023_11_28_lambda.starter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,19 +280,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.org.pr_24_11_2023_Serializasia.task_1_serializ.SaveCat" />
-      <item itemvalue="Application.org.pr_24_11_2023_Serializasia.task_2_tojson.LoadCat" />
-      <item itemvalue="Application.org.pr_24_11_2023_Serializasia.task_4_tobigxml.LoadCat" />
-      <item itemvalue="Application.LoadCat" />
-      <item itemvalue="Application.SaveCat" />
+      <item itemvalue="Application.CallableNew" />
+      <item itemvalue="Application.LambdaInterfaceNew" />
+      <item itemvalue="Application.Starter" />
+      <item itemvalue="Application.Starter2" />
+      <item itemvalue="Application.Starter3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoadCat" />
-        <item itemvalue="Application.org.pr_24_11_2023_Serializasia.task_1_serializ.SaveCat" />
-        <item itemvalue="Application.org.pr_24_11_2023_Serializasia.task_4_tobigxml.LoadCat" />
-        <item itemvalue="Application.SaveCat" />
-        <item itemvalue="Application.org.pr_24_11_2023_Serializasia.task_2_tojson.LoadCat" />
+        <item itemvalue="Application.Starter3" />
+        <item itemvalue="Application.Starter2" />
+        <item itemvalue="Application.Starter" />
+        <item itemvalue="Application.LambdaInterfaceNew" />
+        <item itemvalue="Application.CallableNew" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +317,8 @@
       <workItem from="1700572692356" duration="13372000" />
       <workItem from="1700769688817" duration="3215000" />
       <workItem from="1700815170232" duration="5654000" />
-      <workItem from="1700823362573" duration="6180000" />
+      <workItem from="1700823362573" duration="10121000" />
+      <workItem from="1701119756670" duration="17240000" />
     </task>
     <servers />
   </component>

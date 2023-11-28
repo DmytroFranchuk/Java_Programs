@@ -2,9 +2,9 @@ package org.pr_10_11_2023;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.pr_10_11_2023_Mockito.MerchService;
-import org.pr_10_11_2023_Mockito.Product;
-import org.pr_10_11_2023_Mockito.ProductService;
+import org.pr_2023_11_10_Mockito.MerchService;
+import org.pr_2023_11_10_Mockito.Product;
+import org.pr_2023_11_10_Mockito.ProductService;
 
 import java.util.List;
 
