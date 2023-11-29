@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/primer_lambda/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/primer_lambda/CheckIfHopper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/primer_lambda/CheckTrait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/primer_lambda/WithLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/primer_lambda/WithoutLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/taskLesson.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_28_lambda/taskLesson.txt" afterDir="false" />
-    </list>
+    <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -194,7 +186,7 @@
       <workItem from="1700769688817" duration="3215000" />
       <workItem from="1700815170232" duration="5654000" />
       <workItem from="1700823362573" duration="10121000" />
-      <workItem from="1701119756670" duration="22344000" />
+      <workItem from="1701119756670" duration="26975000" />
     </task>
     <servers />
   </component>
