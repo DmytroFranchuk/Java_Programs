@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="" />
+    <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_30_NPE_Optional/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_30_NPE_Optional/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_30_NPE_Optional/StreamAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_30_NPE_Optional/task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,13 +87,13 @@
       <recent name="org.ls_02_11_2023_UnitTests" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WithLambda">
-    <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_28_lambda.starter.Starter" />
+  <component name="RunManager" selected="Application.StreamAPI">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_30_NPE_Optional.Example" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_11_28_lambda.starter.*" />
+          <option name="PATTERN" value="org.ls_2023_11_30_NPE_Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Starter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_28_lambda.starter.Starter2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_30_NPE_Optional.Main" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_11_28_lambda.starter.*" />
+          <option name="PATTERN" value="org.ls_2023_11_30_NPE_Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Starter3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_28_lambda.starter.Starter3" />
+    <configuration name="StreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_30_NPE_Optional.StreamAPI" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_11_28_lambda.starter.*" />
+          <option name="PATTERN" value="org.ls_2023_11_30_NPE_Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Starter" />
-      <item itemvalue="Application.Starter2" />
-      <item itemvalue="Application.Starter3" />
+      <item itemvalue="Application.Example" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.StreamAPI" />
       <item itemvalue="Application.WithLambda" />
       <item itemvalue="Application.WithoutLambda" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamAPI" />
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.WithLambda" />
         <item itemvalue="Application.WithoutLambda" />
-        <item itemvalue="Application.Starter3" />
-        <item itemvalue="Application.Starter2" />
-        <item itemvalue="Application.Starter" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +193,7 @@
       <workItem from="1700815170232" duration="5654000" />
       <workItem from="1700823362573" duration="10121000" />
       <workItem from="1701119756670" duration="26975000" />
+      <workItem from="1701334720877" duration="11691000" />
     </task>
     <servers />
   </component>
