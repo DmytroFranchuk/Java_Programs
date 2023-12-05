@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_30_NPE_Optional/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_30_NPE_Optional/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_30_NPE_Optional/StreamAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_30_NPE_Optional/task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/chickenandegg/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/chickenandegg/Egg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/chickenandegg/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/dataTime/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/dataTime/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/dataTime/Today.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/valotileExample/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/valotileExample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_30_NPE_Optional/StreamAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_30_NPE_Optional/StreamAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -87,13 +94,13 @@
       <recent name="org.ls_02_11_2023_UnitTests" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamAPI">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_30_NPE_Optional.Example" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_05_Thread.valotileExample.Main" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_11_30_NPE_Optional.*" />
+          <option name="PATTERN" value="org.ls_2023_12_05_Thread.valotileExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_30_NPE_Optional.Main" />
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_05_Thread.chickenandegg.MyThread" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_11_30_NPE_Optional.*" />
+          <option name="PATTERN" value="org.ls_2023_12_05_Thread.chickenandegg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_28_lambda.primer_lambda.WithLambda" />
+    <configuration name="org.ls_2023_12_05_Thread.dataTime.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_05_Thread.dataTime.Main" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_11_28_lambda.primer_lambda.*" />
+          <option name="PATTERN" value="org.ls_2023_12_05_Thread.dataTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithoutLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_11_28_lambda.primer_lambda.WithoutLambda" />
+    <configuration name="org.ls_2023_12_05_Thread.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_05_Thread.task2.Main" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_11_28_lambda.primer_lambda.*" />
+          <option name="PATTERN" value="org.ls_2023_12_05_Thread.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,19 +161,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Example" />
+      <item itemvalue="Application.MyThread" />
+      <item itemvalue="Application.org.ls_2023_12_05_Thread.dataTime.Main" />
+      <item itemvalue="Application.org.ls_2023_12_05_Thread.task2.Main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.StreamAPI" />
-      <item itemvalue="Application.WithLambda" />
-      <item itemvalue="Application.WithoutLambda" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamAPI" />
-        <item itemvalue="Application.Example" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WithLambda" />
-        <item itemvalue="Application.WithoutLambda" />
+        <item itemvalue="Application.org.ls_2023_12_05_Thread.dataTime.Main" />
+        <item itemvalue="Application.org.ls_2023_12_05_Thread.task2.Main" />
+        <item itemvalue="Application.MyThread" />
+        <item itemvalue="Application.StreamAPI" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +201,7 @@
       <workItem from="1700823362573" duration="10121000" />
       <workItem from="1701119756670" duration="26975000" />
       <workItem from="1701334720877" duration="11691000" />
+      <workItem from="1701766741909" duration="8571000" />
     </task>
     <servers />
   </component>
