@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/chickenandegg/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/chickenandegg/Egg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/chickenandegg/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/dataTime/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/dataTime/MyDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/dataTime/Today.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/valotileExample/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/valotileExample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_30_NPE_Optional/StreamAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_11_30_NPE_Optional/StreamAPI.java" afterDir="false" />
-    </list>
+    <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +188,7 @@
       <workItem from="1700823362573" duration="10121000" />
       <workItem from="1701119756670" duration="26975000" />
       <workItem from="1701334720877" duration="11691000" />
-      <workItem from="1701766741909" duration="8571000" />
+      <workItem from="1701766741909" duration="10859000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,29 @@
+
+    Можно использовать интерфейс Callable в классе Task
+    Вот так: public class Task implements Callable<Long>
+    и ExecutorService.
+    Задачи отправляются на выполнение через executor.submit()
+    а результаты выполнения получаются через Future ( future.get() ).
+    Создаем список Future ( List<Future<Long>> futures = new ArrayList<>(); ),
+    который содержит результаты выполнения каждой задачи,
+    и затем суммируем эти результаты.
+
+//        int countThread = 16;
+//        TaskService taskService1 = new TaskService(countThread);
+//        ExecutorService executor = Executors.newFixedThreadPool(countThread);
+//        List<Future<Long>> futures = new ArrayList<>();
+//        for (Range range : taskService1.getRanges()) {
+//            Task task = new Task(range);
+//            Future<Long> future = executor.submit(task);
+//            futures.add(future);
+//        }
+//        executor.shutdown();
+//        long totalSum = 0;
+//        for (Future<Long> future : futures) {
+//            try {
+//                totalSum += future.get();
+//            } catch (InterruptedException | ExecutionException e) {
+//                e.printStackTrace();
+//            }
+//        }
+//        System.out.println("Общая сумма: " + totalSum);
