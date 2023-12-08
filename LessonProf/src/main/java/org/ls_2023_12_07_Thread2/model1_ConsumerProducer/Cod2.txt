@@ -1,0 +1,67 @@
+class Candy {
+    // Класс для представления конфеты
+}
+
+class Basket {
+    private final int capacity = 10; // Емкость корзины
+    private int candyCount = 0; // Текущее количество конфет
+
+    public synchronized void addCandy(Candy candy) throws InterruptedException {
+        // Метод для добавления конфет в корзину
+        while (candyCount >= capacity) {
+            wait(); // Ожидание, если корзина полная
+        }
+        candyCount++;
+        System.out.println("Добавлена конфета, всего: " + candyCount);
+        notifyAll(); // Уведомление других потоков о добавлении конфеты
+    }
+
+    public synchronized void takeCandy() throws InterruptedException {
+        // Метод для взятия конфет из корзины
+        while (candyCount == 0) {
+            wait(); // Ожидание, если в корзине нет конфет
+        }
+        candyCount--;
+        System.out.println("Взята конфета, осталось: " + candyCount);
+        notifyAll(); // Уведомление других потоков об изъятии конфеты
+    }
+}
+
+class Grandparent implements Runnable {
+    private Basket basket;
+
+    public Grandparent(Basket basket) {
+        this.basket = basket;
+    }
+
+    @Override
+    public void run() {
+        // Логика добавления конфет в корзину
+        // Используйте метод addCandy() у объекта Basket
+    }
+}
+
+class Grandchild implements Runnable {
+    private Basket basket;
+
+    public Grandchild(Basket basket) {
+        this.basket = basket;
+    }
+
+    @Override
+    public void run() {
+        // Логика взятия конфет из корзины
+        // Используйте метод takeCandy() у объекта Basket
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Basket basket = new Basket();
+        Grandparent grandparent = new Grandparent(basket);
+        Grandchild grandchild = new Grandchild(basket);
+
+        // Создание потоков для бабушек/дедушек и внуков
+        // Запуск потоков для взаимодействия с корзиной
+    }
+}

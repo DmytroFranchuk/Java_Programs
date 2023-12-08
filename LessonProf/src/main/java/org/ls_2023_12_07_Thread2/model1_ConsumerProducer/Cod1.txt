@@ -1,0 +1,104 @@
+Модель потребитель-производитель описывает взаимодействие множества потребителей
+с множеством производителей через общий ресурс (или буфер), к которому могут
+обращаться и производители, и потребители.
+В данной задаче бабушки/дедушки являются производителями, которые "производят" конфеты
+и помещают их в корзину, а внуки - потребителями, которые "потребляют" (берут)
+конфеты из корзины.
+
+Модель "читатели-писатели" описывает ситуацию, когда множество потоков (читатели) читают данные
+из общего ресурса, в то время как другие потоки (писатели) записывают данные в этот ресурс.
+Основная задача состоит в том, чтобы обеспечить безопасный и согласованный доступ к
+общему ресурсу при одновременном чтении и записи.
+
+
+
+class CandyBasket {
+    private int candies = 0;
+
+    public synchronized void addCandy(int amount) {
+        while (candies + amount > 10) {
+            try {
+                wait(); // Бабушки/дедушки ждут, если корзинка полная
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        candies += amount;
+        System.out.println("Добавлено конфет: " + amount + ". Всего конфет в корзинке: " + candies);
+        notifyAll(); // Уведомление внуков о добавлении конфет
+    }
+
+    public synchronized void takeCandy() {
+        while (candies == 0) {
+            try {
+                wait(); // Внуки ждут, если конфеты кончились
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        candies--;
+        System.out.println("Взята конфета. Осталось конфет в корзинке: " + candies);
+        notifyAll(); // Уведомление бабушек/дедушек об изъятии конфеты
+    }
+}
+
+class Grandparent implements Runnable {
+    private final CandyBasket candyBasket;
+    private final int candyAmount;
+
+    public Grandparent(CandyBasket candyBasket, int candyAmount) {
+        this.candyBasket = candyBasket;
+        this.candyAmount = candyAmount;
+    }
+
+    @Override
+    public void run() {
+        while (true) {
+            candyBasket.addCandy(candyAmount);
+            try {
+                Thread.sleep(2000); // Пауза между добавлением конфет
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+class Grandchild implements Runnable {
+    private final CandyBasket candyBasket;
+
+    public Grandchild(CandyBasket candyBasket) {
+        this.candyBasket = candyBasket;
+    }
+
+    @Override
+    public void run() {
+        while (true) {
+            candyBasket.takeCandy();
+            try {
+                Thread.sleep(1000); // Пауза между взятием конфет
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        CandyBasket candyBasket = new CandyBasket();
+        Thread grandparent1 = new Thread(new Grandparent(candyBasket, 3));
+        Thread grandparent2 = new Thread(new Grandparent(candyBasket, 2));
+        Thread grandchild1 = new Thread(new Grandchild(candyBasket));
+        Thread grandchild2 = new Thread(new Grandchild(candyBasket));
+        Thread grandchild3 = new Thread(new Grandchild(candyBasket));
+        Thread grandchild4 = new Thread(new Grandchild(candyBasket));
+
+        grandparent1.start();
+        grandparent2.start();
+        grandchild1.start();
+        grandchild2.start();
+        grandchild3.start();
+        grandchild4.start();
+    }
+}
