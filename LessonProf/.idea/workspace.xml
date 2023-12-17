@@ -5,37 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model/philosophers/DiningPhilosophers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model/philosophers/model/Philosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model/producerConsumer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model/producerConsumer/model/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model/producerConsumer/model/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model/producerConsumer/model/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model/writerReader/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model/writerReader/model/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model/writerReader/model/SharedResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model/writerReader/model/Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model1_ConsumerProducer/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model1_ConsumerProducer/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model1_ConsumerProducer/Cod1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model1_ConsumerProducer/Cod2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model1_ConsumerProducer/GrandChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model1_ConsumerProducer/Grandparent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model1_ConsumerProducer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model2_ReaderWriter/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model2_ReaderWriter/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model2_ReaderWriter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model2_ReaderWriter/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_07_Thread2/model2_ReaderWriter/Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/exception/FileAccessorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/io/FileAccessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/formula/Summarizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/formula/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/sausage/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/sausage/Sausage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_07/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_07/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_07/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_07/src/main/java/new_task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_07/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_07/src/main/java/org/example/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_07/src/main/java/org/example/Manufacturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_07/src/main/java/org/example/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_07/src/main/java/org/example/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_07/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_12_concurrent/example/ArraySetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_12_concurrent/example/ConcurrentHashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_12_concurrent/example/CopyOnWriteArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_12_concurrent/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_12_concurrent/task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_12_concurrent/task1/ParallelRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_12_concurrent/task2/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_12_concurrent/task2/MainMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/event/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/event/EventLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/exception/LoggerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/exception/ReaderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/exception/WriterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/log/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/model/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/model/Writer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/util/EventGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/util/ObjectMapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_15/LeafPileSimulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_15/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_15/New.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_15/task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/dz_05_12_2023/src/main/java/org/example/task1/Digger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/dz_05_12_2023/src/main/java/org/example/task1/Digger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/dz_05_12_2023/src/main/java/org/example/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/dz_05_12_2023/src/main/java/org/example/task2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/dz_05_12_2023/src/main/java/org/example/task2/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/dz_05_12_2023/src/main/java/org/example/task2/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_08/fileThread/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +55,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -74,7 +83,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Java/2/Java_Programs/LessonProf/src/main/java/org/ls_2023_12_07_Thread2/model/philosophers/model",
+    "last_opened_file_path": "C:/Java/2/Java_Programs/LessonProf/src/main/java/org/ls_2023_12_12_concurrent/example",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,11 +99,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_12_concurrent\example" />
       <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_07_Thread2\model\philosophers\model" />
       <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\pr_24_11_2023_Serializasia\task_4" />
       <recent name="C:\Java\2\Java_Programs\LessonProf" />
       <recent name="C:\Java\2\Java_Programs\LessonProf\target" />
-      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -107,19 +116,20 @@
       <recent name="org.ls_09_11_2023_mockitoTest.praktika.tasks.taski" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.pr_2023_12_08.fileThread.exception" />
+      <recent name="org.pr_2023_12_08.fileThread.model" />
       <recent name="org.pr_24_11_2023_Serializasia.task_3" />
       <recent name="org.pr_17_11_2023_SOLID.l.correct" />
       <recent name="org.pr_17_11_2023_SOLID.l.incorect" />
-      <recent name="org.ls_02_11_2023_UnitTests" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.pr_2023_12_08.formula.Main">
-    <configuration name="DiningPhilosophers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_07_Thread2.model.philosophers.DiningPhilosophers" />
+  <component name="RunManager" selected="Application.ConcurrentHashMapExample">
+    <configuration name="ArraySetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_12_concurrent.example.ArraySetExample" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_12_07_Thread2.model.philosophers.*" />
+          <option name="PATTERN" value="org.ls_2023_12_12_concurrent.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pr_2023_12_08.sausage.Main" />
+    <configuration name="ConcurrentHashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_12_concurrent.example.ConcurrentHashMapExample" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.pr_2023_12_08.sausage.*" />
+          <option name="PATTERN" value="org.ls_2023_12_12_concurrent.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.ls_2023_12_07_Thread2.model.producerConsumer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_07_Thread2.model.producerConsumer.Main" />
+    <configuration name="CopyOnWriteArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_12_concurrent.example.CopyOnWriteArrayListExample" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_12_07_Thread2.model.producerConsumer.*" />
+          <option name="PATTERN" value="org.ls_2023_12_12_concurrent.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.ls_2023_12_07_Thread2.model.writerReader.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_07_Thread2.model.writerReader.Main" />
+    <configuration name="MainMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_12_concurrent.task2.MainMap" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_12_07_Thread2.model.writerReader.*" />
+          <option name="PATTERN" value="org.ls_2023_12_12_concurrent.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.pr_2023_12_08.formula.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pr_2023_12_08.formula.Main" />
+    <configuration name="org.ls_2023_12_12_concurrent.task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_12_concurrent.task1.Main" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.pr_2023_12_08.formula.*" />
+          <option name="PATTERN" value="org.ls_2023_12_12_concurrent.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,19 +190,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DiningPhilosophers" />
-      <item itemvalue="Application.org.ls_2023_12_07_Thread2.model.producerConsumer.Main" />
-      <item itemvalue="Application.org.ls_2023_12_07_Thread2.model.writerReader.Main" />
-      <item itemvalue="Application.org.pr_2023_12_08.formula.Main" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ArraySetExample" />
+      <item itemvalue="Application.ConcurrentHashMapExample" />
+      <item itemvalue="Application.CopyOnWriteArrayListExample" />
+      <item itemvalue="Application.MainMap" />
+      <item itemvalue="Application.org.ls_2023_12_12_concurrent.task1.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.pr_2023_12_08.formula.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.org.ls_2023_12_07_Thread2.model.producerConsumer.Main" />
-        <item itemvalue="Application.DiningPhilosophers" />
-        <item itemvalue="Application.org.ls_2023_12_07_Thread2.model.writerReader.Main" />
+        <item itemvalue="Application.ConcurrentHashMapExample" />
+        <item itemvalue="Application.MainMap" />
+        <item itemvalue="Application.org.ls_2023_12_12_concurrent.task1.Main" />
+        <item itemvalue="Application.ArraySetExample" />
+        <item itemvalue="Application.CopyOnWriteArrayListExample" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +232,9 @@
       <workItem from="1701334720877" duration="11691000" />
       <workItem from="1701766741909" duration="10859000" />
       <workItem from="1701940546243" duration="31156000" />
+      <workItem from="1702070175368" duration="6450000" />
+      <workItem from="1702629893364" duration="11934000" />
+      <workItem from="1702756958829" duration="21141000" />
     </task>
     <servers />
   </component>

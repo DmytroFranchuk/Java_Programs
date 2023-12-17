@@ -16,7 +16,7 @@ import java.util.concurrent.Future;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        TaskService taskService = new TaskService(32);
+        TaskService taskService = new TaskService(64);
         Task[] tasks = new Task[taskService.getRanges().size()];
         System.out.println(taskService.getRanges());
 

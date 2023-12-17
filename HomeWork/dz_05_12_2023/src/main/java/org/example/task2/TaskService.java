@@ -34,10 +34,10 @@ public class TaskService {
         boolean isValid = false;
         long result = 0;
         while (!isValid) {
-            System.out.print("Введите число типа long: ");
+            System.out.print("Введите число в диапозоне 1_000_000 - 1_000_000_000: ");
             if (scanner.hasNextLong()) {
                 result = scanner.nextLong();
-                if (result >= 10_000_000 && result <= Long.MAX_VALUE) {
+                if (result >= 1_000_000 && result <= 1_000_000_000) {
                     isValid = true;
                 }
             } else scanner.next();

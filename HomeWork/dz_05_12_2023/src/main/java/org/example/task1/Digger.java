@@ -1,5 +1,7 @@
 package org.example.task1;
 
+import java.time.LocalDateTime;
+
 public class Digger extends Thread {
     private Trench trench;
 
@@ -16,15 +18,17 @@ public class Digger extends Thread {
     }
 
     public double digTrench(){
+        double start = 0;
         if (trench.getCurrentLength() < trench.getTargetLength()) {
             trench.setCurrentLength(trench.getCurrentLength() + 1);
+            start = System.currentTimeMillis() / 1_000;
             try {
-                Thread.sleep(2000);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
         }
-        System.out.println("Thread: " + this.getName() + " dig " + trench.getCurrentLength());
+        System.out.printf("Thread: %s dig %s : %.2f%n", this.getName(), trench.getCurrentLength(), start);
         return trench.getTargetLength();
     }
 }
