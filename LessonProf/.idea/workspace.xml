@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Algorithms/alg_hw_2023_12_13/src/main/java/org/example/SearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_14/src/main/java/org/example/task2/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_12_concurrent/habr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_12_concurrent/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_14/ThreadArrayBlockingQueue/BlockingQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_14/ThreadAtomicExample/SequenceGeneratorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_14/ThreadAtomicExample/generator/Sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_14/ThreadAtomicExample/generator/SequenceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_14/ThreadConcurrentLinkedDequeExample/ConcurrentLinkedDequeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_14/ThreadConcurrentLinkedQueueExample/ConcurrentLinkedQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleCondition/Cafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleCondition/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleCondition/task2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleLock/ATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleLock/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleLock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleLock/task1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleReadWriteLock/task3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleThreadLocal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleThreadLocal/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleThreadLocal/task4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_15/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_15/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,37 +59,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Java/2/Java_Programs/LessonProf/src/main/java/org/ls_2023_12_12_concurrent/example",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.34470376",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "6b1f582ee5f7e04cdba30ff3db40e2b6",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/110723-m-be/my_Praktika_Egorov&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.34470376&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6b1f582ee5f7e04cdba30ff3db40e2b6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_12_concurrent\example" />
-      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_07_Thread2\model\philosophers\model" />
-      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\pr_24_11_2023_Serializasia\task_4" />
-      <recent name="C:\Java\2\Java_Programs\LessonProf" />
-      <recent name="C:\Java\2\Java_Programs\LessonProf\target" />
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_19_Lock\exampleThreadLocal" />
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_19_Lock\exampleReadWriteLock" />
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_14\ThreadConcurrentLinkedQueueExample" />
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_14\ThreadConcurrentLinkedDequeExample" />
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_14\ThreadArrayBlockingQueue" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -85,20 +109,7 @@
       <recent name="org.pr_17_11_2023_SOLID.l.incorect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConcurrentHashMapExample">
-    <configuration name="ArraySetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_12_concurrent.example.ArraySetExample" />
-      <module name="LessonProf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ls_2023_12_12_concurrent.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.ls_2023_12_19_Lock.exampleThreadLocal.Main">
     <configuration name="ConcurrentHashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_12_concurrent.example.ConcurrentHashMapExample" />
       <module name="LessonProf" />
@@ -112,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyOnWriteArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_12_concurrent.example.CopyOnWriteArrayListExample" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_19_Lock.exampleLock.Main" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_12_12_concurrent.example.*" />
+          <option name="PATTERN" value="org.ls_2023_12_19_Lock.exampleLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +149,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.ls_2023_12_12_concurrent.task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_12_concurrent.task1.Main" />
+    <configuration name="org.ls_2023_12_19_Lock.exampleCondition.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_19_Lock.exampleCondition.Main" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_12_12_concurrent.task1.*" />
+          <option name="PATTERN" value="org.ls_2023_12_19_Lock.exampleCondition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.ls_2023_12_19_Lock.exampleThreadLocal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_19_Lock.exampleThreadLocal.Main" />
+      <module name="LessonProf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ls_2023_12_19_Lock.exampleThreadLocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,19 +176,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArraySetExample" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.org.ls_2023_12_19_Lock.exampleCondition.Main" />
+      <item itemvalue="Application.org.ls_2023_12_19_Lock.exampleThreadLocal.Main" />
       <item itemvalue="Application.ConcurrentHashMapExample" />
-      <item itemvalue="Application.CopyOnWriteArrayListExample" />
       <item itemvalue="Application.MainMap" />
-      <item itemvalue="Application.org.ls_2023_12_12_concurrent.task1.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.ls_2023_12_19_Lock.exampleThreadLocal.Main" />
+        <item itemvalue="Application.org.ls_2023_12_19_Lock.exampleCondition.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ConcurrentHashMapExample" />
         <item itemvalue="Application.MainMap" />
-        <item itemvalue="Application.org.ls_2023_12_12_concurrent.task1.Main" />
-        <item itemvalue="Application.ArraySetExample" />
-        <item itemvalue="Application.CopyOnWriteArrayListExample" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +221,10 @@
       <workItem from="1702070175368" duration="6450000" />
       <workItem from="1702629893364" duration="11934000" />
       <workItem from="1702756958829" duration="25432000" />
+      <workItem from="1702938145885" duration="2453000" />
+      <workItem from="1702976286533" duration="9942000" />
+      <workItem from="1702989806247" duration="1641000" />
+      <workItem from="1703005885385" duration="319000" />
     </task>
     <servers />
   </component>
