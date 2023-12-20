@@ -5,31 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_14/src/main/java/org/example/task2/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_12_concurrent/habr.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_12_concurrent/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_14/ThreadArrayBlockingQueue/BlockingQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_14/ThreadAtomicExample/SequenceGeneratorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_14/ThreadAtomicExample/generator/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_14/ThreadAtomicExample/generator/SequenceGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_14/ThreadConcurrentLinkedDequeExample/ConcurrentLinkedDequeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_14/ThreadConcurrentLinkedQueueExample/ConcurrentLinkedQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleCondition/Cafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleCondition/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleCondition/task2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleLock/ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleLock/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleLock/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleLock/task1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleReadWriteLock/task3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleThreadLocal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleThreadLocal/UserContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/exampleThreadLocal/task4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_19_Lock/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_14/src/main/java/org/example/task1/CalculationThreads_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_14/src/main/java/org/example/task2/CalculationThreads_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_14/src/main/java/org/example/task3/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_14/src/main/java/org/example/task1/CalculationThreads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/java_dz_2023_12_14/src/main/java/org/example/task2/Main2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_05_Thread/task.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_15/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_15/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +205,9 @@
       <workItem from="1702938145885" duration="2453000" />
       <workItem from="1702976286533" duration="9942000" />
       <workItem from="1702989806247" duration="1641000" />
-      <workItem from="1703005885385" duration="319000" />
+      <workItem from="1703005885385" duration="2400000" />
+      <workItem from="1703032690213" duration="1675000" />
+      <workItem from="1703078231131" duration="804000" />
     </task>
     <servers />
   </component>
