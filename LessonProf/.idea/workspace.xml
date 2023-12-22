@@ -5,33 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_21_Synchronizers/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_21_Synchronizers/task1_ForkJoin/sales/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_21_Synchronizers/task1_ForkJoin/sales/SalesTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_21_Synchronizers/task2_Semaphore/SemaphoreExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_21_Synchronizers/task2_Semaphore/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_21_Synchronizers/task3_CyclicBarrier/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_21_Synchronizers/task4_Phaser/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_21_Synchronizers/task4_Phaser/Postman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_21_Synchronizers/task4_Phaser/task_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_21_Synchronizers/task_5_Exchanger/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_21_Synchronizers/task_6_CountDownLatch/CountLatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_22_Synchronizers/Main_Exchanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_22_Synchronizers/Main_Phaser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonRustamKhakov/01_Spring.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonRustamKhakov/JMM.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonRustamKhakov/List_implementations_LinkedList.pptx.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_09_28/3. Agile планирование.  Scrum Planning..pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_03/1. Scrum, Kanban или Waterfall-2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_05/Java_Pro_9_Exceptions.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_21/Java_Pro_6.6_Multithreading._Fork-Join._Synchronizers.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_21/ThreadForkJoinExample.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_21/ThreadSynchronizersExample.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonYuriyKostianoi/Книги/Java_БП_Основы_том_1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonYuriyKostianoi/Книги/Spring_5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonYuriyKostianoi/Книги/java_promyshlennoe_prog_OCPzSi7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LessonYuriyKostianoi/Книги/На защиту СЕРВЕР.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ls_2023_12_21_Synchronizers/task1_ForkJoin/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_22_Synchronizers/task_3_ForkJoinPool/search/FileSearchTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_22_Synchronizers/task_3_ForkJoinPool/search/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_22_Synchronizers/task_4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_22_Synchronizers/task_4/Runner/Baton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_22_Synchronizers/task_4/Runner/FirstRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_22_Synchronizers/task_4/Runner/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_22_Synchronizers/task_2_Exchanger/task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pr_2023_12_22_Synchronizers/task_2_Exchanger/task_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,37 +44,38 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Tel-ran.de/Downloads/summaryBE240123m-main/summaryBE240123m-main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.34470376",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "spring.configuration.checksum": "6b1f582ee5f7e04cdba30ff3db40e2b6",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java/2/Java_Programs/LessonProf/src/main/java/org/pr_2023_12_22_Synchronizers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.34470376&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6b1f582ee5f7e04cdba30ff3db40e2b6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\pr_2023_12_22_Synchronizers" />
       <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_19_Lock\exampleThreadLocal" />
       <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_19_Lock\exampleReadWriteLock" />
       <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_14\ThreadConcurrentLinkedQueueExample" />
       <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_14\ThreadConcurrentLinkedDequeExample" />
-      <recent name="C:\Java\2\Java_Programs\LessonProf\src\main\java\org\ls_2023_12_14\ThreadArrayBlockingQueue" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -112,20 +95,7 @@
       <recent name="org.pr_17_11_2023_SOLID.l.incorect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.task_1">
-    <configuration name="CountLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_21_Synchronizers.task_6_CountDownLatch.CountLatch" />
-      <module name="LessonProf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ls_2023_12_21_Synchronizers.task_6_CountDownLatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.pr_2023_12_22_Synchronizers.task_4.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_21_Synchronizers.task3_CyclicBarrier.Main" />
       <module name="LessonProf" />
@@ -140,11 +110,11 @@
       </method>
     </configuration>
     <configuration name="Main_Phaser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pr_2023_12_22_Synchronizers.Main_Phaser" />
+      <option name="MAIN_CLASS_NAME" value="org.pr_2023_12_22_Synchronizers.task1_Phaser.Main_Phaser" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.pr_2023_12_22_Synchronizers.*" />
+          <option name="PATTERN" value="org.pr_2023_12_22_Synchronizers.task1_Phaser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +122,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_21_Synchronizers.task2_Semaphore.SemaphoreExample" />
+    <configuration name="org.pr_2023_12_22_Synchronizers.task_3_ForkJoinPool.search.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pr_2023_12_22_Synchronizers.task_3_ForkJoinPool.search.Main" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_12_21_Synchronizers.task2_Semaphore.*" />
+          <option name="PATTERN" value="org.pr_2023_12_22_Synchronizers.task_3_ForkJoinPool.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.pr_2023_12_22_Synchronizers.task_4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pr_2023_12_22_Synchronizers.task_4.Main" />
+      <module name="LessonProf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pr_2023_12_22_Synchronizers.task_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +149,11 @@
       </method>
     </configuration>
     <configuration name="task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_21_Synchronizers.task4_Phaser.task_1" />
+      <option name="MAIN_CLASS_NAME" value="org.ls_2023_12_21_Synchronizers.task_5_Exchanger.task_1" />
       <module name="LessonProf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ls_2023_12_21_Synchronizers.task4_Phaser.*" />
+          <option name="PATTERN" value="org.ls_2023_12_21_Synchronizers.task_5_Exchanger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,18 +163,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main_Phaser" />
+      <item itemvalue="Application.org.pr_2023_12_22_Synchronizers.task_3_ForkJoinPool.search.Main" />
+      <item itemvalue="Application.org.pr_2023_12_22_Synchronizers.task_4.Main" />
       <item itemvalue="Application.task_1" />
-      <item itemvalue="Application.CountLatch" />
-      <item itemvalue="Application.SemaphoreExample" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.pr_2023_12_22_Synchronizers.task_4.Main" />
+        <item itemvalue="Application.org.pr_2023_12_22_Synchronizers.task_3_ForkJoinPool.search.Main" />
         <item itemvalue="Application.task_1" />
         <item itemvalue="Application.Main_Phaser" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CountLatch" />
-        <item itemvalue="Application.SemaphoreExample" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +216,8 @@
       <workItem from="1703117351698" duration="237000" />
       <workItem from="1703118769310" duration="74000" />
       <workItem from="1703118942165" duration="9705000" />
-      <workItem from="1703168391003" duration="5767000" />
+      <workItem from="1703168391003" duration="13259000" />
+      <workItem from="1703269913379" duration="373000" />
     </task>
     <servers />
   </component>

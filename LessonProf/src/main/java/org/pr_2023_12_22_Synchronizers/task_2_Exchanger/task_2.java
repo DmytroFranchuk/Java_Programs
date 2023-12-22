@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Exchanger;
 
-public class task_1 {
+public class task_2 {
     public static void main(String[] args) throws InterruptedException {
         Exchanger<Letter> exchanger = new Exchanger<>();
         List<Letter> list1 = new ArrayList<>();
