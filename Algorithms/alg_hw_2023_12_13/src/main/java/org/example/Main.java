@@ -31,5 +31,11 @@ public class Main {
         System.out.println("searchByValueBFS: " + tree.searchByValueBFS(90));
         System.out.println("searchByValueDFS: " + tree.searchByValueDFS(90));
         System.out.println("Высота дерева: " + tree.getHeight());
+        tree.add("G", 100);
+        tree.add("F", 150);
+        tree.add("S", 200);
+        System.out.println(tree.isBalanced());
+
+
     }
 }

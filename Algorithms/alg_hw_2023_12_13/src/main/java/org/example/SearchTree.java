@@ -142,5 +142,50 @@ public class SearchTree {
         }
         return maxHeight;
     }
-    // ===========================================================================
+
+    private int getHeight(Node node) {
+        if (node == null) {
+            return 0;
+        }
+        return 1 + Math.max(getHeight(node.left), getHeight(node.right));
+    }
+
+    // ==============================================================================
+    // Date: 20.12.2023
+    // Deadline: 27.12.2023
+    // Teacher: Iliukovich Ilia
+    // ==============================================================================
+    // Написать метод isBalanced() для проверки балансировки дерева поиска SearchTree
+    // (см. код в репозитории).  Двоичное дерево со сбалансированной высотой определяется
+    // как бинарное дерево, в котором высота левого и правого поддеревьев любого узла
+    // отличается не более чем на 1.
+    // Оценить эффективность написанного метода.
+    // ==============================================================================
+
+    // метод будет выполняться за время O(n log n).
+
+    public boolean isBalanced() {
+        return isBalanced(root);
+    }
+
+    private boolean isBalanced(Node node) {
+        if (node == null) {
+            return true;
+        }
+        int leftHeight = getHeight(node.left);
+        int rightHeight = getHeight(node.right);
+        if (Math.abs(leftHeight - rightHeight) <= 1 &&
+                isBalanced(node.left) &&
+                isBalanced(node.right)) {
+            return true;
+        }
+        return false;
+    }
+    // ==============================================================================
+
+
+
+
+
+
 }
