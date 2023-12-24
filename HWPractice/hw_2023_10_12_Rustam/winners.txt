@@ -1,0 +1,288 @@
+8 /1 /2022 сыграли команды: Freiburg                 - Arminia Bielefeld        со счетом 2:2 ничья
+8 /1 /2022 сыграли команды: Bayer 04 Leverkusen      - 1. FC Union Berlin       со счетом 2:2 ничья
+8 /1 /2022 сыграли команды: SpVgg Greuther Fürth     - Stuttgart                со счетом 0:0 ничья
+15/1 /2022 сыграли команды: VfL Wolfsburg            - Hertha BSC               со счетом 0:0 ничья
+16/1 /2022 сыграли команды: FC Augsburg              - Eintracht Frankfurt      со счетом 1:1 ничья
+16/1 /2022 сыграли команды: Arminia Bielefeld        - SpVgg Greuther Fürth     со счетом 2:2 ничья
+22/1 /2022 сыграли команды: VfL Bochum               - 1. FC Cologne            со счетом 2:2 ничья
+4 /2 /2022 сыграли команды: Hertha BSC               - VfL Bochum               со счетом 1:1 ничья
+5 /2 /2022 сыграли команды: Arminia Bielefeld        - Borussia Monchengladbach со счетом 1:1 ничья
+12/2 /2022 сыграли команды: Freiburg                 - 1. FSV Mainz 05          со счетом 1:1 ничья
+19/2 /2022 сыграли команды: Stuttgart                - VfL Bochum               со счетом 1:1 ничья
+26/2 /2022 сыграли команды: Borussia Monchengladbach - VfL Wolfsburg            со счетом 2:2 ничья
+26/2 /2022 сыграли команды: SpVgg Greuther Fürth     - 1. FC Cologne            со счетом 1:1 ничья
+27/2 /2022 сыграли команды: FC Augsburg              - Borussia Dortmund        со счетом 1:1 ничья
+5 /3 /2022 сыграли команды: RB Leipzig               - Freiburg                 со счетом 1:1 ничья
+5 /3 /2022 сыграли команды: FC Bayern Munich         - Bayer 04 Leverkusen      со счетом 1:1 ничья
+12/3 /2022 сыграли команды: 1. FC Union Berlin       - Stuttgart                со счетом 1:1 ничья
+12/3 /2022 сыграли команды: TSG 1899 Hoffenheim      - FC Bayern Munich         со счетом 1:1 ничья
+19/3 /2022 сыграли команды: SpVgg Greuther Fürth     - Freiburg                 со счетом 0:0 ничья
+20/3 /2022 сыграли команды: RB Leipzig               - Eintracht Frankfurt      со счетом 0:0 ничья
+20/3 /2022 сыграли команды: 1. FC Cologne            - Borussia Dortmund        со счетом 1:1 ничья
+2 /4 /2022 сыграли команды: Eintracht Frankfurt      - SpVgg Greuther Fürth     со счетом 0:0 ничья
+2 /4 /2022 сыграли команды: Arminia Bielefeld        - Stuttgart                со счетом 1:1 ничья
+3 /4 /2022 сыграли команды: Borussia Monchengladbach - 1. FSV Mainz 05          со счетом 1:1 ничья
+10/4 /2022 сыграли команды: VfL Bochum               - Bayer 04 Leverkusen      со счетом 0:0 ничья
+16/4 /2022 сыграли команды: 1. FSV Mainz 05          - Stuttgart                со счетом 0:0 ничья
+17/4 /2022 сыграли команды: TSG 1899 Hoffenheim      - SpVgg Greuther Fürth     со счетом 0:0 ничья
+23/4 /2022 сыграли команды: Freiburg                 - Borussia Monchengladbach со счетом 3:3 ничья
+23/4 /2022 сыграли команды: Eintracht Frankfurt      - TSG 1899 Hoffenheim      со счетом 2:2 ничья
+29/4 /2022 сыграли команды: 1. FC Union Berlin       - SpVgg Greuther Fürth     со счетом 1:1 ничья
+30/4 /2022 сыграли команды: Arminia Bielefeld        - Hertha BSC               со счетом 1:1 ничья
+30/4 /2022 сыграли команды: Stuttgart                - VfL Wolfsburg            со счетом 1:1 ничья
+8 /5 /2022 сыграли команды: Eintracht Frankfurt      - Borussia Monchengladbach со счетом 1:1 ничья
+8 /5 /2022 сыграли команды: FC Bayern Munich         - Stuttgart                со счетом 2:2 ничья
+14/5 /2022 сыграли команды: VfL Wolfsburg            - FC Bayern Munich         со счетом 2:2 ничья
+14/5 /2022 сыграли команды: 1. FSV Mainz 05          - Eintracht Frankfurt      со счетом 2:2 ничья
+14/5 /2022 сыграли команды: Arminia Bielefeld        - RB Leipzig               со счетом 1:1 ничья
+6 /8 /2022 сыграли команды: VfL Wolfsburg            - Werder Bremen            со счетом 2:2 ничья
+7 /8 /2022 сыграли команды: Stuttgart                - RB Leipzig               со счетом 1:1 ничья
+13/8 /2022 сыграли команды: Werder Bremen            - Stuttgart                со счетом 2:2 ничья
+13/8 /2022 сыграли команды: Hertha BSC               - Eintracht Frankfurt      со счетом 1:1 ничья
+13/8 /2022 сыграли команды: RB Leipzig               - 1. FC Cologne            со счетом 2:2 ничья
+13/8 /2022 сыграли команды: FC Schalke 04            - Borussia Monchengladbach со счетом 2:2 ничья
+14/8 /2022 сыграли команды: 1. FSV Mainz 05          - 1. FC Union Berlin       со счетом 0:0 ничья
+20/8 /2022 сыграли команды: VfL Wolfsburg            - FC Schalke 04            со счетом 0:0 ничья
+21/8 /2022 сыграли команды: Eintracht Frankfurt      - 1. FC Cologne            со счетом 1:1 ничья
+27/8 /2022 сыграли команды: FC Bayern Munich         - Borussia Monchengladbach со счетом 1:1 ничья
+28/8 /2022 сыграли команды: 1. FC Cologne            - Stuttgart                со счетом 0:0 ничья
+3 /9 /2022 сыграли команды: Stuttgart                - FC Schalke 04            со счетом 1:1 ничья
+3 /9 /2022 сыграли команды: 1. FC Union Berlin       - FC Bayern Munich         со счетом 1:1 ничья
+10/9 /2022 сыграли команды: Hertha BSC               - Bayer 04 Leverkusen      со счетом 2:2 ничья
+10/9 /2022 сыграли команды: FC Bayern Munich         - Stuttgart                со счетом 2:2 ничья
+11/9 /2022 сыграли команды: Freiburg                 - Borussia Monchengladbach со счетом 0:0 ничья
+16/9 /2022 сыграли команды: 1. FSV Mainz 05          - Hertha BSC               со счетом 1:1 ничья
+17/9 /2022 сыграли команды: Bayer 04 Leverkusen      - Werder Bremen            со счетом 1:1 ничья
+18/9 /2022 сыграли команды: VfL Bochum               - 1. FC Cologne            со счетом 1:1 ничья
+18/9 /2022 сыграли команды: TSG 1899 Hoffenheim      - Freiburg                 со счетом 0:0 ничья
+2 /10/2022 сыграли команды: Hertha BSC               - TSG 1899 Hoffenheim      со счетом 1:1 ничья
+8 /10/2022 сыграли команды: 1. FSV Mainz 05          - RB Leipzig               со счетом 1:1 ничья
+8 /10/2022 сыграли команды: FC Augsburg              - VfL Wolfsburg            со счетом 1:1 ничья
+8 /10/2022 сыграли команды: Borussia Dortmund        - FC Bayern Munich         со счетом 2:2 ничья
+9 /10/2022 сыграли команды: Hertha BSC               - Freiburg                 со счетом 2:2 ничья
+15/10/2022 сыграли команды: VfL Wolfsburg            - Borussia Monchengladbach со счетом 2:2 ничья
+22/10/2022 сыграли команды: Bayer 04 Leverkusen      - VfL Wolfsburg            со счетом 2:2 ничья
+22/10/2022 сыграли команды: FC Augsburg              - RB Leipzig               со счетом 3:3 ничья
+30/10/2022 сыграли команды: 1. FC Cologne            - TSG 1899 Hoffenheim      со счетом 1:1 ничья
+9 /11/2022 сыграли команды: 1. FC Union Berlin       - FC Augsburg              со счетом 2:2 ничья
+13/11/2022 сыграли команды: 1. FSV Mainz 05          - Eintracht Frankfurt      со счетом 1:1 ничья
+8 /1 /2022 команда: TSG 1899 Hoffenheim      победила команду: FC Augsburg              со счетом 3:1
+8 /1 /2022 команда: RB Leipzig               победила команду: 1. FSV Mainz 05          со счетом 4:1
+9 /1 /2022 команда: VfL Bochum               победила команду: VfL Wolfsburg            со счетом 1:0
+14/1 /2022 команда: Borussia Dortmund        победила команду: Freiburg                 со счетом 5:1
+15/1 /2022 команда: 1. FSV Mainz 05          победила команду: VfL Bochum               со счетом 1:0
+15/1 /2022 команда: 1. FC Union Berlin       победила команду: TSG 1899 Hoffenheim      со счетом 2:1
+22/1 /2022 команда: SpVgg Greuther Fürth     победила команду: 1. FSV Mainz 05          со счетом 2:1
+22/1 /2022 команда: Freiburg                 победила команду: Stuttgart                со счетом 2:0
+22/1 /2022 команда: Bayer 04 Leverkusen      победила команду: FC Augsburg              со счетом 5:1
+23/1 /2022 команда: RB Leipzig               победила команду: VfL Wolfsburg            со счетом 2:0
+5 /2 /2022 команда: 1. FSV Mainz 05          победила команду: TSG 1899 Hoffenheim      со счетом 2:0
+5 /2 /2022 команда: 1. FC Cologne            победила команду: Freiburg                 со счетом 1:0
+5 /2 /2022 команда: FC Augsburg              победила команду: 1. FC Union Berlin       со счетом 2:0
+5 /2 /2022 команда: FC Bayern Munich         победила команду: RB Leipzig               со счетом 3:2
+6 /2 /2022 команда: VfL Wolfsburg            победила команду: SpVgg Greuther Fürth     со счетом 4:1
+11/2 /2022 команда: RB Leipzig               победила команду: 1. FC Cologne            со счетом 3:1
+12/2 /2022 команда: VfL Bochum               победила команду: FC Bayern Munich         со счетом 4:2
+12/2 /2022 команда: Borussia Monchengladbach победила команду: FC Augsburg              со счетом 3:2
+12/2 /2022 команда: SpVgg Greuther Fürth     победила команду: Hertha BSC               со счетом 2:1
+12/2 /2022 команда: Bayer 04 Leverkusen      победила команду: Stuttgart                со счетом 4:2
+13/2 /2022 команда: TSG 1899 Hoffenheim      победила команду: Arminia Bielefeld        со счетом 2:0
+18/2 /2022 команда: 1. FSV Mainz 05          победила команду: Bayer 04 Leverkusen      со счетом 3:2
+19/2 /2022 команда: Arminia Bielefeld        победила команду: 1. FC Union Berlin       со счетом 1:0
+19/2 /2022 команда: 1. FC Cologne            победила команду: Eintracht Frankfurt      со счетом 1:0
+20/2 /2022 команда: FC Bayern Munich         победила команду: SpVgg Greuther Fürth     со счетом 4:1
+20/2 /2022 команда: Borussia Dortmund        победила команду: Borussia Monchengladbach со счетом 6:0
+25/2 /2022 команда: TSG 1899 Hoffenheim      победила команду: Stuttgart                со счетом 2:1
+26/2 /2022 команда: 1. FC Union Berlin       победила команду: 1. FSV Mainz 05          со счетом 3:1
+26/2 /2022 команда: Freiburg                 победила команду: Hertha BSC               со счетом 3:0
+26/2 /2022 команда: Bayer 04 Leverkusen      победила команду: Arminia Bielefeld        со счетом 3:0
+5 /3 /2022 команда: VfL Bochum               победила команду: SpVgg Greuther Fürth     со счетом 2:1
+5 /3 /2022 команда: VfL Wolfsburg            победила команду: 1. FC Union Berlin       со счетом 1:0
+5 /3 /2022 команда: Stuttgart                победила команду: Borussia Monchengladbach со счетом 3:2
+12/3 /2022 команда: Freiburg                 победила команду: VfL Wolfsburg            со счетом 3:2
+12/3 /2022 команда: Borussia Monchengladbach победила команду: Hertha BSC               со счетом 2:0
+13/3 /2022 команда: Borussia Dortmund        победила команду: Arminia Bielefeld        со счетом 1:0
+13/3 /2022 команда: Eintracht Frankfurt      победила команду: VfL Bochum               со счетом 2:1
+19/3 /2022 команда: Hertha BSC               победила команду: TSG 1899 Hoffenheim      со счетом 3:0
+19/3 /2022 команда: Stuttgart                победила команду: FC Augsburg              со счетом 3:2
+19/3 /2022 команда: 1. FSV Mainz 05          победила команду: Arminia Bielefeld        со счетом 4:0
+19/3 /2022 команда: FC Bayern Munich         победила команду: 1. FC Union Berlin       со счетом 4:0
+6 /4 /2022 команда: FC Augsburg              победила команду: 1. FSV Mainz 05          со счетом 2:1
+1 /4 /2022 команда: 1. FC Union Berlin       победила команду: 1. FC Cologne            со счетом 1:0
+2 /4 /2022 команда: Bayer 04 Leverkusen      победила команду: Hertha BSC               со счетом 2:1
+3 /4 /2022 команда: FC Augsburg              победила команду: VfL Wolfsburg            со счетом 3:0
+9 /4 /2022 команда: FC Bayern Munich         победила команду: FC Augsburg              со счетом 1:0
+9 /4 /2022 команда: 1. FC Cologne            победила команду: 1. FSV Mainz 05          со счетом 3:2
+9 /4 /2022 команда: VfL Wolfsburg            победила команду: Arminia Bielefeld        со счетом 4:0
+10/4 /2022 команда: RB Leipzig               победила команду: TSG 1899 Hoffenheim      со счетом 3:0
+16/4 /2022 команда: Borussia Dortmund        победила команду: VfL Wolfsburg            со счетом 6:1
+16/4 /2022 команда: Freiburg                 победила команду: VfL Bochum               со счетом 3:0
+17/4 /2022 команда: 1. FC Union Berlin       победила команду: Eintracht Frankfurt      со счетом 2:0
+22/4 /2022 команда: VfL Wolfsburg            победила команду: 1. FSV Mainz 05          со счетом 5:0
+23/4 /2022 команда: 1. FC Cologne            победила команду: Arminia Bielefeld        со счетом 3:1
+23/4 /2022 команда: FC Bayern Munich         победила команду: Borussia Dortmund        со счетом 3:1
+24/4 /2022 команда: Hertha BSC               победила команду: Stuttgart                со счетом 2:0
+30/4 /2022 команда: 1. FSV Mainz 05          победила команду: FC Bayern Munich         со счетом 3:1
+2 /5 /2022 команда: Borussia Monchengladbach победила команду: RB Leipzig               со счетом 3:1
+2 /5 /2022 команда: Bayer 04 Leverkusen      победила команду: Eintracht Frankfurt      со счетом 2:0
+6 /5 /2022 команда: VfL Bochum               победила команду: Arminia Bielefeld        со счетом 2:1
+8 /5 /2022 команда: RB Leipzig               победила команду: FC Augsburg              со счетом 4:0
+14/5 /2022 команда: Stuttgart                победила команду: 1. FC Cologne            со счетом 2:1
+14/5 /2022 команда: Bayer 04 Leverkusen      победила команду: Freiburg                 со счетом 2:1
+14/5 /2022 команда: Borussia Dortmund        победила команду: Hertha BSC               со счетом 2:1
+14/5 /2022 команда: FC Augsburg              победила команду: SpVgg Greuther Fürth     со счетом 2:1
+14/5 /2022 команда: 1. FC Union Berlin       победила команду: VfL Bochum               со счетом 3:2
+14/5 /2022 команда: Borussia Monchengladbach победила команду: TSG 1899 Hoffenheim      со счетом 5:1
+6 /8 /2022 команда: Borussia Monchengladbach победила команду: TSG 1899 Hoffenheim      со счетом 3:1
+6 /8 /2022 команда: 1. FC Union Berlin       победила команду: Hertha BSC               со счетом 3:1
+6 /8 /2022 команда: Borussia Dortmund        победила команду: Bayer 04 Leverkusen      со счетом 1:0
+7 /8 /2022 команда: 1. FC Cologne            победила команду: FC Schalke 04            со счетом 3:1
+13/8 /2022 команда: TSG 1899 Hoffenheim      победила команду: VfL Bochum               со счетом 3:2
+14/8 /2022 команда: FC Bayern Munich         победила команду: VfL Wolfsburg            со счетом 2:0
+19/8 /2022 команда: Borussia Monchengladbach победила команду: Hertha BSC               со счетом 1:0
+20/8 /2022 команда: 1. FC Union Berlin       победила команду: RB Leipzig               со счетом 2:1
+26/8 /2022 команда: Freiburg                 победила команду: VfL Bochum               со счетом 1:0
+27/8 /2022 команда: RB Leipzig               победила команду: VfL Wolfsburg            со счетом 2:0
+27/8 /2022 команда: TSG 1899 Hoffenheim      победила команду: FC Augsburg              со счетом 1:0
+2 /9 /2022 команда: Borussia Dortmund        победила команду: TSG 1899 Hoffenheim      со счетом 1:0
+3 /9 /2022 команда: Eintracht Frankfurt      победила команду: RB Leipzig               со счетом 4:0
+10/9 /2022 команда: TSG 1899 Hoffenheim      победила команду: 1. FSV Mainz 05          со счетом 4:1
+10/9 /2022 команда: RB Leipzig               победила команду: Borussia Dortmund        со счетом 3:0
+10/9 /2022 команда: FC Schalke 04            победила команду: VfL Bochum               со счетом 3:1
+17/9 /2022 команда: Borussia Dortmund        победила команду: FC Schalke 04            со счетом 1:0
+17/9 /2022 команда: FC Augsburg              победила команду: FC Bayern Munich         со счетом 1:0
+17/9 /2022 команда: Borussia Monchengladbach победила команду: RB Leipzig               со счетом 3:0
+18/9 /2022 команда: 1. FC Union Berlin       победила команду: VfL Wolfsburg            со счетом 2:0
+30/9 /2022 команда: FC Bayern Munich         победила команду: Bayer 04 Leverkusen      со счетом 4:0
+1 /10/2022 команда: VfL Wolfsburg            победила команду: Stuttgart                со счетом 3:2
+1 /10/2022 команда: 1. FC Cologne            победила команду: Borussia Dortmund        со счетом 3:2
+1 /10/2022 команда: Freiburg                 победила команду: 1. FSV Mainz 05          со счетом 2:1
+1 /10/2022 команда: Eintracht Frankfurt      победила команду: 1. FC Union Berlin       со счетом 2:0
+1 /10/2022 команда: RB Leipzig               победила команду: VfL Bochum               со счетом 4:0
+1 /10/2022 команда: Werder Bremen            победила команду: Borussia Monchengladbach со счетом 5:1
+8 /10/2022 команда: VfL Bochum               победила команду: Eintracht Frankfurt      со счетом 3:0
+8 /10/2022 команда: Bayer 04 Leverkusen      победила команду: FC Schalke 04            со счетом 4:0
+9 /10/2022 команда: Borussia Monchengladbach победила команду: 1. FC Cologne            со счетом 5:2
+15/10/2022 команда: Stuttgart                победила команду: VfL Bochum               со счетом 4:1
+15/10/2022 команда: Eintracht Frankfurt      победила команду: Bayer 04 Leverkusen      со счетом 5:1
+15/10/2022 команда: RB Leipzig               победила команду: Hertha BSC               со счетом 3:2
+16/10/2022 команда: 1. FC Cologne            победила команду: FC Augsburg              со счетом 3:2
+16/10/2022 команда: 1. FC Union Berlin       победила команду: Borussia Dortmund        со счетом 2:0
+16/10/2022 команда: FC Bayern Munich         победила команду: Freiburg                 со счетом 5:0
+21/10/2022 команда: 1. FSV Mainz 05          победила команду: 1. FC Cologne            со счетом 5:0
+22/10/2022 команда: Freiburg                 победила команду: Werder Bremen            со счетом 2:0
+22/10/2022 команда: Borussia Dortmund        победила команду: Stuttgart                со счетом 5:0
+23/10/2022 команда: VfL Bochum               победила команду: 1. FC Union Berlin       со счетом 2:1
+23/10/2022 команда: Hertha BSC               победила команду: FC Schalke 04            со счетом 2:1
+28/10/2022 команда: Werder Bremen            победила команду: Hertha BSC               со счетом 1:0
+29/10/2022 команда: Stuttgart                победила команду: FC Augsburg              со счетом 2:1
+29/10/2022 команда: RB Leipzig               победила команду: Bayer 04 Leverkusen      со счетом 2:0
+29/10/2022 команда: FC Bayern Munich         победила команду: 1. FSV Mainz 05          со счетом 6:2
+29/10/2022 команда: VfL Wolfsburg            победила команду: VfL Bochum               со счетом 4:0
+30/10/2022 команда: 1. FC Union Berlin       победила команду: Borussia Monchengladbach со счетом 2:1
+4 /11/2022 команда: Borussia Monchengladbach победила команду: Stuttgart                со счетом 3:1
+5 /11/2022 команда: Borussia Dortmund        победила команду: VfL Bochum               со счетом 3:0
+5 /11/2022 команда: Werder Bremen            победила команду: FC Schalke 04            со счетом 2:1
+6 /11/2022 команда: Bayer 04 Leverkusen      победила команду: 1. FC Union Berlin       со счетом 5:0
+6 /11/2022 команда: Freiburg                 победила команду: 1. FC Cologne            со счетом 2:0
+8 /11/2022 команда: VfL Wolfsburg            победила команду: Borussia Dortmund        со счетом 2:0
+8 /11/2022 команда: Stuttgart                победила команду: Hertha BSC               со счетом 2:1
+8 /11/2022 команда: VfL Bochum               победила команду: Borussia Monchengladbach со счетом 2:1
+8 /11/2022 команда: FC Bayern Munich         победила команду: Werder Bremen            со счетом 6:1
+9 /11/2022 команда: RB Leipzig               победила команду: Freiburg                 со счетом 3:1
+9 /11/2022 команда: FC Schalke 04            победила команду: 1. FSV Mainz 05          со счетом 1:0
+9 /11/2022 команда: Eintracht Frankfurt      победила команду: TSG 1899 Hoffenheim      со счетом 4:2
+11/11/2022 команда: Borussia Monchengladbach победила команду: Borussia Dortmund        со счетом 4:2
+12/11/2022 команда: Hertha BSC               победила команду: 1. FC Cologne            со счетом 2:0
+12/11/2022 команда: Bayer 04 Leverkusen      победила команду: Stuttgart                со счетом 2:0
+13/11/2022 команда: Freiburg                 победила команду: 1. FC Union Berlin       со счетом 4:1
+7 /1 /2022 команда: FC Bayern Munich         проиграла команде: Borussia Monchengladbach со счетом 1:2
+8 /1 /2022 команда: Eintracht Frankfurt      проиграла команде: Borussia Dortmund        со счетом 2:3
+9 /1 /2022 команда: Hertha BSC               проиграла команде: 1. FC Cologne            со счетом 1:3
+15/1 /2022 команда: 1. FC Cologne            проиграла команде: FC Bayern Munich         со счетом 0:4
+15/1 /2022 команда: Stuttgart                проиграла команде: RB Leipzig               со счетом 0:2
+15/1 /2022 команда: Borussia Monchengladbach проиграла команде: Bayer 04 Leverkusen      со счетом 1:2
+21/1 /2022 команда: Eintracht Frankfurt      проиграла команде: Arminia Bielefeld        со счетом 0:2
+22/1 /2022 команда: TSG 1899 Hoffenheim      проиграла команде: Borussia Dortmund        со счетом 2:3
+22/1 /2022 команда: Borussia Monchengladbach проиграла команде: 1. FC Union Berlin       со счетом 1:2
+23/1 /2022 команда: Hertha BSC               проиграла команде: FC Bayern Munich         со счетом 1:4
+5 /2 /2022 команда: Stuttgart                проиграла команде: Eintracht Frankfurt      со счетом 2:3
+6 /2 /2022 команда: Borussia Dortmund        проиграла команде: Bayer 04 Leverkusen      со счетом 2:5
+12/2 /2022 команда: Eintracht Frankfurt      проиграла команде: VfL Wolfsburg            со счетом 0:2
+13/2 /2022 команда: 1. FC Union Berlin       проиграла команде: Borussia Dortmund        со счетом 0:3
+19/2 /2022 команда: VfL Wolfsburg            проиграла команде: TSG 1899 Hoffenheim      со счетом 1:2
+19/2 /2022 команда: FC Augsburg              проиграла команде: Freiburg                 со счетом 1:2
+20/2 /2022 команда: Hertha BSC               проиграла команде: RB Leipzig               со счетом 1:6
+26/2 /2022 команда: Eintracht Frankfurt      проиграла команде: FC Bayern Munich         со счетом 0:1
+27/2 /2022 команда: VfL Bochum               проиграла команде: RB Leipzig               со счетом 0:1
+4 /3 /2022 команда: Arminia Bielefeld        проиграла команде: FC Augsburg              со счетом 0:1
+5 /3 /2022 команда: Hertha BSC               проиграла команде: Eintracht Frankfurt      со счетом 1:4
+6 /3 /2022 команда: 1. FC Cologne            проиграла команде: TSG 1899 Hoffenheim      со счетом 0:1
+16/3 /2022 команда: 1. FSV Mainz 05          проиграла команде: Borussia Dortmund        со счетом 0:1
+13/3 /2022 команда: Bayer 04 Leverkusen      проиграла команде: 1. FC Cologne            со счетом 0:1
+13/3 /2022 команда: SpVgg Greuther Fürth     проиграла команде: RB Leipzig               со счетом 1:6
+18/3 /2022 команда: VfL Bochum               проиграла команде: Borussia Monchengladbach со счетом 0:2
+20/3 /2022 команда: VfL Wolfsburg            проиграла команде: Bayer 04 Leverkusen      со счетом 0:2
+2 /4 /2022 команда: Freiburg                 проиграла команде: FC Bayern Munich         со счетом 1:4
+2 /4 /2022 команда: TSG 1899 Hoffenheim      проиграла команде: VfL Bochum               со счетом 1:2
+2 /4 /2022 команда: Borussia Dortmund        проиграла команде: RB Leipzig               со счетом 1:4
+8 /4 /2022 команда: Stuttgart                проиграла команде: Borussia Dortmund        со счетом 0:2
+9 /4 /2022 команда: SpVgg Greuther Fürth     проиграла команде: Borussia Monchengladbach со счетом 0:2
+9 /4 /2022 команда: Hertha BSC               проиграла команде: 1. FC Union Berlin       со счетом 1:4
+10/4 /2022 команда: Eintracht Frankfurt      проиграла команде: Freiburg                 со счетом 1:2
+16/4 /2022 команда: FC Augsburg              проиграла команде: Hertha BSC               со счетом 0:1
+16/4 /2022 команда: Borussia Monchengladbach проиграла команде: 1. FC Cologne            со счетом 1:3
+17/4 /2022 команда: Arminia Bielefeld        проиграла команде: FC Bayern Munich         со счетом 0:3
+17/4 /2022 команда: Bayer 04 Leverkusen      проиграла команде: RB Leipzig               со счетом 0:1
+23/4 /2022 команда: RB Leipzig               проиграла команде: 1. FC Union Berlin       со счетом 1:2
+23/4 /2022 команда: SpVgg Greuther Fürth     проиграла команде: Bayer 04 Leverkusen      со счетом 1:4
+24/4 /2022 команда: VfL Bochum               проиграла команде: FC Augsburg              со счетом 0:2
+30/4 /2022 команда: Borussia Dortmund        проиграла команде: VfL Bochum               со счетом 3:4
+30/4 /2022 команда: FC Augsburg              проиграла команде: 1. FC Cologne            со счетом 1:4
+30/4 /2022 команда: TSG 1899 Hoffenheim      проиграла команде: Freiburg                 со счетом 3:4
+7 /5 /2022 команда: Freiburg                 проиграла команде: 1. FC Union Berlin       со счетом 1:4
+7 /5 /2022 команда: TSG 1899 Hoffenheim      проиграла команде: Bayer 04 Leverkusen      со счетом 2:4
+7 /5 /2022 команда: 1. FC Cologne            проиграла команде: VfL Wolfsburg            со счетом 0:1
+7 /5 /2022 команда: SpVgg Greuther Fürth     проиграла команде: Borussia Dortmund        со счетом 1:3
+7 /5 /2022 команда: Hertha BSC               проиграла команде: 1. FSV Mainz 05          со счетом 1:2
+5 /8 /2022 команда: Eintracht Frankfurt      проиграла команде: FC Bayern Munich         со счетом 1:6
+6 /8 /2022 команда: VfL Bochum               проиграла команде: 1. FSV Mainz 05          со счетом 1:2
+6 /8 /2022 команда: FC Augsburg              проиграла команде: Freiburg                 со счетом 0:4
+12/8 /2022 команда: Freiburg                 проиграла команде: Borussia Dortmund        со счетом 1:3
+13/8 /2022 команда: Bayer 04 Leverkusen      проиграла команде: FC Augsburg              со счетом 1:2
+20/8 /2022 команда: Stuttgart                проиграла команде: Freiburg                 со счетом 0:1
+20/8 /2022 команда: Borussia Dortmund        проиграла команде: Werder Bremen            со счетом 2:3
+20/8 /2022 команда: FC Augsburg              проиграла команде: 1. FSV Mainz 05          со счетом 1:2
+20/8 /2022 команда: Bayer 04 Leverkusen      проиграла команде: TSG 1899 Hoffenheim      со счетом 0:3
+21/8 /2022 команда: VfL Bochum               проиграла команде: FC Bayern Munich         со счетом 0:7
+27/8 /2022 команда: Hertha BSC               проиграла команде: Borussia Dortmund        со счетом 0:1
+27/8 /2022 команда: 1. FSV Mainz 05          проиграла команде: Bayer 04 Leverkusen      со счетом 0:3
+27/8 /2022 команда: FC Schalke 04            проиграла команде: 1. FC Union Berlin       со счетом 1:6
+28/8 /2022 команда: Werder Bremen            проиграла команде: Eintracht Frankfurt      со счетом 3:4
+3 /9 /2022 команда: VfL Bochum               проиграла команде: Werder Bremen            со счетом 0:2
+3 /9 /2022 команда: Bayer 04 Leverkusen      проиграла команде: Freiburg                 со счетом 2:3
+3 /9 /2022 команда: VfL Wolfsburg            проиграла команде: 1. FC Cologne            со счетом 2:4
+4 /9 /2022 команда: FC Augsburg              проиграла команде: Hertha BSC               со счетом 0:2
+4 /9 /2022 команда: Borussia Monchengladbach проиграла команде: 1. FSV Mainz 05          со счетом 0:1
+9 /9 /2022 команда: Werder Bremen            проиграла команде: FC Augsburg              со счетом 0:1
+10/9 /2022 команда: Eintracht Frankfurt      проиграла команде: VfL Wolfsburg            со счетом 0:1
+11/9 /2022 команда: 1. FC Cologne            проиграла команде: 1. FC Union Berlin       со счетом 0:1
+17/9 /2022 команда: Stuttgart                проиграла команде: Eintracht Frankfurt      со счетом 1:3
+2 /10/2022 команда: FC Schalke 04            проиграла команде: FC Augsburg              со счетом 2:3
+7 /10/2022 команда: TSG 1899 Hoffenheim      проиграла команде: Werder Bremen            со счетом 1:2
+9 /10/2022 команда: Stuttgart                проиграла команде: 1. FC Union Berlin       со счетом 0:1
+14/10/2022 команда: FC Schalke 04            проиграла команде: TSG 1899 Hoffenheim      со счетом 0:3
+15/10/2022 команда: Werder Bremen            проиграла команде: 1. FSV Mainz 05          со счетом 0:2
+22/10/2022 команда: TSG 1899 Hoffenheim      проиграла команде: FC Bayern Munich         со счетом 0:2
+22/10/2022 команда: Borussia Monchengladbach проиграла команде: Eintracht Frankfurt      со счетом 1:3
+29/10/2022 команда: Eintracht Frankfurt      проиграла команде: Borussia Dortmund        со счетом 1:2
+30/10/2022 команда: FC Schalke 04            проиграла команде: Freiburg                 со счетом 0:2
+5 /11/2022 команда: Hertha BSC               проиграла команде: FC Bayern Munich         со счетом 2:3
+5 /11/2022 команда: TSG 1899 Hoffenheim      проиграла команде: RB Leipzig               со счетом 1:3
+5 /11/2022 команда: FC Augsburg              проиграла команде: Eintracht Frankfurt      со счетом 1:2
+5 /11/2022 команда: 1. FSV Mainz 05          проиграла команде: VfL Wolfsburg            со счетом 0:3
+9 /11/2022 команда: 1. FC Cologne            проиграла команде: Bayer 04 Leverkusen      со счетом 1:2
+12/11/2022 команда: TSG 1899 Hoffenheim      проиграла команде: VfL Wolfsburg            со счетом 1:2
+12/11/2022 команда: FC Augsburg              проиграла команде: VfL Bochum               со счетом 0:1
+12/11/2022 команда: Werder Bremen            проиграла команде: RB Leipzig               со счетом 1:2
+12/11/2022 команда: FC Schalke 04            проиграла команде: FC Bayern Munich         со счетом 0:2
