@@ -1,0 +1,10 @@
+Dmytro;0;1
+Dmytro;0;2
+Dmytro;0;3
+Dmytro;0;4
+Dmytro;0;5
+Dmytro;0;6
+Dmytro;0;7
+Dmytro;1;7
+Dmytro;2;7
+Dmytro;3;7
