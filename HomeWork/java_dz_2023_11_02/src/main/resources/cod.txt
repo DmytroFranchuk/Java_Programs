@@ -1,0 +1,101 @@
+package org.example;
+
+public class Bicycle {
+    private String model;
+
+    private class Handlebar {
+        private int strength;
+        private boolean isBroken;
+
+        public Handlebar(int strength) {
+            this.strength = strength;
+            if (strength > 0) isBroken = true;
+        }
+
+        public void use(int damage) {
+            if (isBroken) {
+                if ((strength - damage) <= 0) {
+                    isBroken = false;
+                    System.out.println("Руль сломан!");
+                }
+            }
+        }
+    }
+
+    private class Saddle {
+        private int strength;
+        private boolean isBroken;
+
+        public Saddle(int strength) {
+            this.strength = strength;
+            if (strength > 0) isBroken = true;
+
+        }
+
+        public void use(int damage) {
+            if (isBroken) {
+                if ((strength - damage) <= 0) {
+                    isBroken = false;
+                    System.out.println("Седло сломано!");
+                }
+            }
+        }
+    }
+
+    private class Wheel {
+        private int strength;
+        private boolean isBroken;
+
+        public Wheel(int strength) {
+            this.strength = strength;
+            if (strength > 0) isBroken = true;
+        }
+
+        public void use(int damage) {
+            if (isBroken) {
+                if ((strength - damage) <= 0) {
+                    isBroken = false;
+                    System.out.println("Колесо сломано!");
+                }
+            }
+        }
+    }
+
+    private class Gears {
+        private int strength;
+        private boolean isBroken;
+
+        public Gears(int strength) {
+            this.strength = strength;
+            if (strength > 0) isBroken = true;
+        }
+
+        public void use(int damage) {
+            if (isBroken) {
+                if ((strength - damage) <= 0) {
+                    isBroken = false;
+                    System.out.println("Передачи сломаны!");
+                }
+            }
+        }
+    }
+
+    private class Frame {
+        private int strength;
+        private boolean isBroken;
+
+        public Frame(int strength) {
+            this.strength = strength;
+            if (strength > 0) isBroken = true;
+        }
+
+        public void use(int damage) {
+            if (isBroken) {
+                if ((strength - damage) <= 0) {
+                    isBroken = false;
+                    System.out.println("Рама сломана!");
+                }
+            }
+        }
+    }
+}
