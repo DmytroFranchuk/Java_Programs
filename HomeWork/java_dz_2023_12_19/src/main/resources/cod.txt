@@ -1,0 +1,91 @@
+//        OrderProcessingAndDelivery orderProcessingAndDelivery = new OrderProcessingAndDelivery();
+//        PriorityBlockingQueue<Order> processingQueue = orderProcessingAndDelivery.getDeliveryQueue();
+//        while (!processingQueue.isEmpty()) {
+//            Order order = processingQueue.poll();
+//            System.out.println(order);
+//        }
+//        SynchronousQueue<Order> deliveryQueue = new SynchronousQueue<>();
+//        BlockingQueue<Runnable> queue = new SynchronousQueue<>();
+//        ExecutorService executor = new ThreadPoolExecutor(2, 2, 100L, TimeUnit.SECONDS, queue);
+//        executor.submit(new OrderProcessor(processingQueue));
+//        executor.submit(new DeliveryTask(deliveryQueue));
+
+public class OrderProcessingAndDelivery {
+    private final ScheduledThreadPoolExecutor orderScheduler = new ScheduledThreadPoolExecutor(1);
+    private final ThreadPoolExecutor orderExecutor = new ThreadPoolExecutor(
+            5, 5, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
+    private final PriorityBlockingQueue<Order> deliveryQueue = new PriorityBlockingQueue<>(10,
+            Comparator.comparingInt(Order::getDeliveryTime).reversed());
+    private AtomicInteger addressCounter = new AtomicInteger(1);
+    private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+
+    public OrderProcessingAndDelivery() {
+        generateQueueOrders();
+    }
+
+    public PriorityBlockingQueue<Order> getDeliveryQueue() {
+        return deliveryQueue;
+    }
+
+    private PriorityBlockingQueue<Order> generateQueueOrders() {
+        int ordersToGenerate = new Random().nextInt(2) + 5;
+//        System.out.println("Поступило в обработку всего заказов: " + ordersToGenerate);
+        for (int i = 0; i < ordersToGenerate; i++) {
+            Order order = generateOrder();
+//            System.out.printf("%s, %s, время на доставку заказа %s, количество товаров в заказе %s%n",
+//                        LocalDateTime.now().format(formatter), order.getDeliveryAddress(), order.getDeliveryTime(),
+//                        order.getOrderCount());
+            deliveryQueue.put(order);
+        }
+        return deliveryQueue;
+    }
+
+    private Order generateOrder() {
+        int orderCount = new Random().nextInt(5) + 1; // Случайное количество товаров в заказе от 1 до 5
+        int deliveryTime = new Random().nextInt(10) + 1; // Случайное время доставки от 1 до 10 секунд
+        String deliveryAddress = "Address " + addressCounter.getAndIncrement(); // Генерация адреса доставки
+        return new Order(orderCount, deliveryTime);
+    }
+
+//    public void generateAndProcessOrders() {
+//        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+//        Random random = new Random();
+//        orderScheduler.scheduleAtFixedRate(() -> {
+//            int orderCount = random.nextInt(5) + 1; // Случайное количество заказов от 1 до 5
+//            int deliveryTime = random.nextInt(10) + 1; // Случайное время доставки от 1 до 10 секунд
+//            String deliveryAddress = "Address " + addressCounter.getAndIncrement(); // Генерация адреса доставки
+//            Order order = new Order(orderCount, deliveryTime, deliveryAddress);
+//            System.out.printf("%s, %s, время на доставку заказа %s, количество товаров в заказе %s%n", LocalDateTime.now().format(formatter), deliveryAddress, deliveryTime, orderCount);
+//            orderExecutor.submit(() -> processOrder(order));
+//        }, 0, 5, TimeUnit.SECONDS); // Генерация заказа каждые 5 секунд
+//
+//        orderScheduler.scheduleWithFixedDelay(() -> {
+//            try {
+//                Order order = deliveryQueue.take(); // Получаем заказ из приоритетной очереди
+//                System.out.printf("%s, Заказ отправлен по адресу: %s, %s, %s%n", LocalDateTime.now().format(formatter), order.deliveryAddress(), order.orderCount(), order.deliveryTime());
+//                TimeUnit.SECONDS.sleep(order.deliveryTime()); // Имитация времени доставки
+//                System.out.printf("Заказ доставлен по адресу: %s%n", order.deliveryAddress());
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//                Thread.currentThread().interrupt();
+//            }
+//        }, 0, 1, TimeUnit.SECONDS); // Проверка очереди доставки каждую секунду
+
+    //        orderScheduler.scheduleWithFixedDelay(() -> {
+//            if (deliveryQueue.size() >= ordersToGenerate) {
+//                orderScheduler.shutdown();
+//            } else {
+//                Order order = generateOrder();
+//                System.out.printf("%s, %s, время на доставку заказа %s, количество товаров в заказе %s%n",
+//                        LocalDateTime.now().format(formatter), order.deliveryAddress(), order.deliveryTime(),
+//                        order.orderCount());
+//                deliveryQueue.put(order);
+//            }
+//        }, 0, 2, TimeUnit.SECONDS);
+//    }
+
+    public void stop() {
+        orderScheduler.shutdown();
+        orderExecutor.shutdown();
+    }
+}
