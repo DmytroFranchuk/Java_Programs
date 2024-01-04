@@ -1,4 +1,4 @@
-package org.example.OrderDeliveryManagement;
+package org.example.task3_OrderDeliveryManagement;
 
 // В интернет-магазине есть два процесса: обработка заказов и доставка товаров.
 // На фоне обработки заказов, нужно периодически планировать доставку готовых товаров.

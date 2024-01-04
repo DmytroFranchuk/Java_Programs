@@ -1,4 +1,4 @@
-package org.example.OrderDeliveryManagement;
+package org.example.task3_OrderDeliveryManagement;
 
 import java.util.Random;
 import java.util.concurrent.PriorityBlockingQueue;

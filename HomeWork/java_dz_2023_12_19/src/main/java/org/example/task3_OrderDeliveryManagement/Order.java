@@ -1,4 +1,4 @@
-package org.example.OrderDeliveryManagement;
+package org.example.task3_OrderDeliveryManagement;
 
 public final class Order {
     private final int orderId;
