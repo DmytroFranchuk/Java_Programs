@@ -1,4 +1,6 @@
-package org.example;
+package org.example.task1;
+
+import org.example.task1.ExampleLombok;
 
 public class Main {
     public static void main(String[] args) {
