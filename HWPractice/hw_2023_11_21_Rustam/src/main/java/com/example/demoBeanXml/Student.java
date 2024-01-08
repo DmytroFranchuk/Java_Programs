@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demoBeanXml;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

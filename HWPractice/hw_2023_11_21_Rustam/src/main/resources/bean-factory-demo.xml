@@ -4,8 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-
-    <bean id="studentBean" class="com.example.demo.Student">
+    <bean id="studentBean" class="com.example.demoBeanXml.Student">
         <property name="id" value="1" />
         <property name="age" value="23" />
         <property name="email" value="liga@gmail.com" />
