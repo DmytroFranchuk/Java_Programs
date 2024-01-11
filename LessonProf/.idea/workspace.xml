@@ -5,15 +5,202 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924611b4-83b3-4671-807c-788fdc4a128d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_11_07/src/main/java/org/example/task2/CommandLineParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_11_07/src/main/java/org/example/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_11_07/src/main/java/org/example/task2/ResultParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_11_07/src/main/java/org/example/task2/exceptions/ParserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_11_07/src/main/resources/task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_11_07/src/test/java/org/example/task2/CommandLineParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/java_dz_2023_11_07/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_11_07/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/java_dz_2023_11_07/src/main/java/org/example/ExampleLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_11_07/src/main/java/org/example/task1/ExampleLombok.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork/java_dz_2023_11_07/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/java_dz_2023_11_07/src/main/java/org/example/task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_01_09/src/main/java/org/example/task1/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_01_09/src/main/java/org/example/task1/MyClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_01_09/src/main/resources/cod.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/lesson_materials/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/lesson_materials/MainConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/lesson_materials/MainField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/lesson_materials/MainInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/lesson_materials/MainMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/lesson_materials/person/ExtendedPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/lesson_materials/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/zadanie/task2/Bulb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/zadanie/task2/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/zadanie/task2/SmartBulb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/zadanie/task2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/zadanie/task3/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_09/src/main/java/org/lesson_Reflection/zadanie/task4/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_11/src/main/java/org/lesson_Annotations/zadanie/task2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_11/src/main/java/org/lesson_Annotations/zadanie/task3/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_16/src/main/java/org/lesson_/zadanie/task1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_16/src/main/java/org/lesson_/zadanie/task2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LessonProf2/Lesson_2024_01_16/src/main/java/org/lesson_/zadanie/task3/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_09_26_Java Pro. Лекция 0. Повторение курса Basic/EnumExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_09_26_Java Pro. Лекция 0. Повторение курса Basic/ForeachExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_09_26_Java Pro. Лекция 0. Повторение курса Basic/Java_Pro_0_Repetitionf_of_Basic.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_09_26_Java Pro. Лекция 0. Повторение курса Basic/RandomExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_09_26_Java Pro. Лекция 0. Повторение курса Basic/ScannerExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_09_28/3. Agile планирование.  Scrum Planning..pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_03/1. Scrum, Kanban или Waterfall-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_05/Java_Pro_9_Exceptions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_10_Лекция 3. Полиморфизм. Интерфейсы/Java_Pro_3_OOP_Enum_as_class_polimorphism_Interfaces.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_10_Лекция 3. Полиморфизм. Интерфейсы/interfaceExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_10_Лекция 3. Полиморфизм. Интерфейсы/polymorphism.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_12_Лекция 4. Коллекции. Список/Java_Pro_4_Collections_List.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_17_Лекция 5. Множество. Эквивалентность, хеш-код/Java_Pro_5_Set_equals_hashcode.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_17_Лекция 5. Множество. Эквивалентность, хеш-код/ScannerForFile.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_19_Лекция 6. Дерево. Компаратор. Итератор/ComparatorExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_19_Лекция 6. Дерево. Компаратор. Итератор/Java_Pro_6_TreeSet_comparator_iterator.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_19_Лекция 6. Дерево. Компаратор. Итератор/MyIteratorExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_24/Java_Pro_7_Queue_stack_map.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_24/PriorityQueueExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_26/GenericExamples.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_26/Generics.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_26/Java_Pro_8_Generics.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_31/ExceptionExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_10_31/Java_Pro_9_Exceptions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_02/Example.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_02/Java_Pro_1.4_Nested_classes._Javadoc.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_07/Java_Pro_3.3_Build_systems.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_07/Java_Pro_3.4_Unit-testing.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_09/Java_Pro_3.5_Best_practices.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_14/ImmutableClassesExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_14/JavaTimeExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_14/Java_Pro_3.6_Immutable_classes_JavaTime.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_16/1.vocab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_16/Java_Pro_4.1_Input-output_streams.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_16/ScannerForFile.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_16/Streams.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_16/VttFiles.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_21/Java_Pro_4.2_Properties.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_21/PropertiesSystemAndEnviroment.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_23/ClientExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_23/JacksonExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_23/Java_Pro_4.3_Network_streams_JSON.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_23/ServerExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_23/UrlExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_28/FunctionalInterfaceExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_28/Java_Pro_5.1_Lambda_functional_interfaces.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_28/LambdaExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_28/Sorting_05.11.2023.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_30/Image20231128121555.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_30/Java_Pro_5.2_Optional._Stream_API.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_30/OptionalExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_11_30/StreamApiExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_05/Java_Pro_6.1_Multithreading._Introduction.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_05/chistyi_kod_sozdanie_analiz_i_refaktoring_by_robert_martin_z_lib.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_05/Рефакторинг.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/JavaTheory7DecCandiesAndGrannies.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/JavaTheory7DecCandiesAndGrannies/JavaTheory7Dec/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/JavaTheory7DecCandiesAndGrannies/JavaTheory7Dec/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/JavaTheory7DecCandiesAndGrannies/JavaTheory7Dec/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/JavaTheory7DecCandiesAndGrannies/JavaTheory7Dec/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/JavaTheory7DecCandiesAndGrannies/JavaTheory7Dec/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/JavaTheory7DecCandiesAndGrannies/JavaTheory7Dec/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/JavaTheory7DecCandiesAndGrannies/JavaTheory7Dec/src/main/java/org/example/pole/chudes/Bascket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/JavaTheory7DecCandiesAndGrannies/JavaTheory7Dec/src/main/java/org/example/pole/chudes/Candy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/JavaTheory7DecCandiesAndGrannies/JavaTheory7Dec/src/main/java/org/example/pole/chudes/GrandChild.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/JavaTheory7DecCandiesAndGrannies/JavaTheory7Dec/src/main/java/org/example/pole/chudes/Grandparent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/Java_Pro_6.2_Multithreading._Models_exceptions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadExceptionTask.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadExceptionTask/ThreadExceptionTask/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadExceptionTask/ThreadExceptionTask/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadExceptionTask/ThreadExceptionTask/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadExceptionTask/ThreadExceptionTask/ThreadExceptionTask.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadExceptionTask/ThreadExceptionTask/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadExceptionTask/ThreadExceptionTask/src/processor/DataProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/ThreadModels.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/src/dining/philosophers/DiningPhilosophers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/src/dining/philosophers/model/Philosopher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/src/producer/consumer/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/src/producer/consumer/model/Buffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/src/producer/consumer/model/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/src/producer/consumer/model/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/src/writer/reader/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/src/writer/reader/model/Reader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/src/writer/reader/model/SharedResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_07/ThreadModels/ThreadModels/src/writer/reader/model/Writer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/ArraySetExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/ArraySetExample/ArraySetExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/ArraySetExample/ArraySetExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/ArraySetExample/ArraySetExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/ArraySetExample/ArraySetExample/ArraySetExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/ArraySetExample/ArraySetExample/src/ArraySetExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/CopyOnWriteArrayListExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/CopyOnWriteArrayListExample/CopyOnWriteArrayListExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/CopyOnWriteArrayListExample/CopyOnWriteArrayListExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/CopyOnWriteArrayListExample/CopyOnWriteArrayListExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/CopyOnWriteArrayListExample/CopyOnWriteArrayListExample/CopyOnWriteArrayListExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/CopyOnWriteArrayListExample/CopyOnWriteArrayListExample/src/CopyOnWriteArrayListExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/HashMapExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/HashMapExample/HashMapExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/HashMapExample/HashMapExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/HashMapExample/HashMapExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/HashMapExample/HashMapExample/HashMapExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/HashMapExample/HashMapExample/src/ConcurrentHashMapExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_12/Java_Pro_6.3_Multithreading._Clean_code._Concurrent.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/Java_Pro_6.4_Multithreading._Concurrent_Atomics_Queues.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadArrayBlockingQueue.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadArrayBlockingQueue/ArrayBlockingQueue/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadArrayBlockingQueue/ArrayBlockingQueue/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadArrayBlockingQueue/ArrayBlockingQueue/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadArrayBlockingQueue/ArrayBlockingQueue/ArrayBlockingQueue.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadArrayBlockingQueue/ArrayBlockingQueue/src/BlockingQueueExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadAtomicExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadAtomicExample/ThreadAtomicExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadAtomicExample/ThreadAtomicExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadAtomicExample/ThreadAtomicExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadAtomicExample/ThreadAtomicExample/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadAtomicExample/ThreadAtomicExample/ThreadAtomicExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadAtomicExample/ThreadAtomicExample/src/SequenceGeneratorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadAtomicExample/ThreadAtomicExample/src/generator/Sequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadAtomicExample/ThreadAtomicExample/src/generator/SequenceGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedDequeExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedDequeExample/ThreadConcurrentLinkedDequeExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedDequeExample/ThreadConcurrentLinkedDequeExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedDequeExample/ThreadConcurrentLinkedDequeExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedDequeExample/ThreadConcurrentLinkedDequeExample/ThreadConcurrentLinkedDequeExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedDequeExample/ThreadConcurrentLinkedDequeExample/src/ConcurrentLinkedDequeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedQueueExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedQueueExample/ThreadConcurrentLinkedQueueExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedQueueExample/ThreadConcurrentLinkedQueueExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedQueueExample/ThreadConcurrentLinkedQueueExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedQueueExample/ThreadConcurrentLinkedQueueExample/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedQueueExample/ThreadConcurrentLinkedQueueExample/ThreadConcurrentLinkedQueueExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_14/ThreadConcurrentLinkedQueueExample/ThreadConcurrentLinkedQueueExample/src/ConcurrentLinkedQueueExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/Java_Pro_6.5_Multithreading._Locks_ThreadLocal_Executors.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadCallableFutureExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadCallableFutureExample/ThreadCallableFutureExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadCallableFutureExample/ThreadCallableFutureExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadCallableFutureExample/ThreadCallableFutureExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadCallableFutureExample/ThreadCallableFutureExample/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadCallableFutureExample/ThreadCallableFutureExample/ThreadCallableFutureExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadCallableFutureExample/ThreadCallableFutureExample/src/PrimeSumCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadLocalExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadLocalExample/ThreadLocalExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadLocalExample/ThreadLocalExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadLocalExample/ThreadLocalExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadLocalExample/ThreadLocalExample/ThreadLocalExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadLocalExample/ThreadLocalExample/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadLocalExample/ThreadLocalExample/src/demo/ThreadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadPoolExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadPoolExample/ThreadPoolExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadPoolExample/ThreadPoolExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadPoolExample/ThreadPoolExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadPoolExample/ThreadPoolExample/ThreadPoolExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadPoolExample/ThreadPoolExample/src/ThreadPoolExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadReentrantCondExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadReentrantCondExample/ThreadReentrantCondExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadReentrantCondExample/ThreadReentrantCondExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadReentrantCondExample/ThreadReentrantCondExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadReentrantCondExample/ThreadReentrantCondExample/ThreadReentrantCondExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadReentrantCondExample/ThreadReentrantCondExample/src/ReentrantCondExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadReentrantLockExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadReentrantLockExample/ThreadReentrantLockExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadReentrantLockExample/ThreadReentrantLockExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadReentrantLockExample/ThreadReentrantLockExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadReentrantLockExample/ThreadReentrantLockExample/ThreadReentrantLockExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_19/ThreadReentrantLockExample/ThreadReentrantLockExample/src/ReentrantLockExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_21/Java_Pro_6.6_Multithreading._Fork-Join._Synchronizers.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_21/ThreadForkJoinExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/Lesson_2023_12_21/ThreadSynchronizersExample.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LessonYuriyKostianoi/examples.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +407,7 @@
       <workItem from="1703269913379" duration="373000" />
       <workItem from="1704208476432" duration="3001000" />
       <workItem from="1704412726473" duration="769000" />
+      <workItem from="1704963699598" duration="23000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,114 @@
+public static Map<Method, List<Parameter>> classAnalyzer (Class<?> clazz) {
+        Map<Method, List<Parameter>> resultMap = new HashMap<>();
+        Method[] methods = clazz.getDeclaredMethods();
+        Arrays.sort(methods, Comparator.comparing(Method::getName));
+        System.out.println("\nМетоды класса " + clazz.getName() + ":");
+        for (Method method : methods) {
+            String methodName = method.getName();
+            System.out.println("Метод: " + methodName);
+            Class<?> returnType = method.getReturnType();
+            System.out.println("   Возвращаемый тип: " + returnType.getName());
+            int modifier = method.getModifiers();
+            System.out.println("   Модификаторы доступа: " + Modifier.toString(modifier));
+            Parameter[] parameters = method.getParameters();
+            System.out.println("   Параметры:");
+            List<Parameter> params = new ArrayList<>();
+            for (Parameter parameter : parameters) {
+                System.out.print("      " + parameter.getType().getName() + " " + parameter.getName());
+                params.add(parameter);
+            }
+            resultMap.put(method, params);
+            Class<?>[] exceptions = method.getExceptionTypes();
+            System.out.println("\n   Исключения:");
+            for (Class<?> exception : exceptions) {
+                System.out.println("    " + exception.getName());
+            }
+        }
+        return resultMap;
+    }
+
+
+
+
+
+    public boolean method3(int value) {
+        boolean result = flag;
+        if (value >= number) {
+            result = true;
+        }
+        System.out.println("Вызван метод 3: " + result + " " + value);
+        return result;
+    }
+
+    public List<MyClass2> method4(boolean type) {
+        List<MyClass2> resultList = new ArrayList<>();
+        resultList.add(new MyClass2(10L));
+        resultList.add(new MyClass2(20L));
+        resultList.add(new MyClass2(30L));
+        System.out.println("Вызван метод 4: " + type);
+        return resultList;
+    }
+
+    public int[] method5(int[] mass, int value) {
+        System.out.println("Вызван метод 5: " + value);
+        return mass;
+    }
+
+    private static String method6(String s) {
+        System.out.println("Вызван метод 6: " + s);
+        return s;
+    }
+
+    public void method7() {
+        System.out.println("Вызван метод 7");
+    }
+
+    public Map<LocalDate, List<Integer>> method8(int count, List<Integer> list, LocalDate date) {
+        System.out.println("Вызван метод 8" + count);
+        Map<LocalDate, List<Integer>> map = new HashMap<>();
+        map.put(date, new ArrayList<>(list));
+        return map;
+    };
+
+    private void method9() {
+        System.out.println("Вызван метод 9");
+    }
+
+    private void method_10() {
+        System.out.println("Вызван метод 10");
+    }
+
+
+        public static Map<Method, List<Parameter>> classAnalyzer (Class<?> clazz) {
+            Map<Method, List<Parameter>> resultMap = new HashMap<>();
+            Method[] methods = clazz.getDeclaredMethods();
+            Arrays.sort(methods, Comparator.comparing(Method::getName));
+            System.out.println("\nМетоды класса " + clazz.getName() + ":");
+            for (Method method : methods) {
+                String methodName = method.getName();
+                System.out.println("Метод: " + methodName);
+                Class<?> returnType = method.getReturnType();
+                System.out.println("   Возвращаемый тип: " + returnType.getName());
+                int modifier = method.getModifiers();
+                System.out.println("   Модификаторы доступа: " + Modifier.toString(modifier));
+                Parameter[] parameters = method.getParameters();
+                System.out.println("   Параметры:");
+                List<Parameter> params = new ArrayList<>();
+                for (Parameter parameter : parameters) {
+                    System.out.println("      " + parameter.getType().getName() + " " + parameter.getName());
+                    params.add(parameter);
+                }
+                resultMap.put(method, params);
+                Class<?>[] exceptions = method.getExceptionTypes();
+                System.out.println("   Исключения:");
+                for (Class<?> exception : exceptions) {
+                    System.out.println("    " + exception.getName());
+                }
+            }
+            return resultMap;
+        }
+
+        Class<?> clazz = objClass.getClass();
+                System.out.println("Имя пакета: " + clazz.getPackageName());
+                System.out.println("Имя класса: " + clazz.getName());
+                System.out.println("Имя типа класса: " + clazz.getTypeName());
