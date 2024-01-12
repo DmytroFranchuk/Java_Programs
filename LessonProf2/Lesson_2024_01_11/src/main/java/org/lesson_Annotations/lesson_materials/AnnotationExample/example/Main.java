@@ -1,7 +1,7 @@
 package org.lesson_Annotations.lesson_materials.AnnotationExample.example;
 
-import org.example.comment.ClassPreamble;
-import org.example.comment.Generation3ListAfter;
+import org.lesson_Annotations.lesson_materials.AnnotationExample.example.comment.ClassPreamble;
+import org.lesson_Annotations.lesson_materials.AnnotationExample.example.comment.Generation3ListAfter;
 
 import java.util.Arrays;
 
