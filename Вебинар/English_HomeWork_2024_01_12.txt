@@ -1,0 +1,37 @@
+1) Palindrome checker: This function takes a string as input and returns true if the string
+is a palindrome and false otherwise.
+
+public static boolean isPalindrome(String word) {
+        word = word.toLowerCase();
+        word = word.replaceAll("\\s", "");
+        StringBuilder reversedWord = new StringBuilder(word);
+        reversedWord.reverse();
+        return word.equals(reversedWord.toString());
+    }
+
+1. At first we bring the word to lowercase the registry 
+2. Then removing spaces from word
+3. After that we creating a new variable of type StringBuilder to efficiently compare 
+characters
+4. Then reversing word and write it in our new variable using method "reverse"
+5. In the end we comparing input string and reversed word. If they equals we return true, 
+else return false     
+
+2) String reversal: This function takes a string as input and returns the reverse 
+of the string without using the reverse() method
+ 
+public static String reverseWord(String word){
+        StringBuilder str = new StringBuilder();
+        for (int i = word.length()-1; i >= 0 ; i--) {
+            str.append(word.charAt(i));
+        }
+        return str.toString();
+    }
+
+1. At first we create a new variable of type StringBuilder;
+2. Then we represent the source string as an arraz of characters
+3. The for loop iterates over the array from last element to first
+and writes every characters in our new variable
+4. After the entire array has been traversed we convert the resulting 
+value to a string and return it
+
