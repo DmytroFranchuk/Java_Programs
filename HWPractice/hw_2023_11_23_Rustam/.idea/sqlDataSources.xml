@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="352f42f1-400e-4416-9908-e3078566047e" name="testdb Mapping">
+      <data-sources db="c16357c6-c0dc-46ac-9f36-5da991df9f5b" ddl="ffeb3e23-3a0f-4d64-a3ba-1d2391a1c2e4" />
+    </mapping>
+    <mapping uuid="c28b712c-8881-4af2-976a-fff966ba2a13" name="testdb Mapping [2]">
+      <data-sources db="eb99e573-2924-4f1f-a23d-ae297250a411" ddl="b9e577a2-3435-4079-87cd-14b07cc5e840" />
+    </mapping>
+    <mapping uuid="c11ffe2c-a13f-4d78-983f-6fb05431008a" name="testdb Mapping [3]">
+      <data-sources db="8a82cd36-e8c0-4a3d-b9f2-3399f48444c3" ddl="6ce41231-dc2d-4a35-a8b4-30e2c495a089" />
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="6ce41231-dc2d-4a35-a8b4-30e2c495a089" />
+          <option name="name" value="testdb (DDL)" />
+          <option name="dbmsName" value="H2" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/src/main/resources/data.sql" />
+            </array>
+          </option>
+          <option name="outLayout" value="File per object by schema.groovy" />
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+    <bean id="orderA" class="org.example.task1.Order">
+        <constructor-arg value="1" />
+        <constructor-arg value="ASUS ROG Strix GeForce RTX 4090 OC" />
+        <constructor-arg value="2389.00" />
+    </bean>
+
+    <bean id="orderB" class="org.example.task1.Order">
+        <constructor-arg value="2" />
+        <constructor-arg value="ASUS ROG Strix GeForce RTX 4080 OC" />
+        <constructor-arg value="1639.40" />
+    </bean>
+
+    <bean id="paymentGateway" class="org.example.task1.PaymentGateway">
+        <constructor-arg ref="orderB" />
+        <property name="order" ref="orderB"/>
+    </bean>
+
+</beans>
