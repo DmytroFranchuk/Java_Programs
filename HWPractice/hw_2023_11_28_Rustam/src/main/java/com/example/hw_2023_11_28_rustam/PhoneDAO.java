@@ -5,22 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PhoneDAO {
+    private Connection connection;
+    private PreparedStatement preparedStatement;
     private static final String URL = "jdbc:h2:mem:testdb";
     private static final String USERNAME = "sa";
     private static final String PASSWORD = "password";
 
     private Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(URL, USERNAME, PASSWORD);
-    }
-
-    public void closeConnection(Connection connection, Statement statement, ResultSet resultSet) {
-        try {
-            if (resultSet != null) resultSet.close();
-            if (statement != null) statement.close();
-            if (connection != null) connection.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        return DriverManager.getConnection(URL);
     }
 
     public boolean isTableExists(Connection connection, String tableName) throws SQLException {
@@ -30,13 +22,33 @@ public class PhoneDAO {
         }
     }
 
+    public void createTableIfNotExists() {
+        try {
+            Connection connection = getConnection();
+            String sql = "CREATE TABLE IF NOT EXISTS PHONES (" +
+                    "id INT AUTO_INCREMENT PRIMARY KEY," +
+                    "brand VARCHAR(255)," +
+                    "model VARCHAR(255)," +
+                    "price DOUBLE" +
+                    ")";
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.execute();
+            if (isTableExists(connection, "PHONES")) {
+                this.connection = connection;
+                this.preparedStatement = preparedStatement;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     public Phone findEntityById(int id) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
         Phone phone = null;
         try {
-            connection = getConnection();
+            connection = DriverManager.getConnection(URL);
 
             String sql = "SELECT * FROM phones WHERE id=?";
             preparedStatement = connection.prepareStatement(sql);
@@ -53,7 +65,7 @@ public class PhoneDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            closeConnection(connection, preparedStatement, resultSet);
+            closeConnection(resultSet);
         }
         return phone;
     }
@@ -64,15 +76,11 @@ public class PhoneDAO {
         Statement statement = null;
         ResultSet resultSet = null;
         try {
-            Class.forName("org.h2.Driver");
-            connection = DriverManager.getConnection(URL);
-//            DatabaseMetaData metaData = connection.getMetaData();
-//            System.out.println("Connected to database as user: " + metaData.getUserName() +
-//                    " " + metaData.getConnection() + " " + metaData.getURL());
+//            Class.forName("org.h2.Driver");
+            connection = getConnection();
             statement = connection.createStatement();
             String sql = "SELECT id, brand, model, price FROM PHONES";
             resultSet = statement.executeQuery(sql);
-//            System.out.println("Код телефона: " + sql);
             while (resultSet.next()) {
                 Phone phone = new Phone(
                         resultSet.getInt("id"),
@@ -80,13 +88,12 @@ public class PhoneDAO {
                         resultSet.getString("model"),
                         resultSet.getDouble("price")
                 );
-                System.out.println("Код телефона: " + phone);
                 phones.add(phone);
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            closeConnection(connection, statement, resultSet);
+            closeConnection(resultSet);
         }
         return phones;
     }
@@ -105,7 +112,7 @@ public class PhoneDAO {
             e.printStackTrace();
             return false;
         } finally {
-            closeConnection(connection, preparedStatement, null);
+            closeConnection(null);
         }
     }
 
@@ -123,20 +130,20 @@ public class PhoneDAO {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         try {
-            connection = DriverManager.getConnection("jdbc:h2:mem:testdb");
+            connection = getConnection();
             String sql = "INSERT INTO PHONES (id, brand, model, price) VALUES (?, ?, ?, ?)";
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setInt(1, phone.getId());
-            preparedStatement.setString(1, phone.getBrand());
-            preparedStatement.setString(2, phone.getModel());
-            preparedStatement.setDouble(3, phone.getPrice());
+            preparedStatement.setString(2, phone.getBrand());
+            preparedStatement.setString(3, phone.getModel());
+            preparedStatement.setDouble(4, phone.getPrice());
             int rowsAffected = preparedStatement.executeUpdate();
             return rowsAffected > 0;
         } catch (SQLException e) {
             e.printStackTrace();
             return false;
         } finally {
-            closeConnection(connection, preparedStatement, null);
+            closeConnection(null);
         }
     }
 
@@ -148,7 +155,7 @@ public class PhoneDAO {
         PreparedStatement preparedStatement = null;
         try {
             connection = getConnection();
-            String sql = "UPDATE phones SET brand=?, model=?, price=? WHERE id=?";
+            String sql = "UPDATE PHONES SET brand=?, model=?, price=? WHERE id=?";
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, phone.getBrand());
             preparedStatement.setString(2, phone.getModel());
@@ -161,37 +168,18 @@ public class PhoneDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            closeConnection(connection, preparedStatement, null);
+            closeConnection(null);
         }
         return null;
     }
 
-    public void createTableIfNotExists() {
-        Connection connection = null;
-        PreparedStatement preparedStatement = null;
-
+    public void closeConnection(ResultSet resultSet) {
         try {
-            connection = getConnection();
-
-            // SQL-запрос для создания таблицы
-            String sql = "CREATE TABLE IF NOT EXISTS PHONES (" +
-                    "id INT AUTO_INCREMENT PRIMARY KEY," +
-                    "brand VARCHAR(255)," +
-                    "model VARCHAR(255)," +
-                    "price DOUBLE" +
-                    ")";
-
-            preparedStatement = connection.prepareStatement(sql);
-
-            // Выполнение SQL-запроса
-            preparedStatement.execute();
-
-            System.out.println("Table PHONES created successfully.");
-
+            if (resultSet != null) resultSet.close();
+            if (preparedStatement != null) preparedStatement.close();
+            if (connection != null) connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
-        } finally {
-            closeConnection(connection, preparedStatement, null);
         }
     }
 }
