@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="smsNotificationService" class="org.zadanie.task1_LoadingBeansFromXml.entity.SmsNotificationServiceImpl">
+    </bean>
+    <bean id="emailNotificationService" class="org.zadanie.task1_LoadingBeansFromXml.entity.EmailNotificationServiceImpl">
+    </bean>
+    <bean id="notificationService" class="org.zadanie.task1_LoadingBeansFromXml.service.NotificationService">
+        <constructor-arg ref="smsNotificationService"/>
+        <constructor-arg ref="emailNotificationService"/>
+    </bean>
+
+
+
+</beans>
