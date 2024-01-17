@@ -18,12 +18,12 @@ public class Book implements Comparable<Book>{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Book book = (Book) o;
-        return Double.compare(price, book.price) == 0 && isPresent == book.isPresent && Objects.equals(name, book.name);
+        return Double.compare(price, book.price) == 0 && Objects.equals(name, book.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, price, isPresent);
+        return Objects.hash(name, price);
     }
 
     @Override

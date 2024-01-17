@@ -16,6 +16,7 @@ import java.util.stream.Collectors;
 //(Набор букв 1 группы: s, t, u, d, e, n, t; 2 группы: a, c, t; 3 группы: d, o, g; 4 группы: f, l, o, w)
 //Группы слов функция возвращает в виде List>, либо сразу печатает в консоль.
 public class WordGrouping {
+    private static int groupNumber = 1;
     public static void main(String[] args) {
         String words[] = {"student", "students", "dog", "god", "cat", "act", "flow", "wolf", "tact"};
         Map<String, List<String>> groupedByUniqueChars = groupWordsByUniqueChars(words);
@@ -37,8 +38,9 @@ public class WordGrouping {
     }
 
     public static void printGroupedWords(Map<String, List<String>> groupedWords) {
-        groupedWords.forEach((key, value) -> {
-            System.out.println(String.join(", ", value));
-        });
+        groupedWords.entrySet().stream()
+                .map(entry -> "Группа " + groupNumber++ + ": " + String.join(", ", entry.getValue()))
+                .forEach(System.out::println);
     }
+
 }
