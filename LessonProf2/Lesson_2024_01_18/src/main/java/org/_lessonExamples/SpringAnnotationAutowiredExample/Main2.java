@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main2 {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new
-                ClassPathXmlApplicationContext("SpringAnnotationAutowiredExample.xml");
+                ClassPathXmlApplicationContext("beans/SpringAnnotationAutowiredExample.xml");
         ThirdComponent tc = context.getBean("thirdComponent", ThirdComponent.class);
         System.out.println(tc);
         context.close();

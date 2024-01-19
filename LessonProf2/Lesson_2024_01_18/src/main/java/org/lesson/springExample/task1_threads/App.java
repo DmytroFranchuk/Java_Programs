@@ -11,7 +11,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 // Затем измените scope на prototype и выполните программу повторно. Что изменилось?
 public class App {
     public static void main(String[] args) throws InterruptedException {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ClassPathXmlApplicationContext context = new
+                ClassPathXmlApplicationContext("beans/applicationContext.xml");
         ImmediateThread immediateThread = context.getBean("immediateThread", ImmediateThread.class);
         System.out.println(immediateThread.getId());
         immediateThread.join();

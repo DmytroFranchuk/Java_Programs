@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--    1 Create bean     -->
+    <!-- Создание бина с конструктором: Этот код создает бин с идентификатором "firstBean"
+    и классом "org.lesson.expBean.pojo.FirstBean". Бин использует конструктор класса "FirstBean",
+    принимающий один аргумент типа String.
+    Значение "Mr. First" передается этому аргументу через конструктор-аргумент. -->
+<!--    <bean id="firstBean" class="org.lesson.expBean.pojo.FirstBean" scope="singleton">-->
+<!--        <constructor-arg value="Бин класса FirstBean Mr. First"/>-->
+<!--    </bean>-->
+
+    <!--    2 Create bean with constructor injection    -->
+    <!-- Создание бина с конструктором без аргументов: Этот код создает бин с идентификатором
+    "businessLogic" и классом "org.lesson.expBean.pojo.BusinessLogicImpl". В данном случае
+    используется конструктор без аргументов. -->
+    <bean id="terminator" class="org.springExample.task2_Terminator.pojo.Terminator" scope="prototype"/>
+
+    <bean id="johnConnor" class="org.springExample.task2_Terminator.pojo.JohnConnor" />
+
+
+
+
+</beans>

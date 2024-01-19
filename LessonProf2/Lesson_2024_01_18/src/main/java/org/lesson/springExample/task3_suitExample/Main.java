@@ -5,7 +5,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("newBean.xml");
+        ClassPathXmlApplicationContext context = new
+                ClassPathXmlApplicationContext("beans/newBean.xml");
         Suit fc = context.getBean("suit", Suit.class);
         Suit fc2 = context.getBean("suit", Suit.class);
         fc.getJacket().wearJacket();

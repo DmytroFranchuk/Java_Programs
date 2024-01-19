@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--    1 Create bean     -->
+    <!-- Создание бина с конструктором: Этот код создает бин с идентификатором "firstBean"
+    и классом "org.lesson.expBean.pojo.FirstBean". Бин использует конструктор класса "FirstBean",
+    принимающий один аргумент типа String.
+    Значение "Mr. First" передается этому аргументу через конструктор-аргумент. -->
+<!--    <bean id="firstBean" class="org.lesson.expBean.pojo.FirstBean" scope="singleton">-->
+<!--        <constructor-arg value="Бин класса FirstBean Mr. First"/>-->
+<!--    </bean>-->
+
+    <!--    2 Create bean with constructor injection    -->
+    <!-- Создание бина с конструктором без аргументов: Этот код создает бин с идентификатором
+    "businessLogic" и классом "org.lesson.expBean.pojo.BusinessLogicImpl". В данном случае
+    используется конструктор без аргументов. -->
+<!--    <bean id="businessLogic" class="org.lesson.expBean.pojo.BusinessLogicImpl"/>-->
+
+    <!-- Создание бина с конструктором и сеттером: Этот код создает бин с идентификатором
+    "secondBean" и классом "org.lesson.expBean.pojo.SecondBean". Бин использует конструктор
+    класса "SecondBean", принимающий два аргумента: String и экземпляр класса "BusinessLogicImpl",
+    который ранее был создан и зарегистрирован с идентификатором "businessLogic".
+    -->
+    <bean id="worldBean" class="org.springExample.task1_World.World"
+          init-method="printСivilization"
+          destroy-method="printFinalWorld"
+    >
+        <constructor-arg value="worldBean"
+
+        />
+<!--        <constructor-arg ref="businessLogic"/>-->
+    </bean>
+
+    <!--    3 Create bean with setter injection    -->
+    <!-- Создание бина с использованием сеттеров: Этот код создает бин с идентификатором
+    "thirdBean" и классом "org.lesson.expBean.pojo.ThirdBean". Бин использует сеттеры класса
+    "ThirdBean" для внедрения зависимостей. Свойства "firstBean" и "businessLogic"
+    устанавливаются с использованием значений, которые ранее были созданы и зарегистрированы с
+    идентификаторами "firstBean" и "businessLogic" соответственно.
+     -->
+<!--    <bean id="thirdBean" class="org.lesson.expBean.pojo.ThirdBean" scope="prototype">-->
+<!--        <property name="firstBean" ref="firstBean"/>-->
+<!--        <property name="businessLogic" ref="businessLogic"/>-->
+<!--    </bean>-->
+
+    <!-- Общее объяснение:
+    firstBean: Экземпляр "FirstBean" с именем "Mr. First".
+    businessLogic: Экземпляр "BusinessLogicImpl" без параметров.
+    secondBean: Экземпляр "SecondBean" с именем "Mr. Second" и зависимостью от "businessLogic".
+    thirdBean: Экземпляр "ThirdBean" с установленными свойствами "firstBean" и "businessLogic"
+    (внедрение через сеттеры), и имеющий область видимости "prototype".
+
+    Этот атрибут scope определяет область видимости (scope) для вашего бина. В данном случае, значение prototype
+    означает, что Spring будет создавать новый экземпляр бина при каждом запросе на его получение. Другими словами,
+    каждый раз, когда ваш код запрашивает бин thirdBean, Spring создаёт новый объект ThirdBean.
+
+    Существуют и другие варианты значения атрибута scope:
+    singleton (по умолчанию): Spring создаёт и хранит только один экземпляр бина, возвращая его при каждом запросе.
+    request: Создаёт новый экземпляр бина для каждого HTTP-запроса. Действует только при использовании веб-приложения с поддержкой HTTP.
+    session: Создаёт новый экземпляр бина для каждой новой HTTP-сессии. Также применимо только к веб-приложениям.
+    globalSession: Подобно session, но работает с глобальной HTTP-сессией (например, в портлетах).
+    application: Создаёт один экземпляр бина на весь жизненный цикл приложения.
+    -->
+
+</beans>

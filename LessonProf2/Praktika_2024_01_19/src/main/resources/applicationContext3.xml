@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+    <!-- Создание бина с конструктором: Этот код создает бин с идентификатором "firstBean"
+    и классом "org.lesson.expBean.pojo.FirstBean". Бин использует конструктор класса "FirstBean",
+    принимающий один аргумент типа String.
+    Значение "Mr. First" передается этому аргументу через конструктор-аргумент. -->
+
+
+<!--    <bean id="firstBean" class="org.lesson.expBean.pojo.FirstBean" scope="singleton">-->
+<!--        <constructor-arg value="Бин класса FirstBean Mr. First"/>-->
+<!--    </bean>-->
+
+
+<!--    <bean id="terminator" class="org.springExample.task2_Terminator.pojo.Terminator" scope="prototype"/>-->
+
+<!--    <bean id="johnConnor" class="org.springExample.task2_Terminator.pojo.JohnConnor"/>-->
+    <!-- Бин фабрики транспортных средств -->
+    <bean id="transportFactory" class="org.springExample.task3_Transport.TransportFactory">
+    </bean>
+
+    <!-- Бин для создания Car -->
+    <bean id="car" factory-bean="transportFactory" factory-method="createTransport">
+        <constructor-arg value="Car"/>
+    </bean>
+
+    <!-- Бин для создания Bicycle -->
+    <bean id="bicycle" factory-bean="transportFactory" factory-method="createTransport">
+        <constructor-arg value="Bicycle"/>
+    </bean>
+
+    <!-- Бин для создания Motorcycle -->
+    <bean id="motorcycle" factory-bean="transportFactory" factory-method="createTransport">
+        <constructor-arg value="Motorcycle"/>
+    </bean>
+
+
+
+
+</beans>
