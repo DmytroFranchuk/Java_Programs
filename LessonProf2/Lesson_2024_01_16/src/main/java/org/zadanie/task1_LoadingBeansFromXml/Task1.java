@@ -1,12 +1,17 @@
 package org.zadanie.task1_LoadingBeansFromXml;
 
+import org.springframework.beans.factory.config.BeanDefinition;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.zadanie.task1_LoadingBeansFromXml.entity.Customer;
 import org.zadanie.task1_LoadingBeansFromXml.service.NotificationService;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
+import java.util.Arrays;
 import java.util.List;
 
 public class Task1 {
@@ -28,7 +33,7 @@ public class Task1 {
         System.out.println(customer2);
         System.out.println();
 
-        ApplicationContext ctx1 = new ClassPathXmlApplicationContext("beans2.xml");
+        ConfigurableApplicationContext ctx1 = new ClassPathXmlApplicationContext("beans2.xml");
         NotificationService notificationService = ctx1.getBean(NotificationService.class);
         customer1.setDateOfLastNotification(LocalDate.of(2023, 12, 17));
         customer2.setDateOfLastNotification(LocalDate.of(2023, 12, 17));
@@ -40,6 +45,16 @@ public class Task1 {
                 if (customer.getEmail() != null) notificationService.getEmailNotificationService().sendSpam(customer);
                 else notificationService.getSmsNotificationService().sendSpam(customer);
                 customer.setDateOfLastNotification(LocalDate.now());
+            }
+        }
+
+        // Получить информацию о зависимостях (связях) между бинами
+        System.out.println();
+        String[] dependencyNames = ctx1.getBeanDefinitionNames();
+        for (String beanName : dependencyNames) {
+            BeanDefinition beanDefinition = ctx1.getBeanFactory().getBeanDefinition(beanName);
+            if (beanDefinition.getDependsOn() != null) {
+                System.out.println("Bean: " + beanName + ", Dependencies: " + Arrays.asList(beanDefinition.getDependsOn()));
             }
         }
     }

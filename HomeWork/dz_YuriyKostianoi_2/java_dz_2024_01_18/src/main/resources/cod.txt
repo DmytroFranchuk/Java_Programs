@@ -1,0 +1,117 @@
+1-й вариант
+==========================================================================
+
+@Component
+public class Car {
+    private Engine engine;
+
+    @Autowired
+    @Qualifier("gasEngine")
+    private Engine gasEngine;
+
+    @Autowired
+    @Qualifier("electricEngine")
+    private Engine electricEngine;
+    private static final int DISTANCE_THRESHOLD = 200;
+
+    public void initializeEngine(int distance) {
+        this.engine = (distance > DISTANCE_THRESHOLD) ? gasEngine : electricEngine;
+    }
+
+    public Engine getEngine() {
+        return engine;
+    }
+}
+
+2-й вариант
+==========================================================================
+@Component
+public class Car {
+    private Engine engine;
+
+    @Autowired
+    @Qualifier("gasEngine")
+    private Engine gasEngine;
+
+    @Autowired
+    @Qualifier("electricEngine")
+    private Engine electricEngine;
+
+    @Autowired
+    private Car(@Qualifier("electricEngine") Engine engine) {
+        this.engine = engine;
+    }
+
+    public void initializeEngine(Integer length) {
+        if (length > 200) {
+            this.engine = gasEngine;
+        } else {
+            this.engine = electricEngine;
+        }
+    }
+
+    public Engine getEngine() {
+        return engine;
+    }
+}
+
+3-й вариант
+==========================================================================
+@Component
+public class Car {
+    private Engine engine;
+
+    @Autowired
+    private EngineService engineService;
+
+    public void initializeEngine(int distance) {
+        this.engine = engineService.initializeEngine(distance);
+    }
+
+    public Engine getEngine() {
+        return engine;
+    }
+}
+=====================================
+@Component
+public class EngineService {
+    @Autowired
+    @Qualifier("gasEngine")
+    private Engine gasEngine;
+
+    @Autowired
+    @Qualifier("electricEngine")
+    private Engine electricEngine;
+
+    private static final int DISTANCE_THRESHOLD = 200;
+
+    public Engine initializeEngine(int distance) {
+        return  (distance > DISTANCE_THRESHOLD) ? gasEngine : electricEngine;
+    }
+}
+=====================================
+public class Solution1 {
+    public static void main( String[] args ) {
+        var context = new ClassPathXmlApplicationContext("appContext.xml");
+        var car = context.getBean(Car.class);
+
+        car.initializeEngine(250);
+        car.getEngine().start();
+        car.getEngine().stop();
+
+        car.initializeEngine(100);
+        car.getEngine().start();
+        car.getEngine().stop();
+
+        String[] beanNames = context.getBeanDefinitionNames();
+        int number = 0;
+        for (String beanName : beanNames) {
+            Object bean = context.getBean(beanName);
+            System.out.println("Bean_" + ++number + ": " + beanName + ", Type: " + bean.getClass().getName());
+        }
+    }
+}
+
+=====================================
+
+

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43cf8a44-a917-4020-9238-0e05fcd15ba3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Algorithms/hw_10_01_2024/src/main/java/org/example/task3/WordGrouping1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithms/hw_10_01_2024/src/main/java/org/example/task3/WordGrouping2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/solution/task1/Impl/ElectricEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/solution/task1/Impl/GasEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/solution/task1/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/solution/task1/interfaces/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/solution/task1/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/solution/task1/service/EngineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/solution/task2/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/solution/task2/MessageGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/solution/task2/MessageSenderScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/solution/task2/SmsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/solution/task2/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/appContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/appContext1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cod.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/solution/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_16/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringAnnotationAutowiredExample/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringAnnotationAutowiredExample/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringAnnotationAutowiredExample/pojo/FirstComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringAnnotationAutowiredExample/pojo/SecondComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringAnnotationAutowiredExample/pojo/ThirdComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringAnnotationComponentExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringAnnotationComponentExample/pojo/FirstComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringAnnotationScopeExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringAnnotationScopeExample/pojo/FirstComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringAnnotationScopeExample/pojo/SecondComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringXmlBeanLifecycleExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringXmlBeanLifecycleExample/logger/LogLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringXmlBeanLifecycleExample/logger/SingletonLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/_lessonExamples/SpringXmlFactoryMethodExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task1_threads/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task1_threads/ImmediateThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task1_threads/task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task2_sprintPlantExample/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task2_sprintPlantExample/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task3_suitExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task3_suitExample/entity/Suit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task3_suitExample/entity/impl/BowTie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task3_suitExample/entity/impl/JacketImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task3_suitExample/entity/impl/ShirtImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task3_suitExample/entity/impl/TieImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task3_suitExample/entity/impl/TrousersImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task3_suitExample/entity/interfaces/Jacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task3_suitExample/entity/interfaces/Shirt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task3_suitExample/entity/interfaces/Tie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task3_suitExample/entity/interfaces/Trousers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/lesson/springExample/task3_suitExample/task3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/resources/SpringAnnotationAutowiredExample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/resources/SpringAnnotationComponentExample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/resources/SpringAnnotationScopeExample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/resources/SpringXmlBeanLifecycleExample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/resources/SpringXmlFactoryMethodExample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/resources/bean1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/resources/newBean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_16/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_16/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_16/src/main/java/org/zadanie/task1_LoadingBeansFromXml/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_16/src/main/java/org/zadanie/task1_LoadingBeansFromXml/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_16/src/main/resources/beans2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_16/src/main/resources/beans2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LessonProf2/Lesson_2024_01_18/src/main/java/org/springExample/App.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2b8oKazE8nEIuVsJZoyHxtc24tT" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Java/2/Java_Programs/HomeWork/dz_YuriyKostianoi_2/java_dz_2024_01_18/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "application.passwordSafe",
+    "spring.configuration.checksum": "0e1a8f86cb0f668d08f224ec800f94d2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.solution.task1.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\2\Java_Programs\HomeWork\dz_YuriyKostianoi_2\java_dz_2024_01_18\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Solution2">
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.solution.task1.Solution1" />
+      <module name="java_dz_2024_01_18" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.solution.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.solution.task2.Solution2" />
+      <module name="java_dz_2024_01_18" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.solution.task2.senders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Solution1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43cf8a44-a917-4020-9238-0e05fcd15ba3" name="Changes" comment="" />
+      <created>1705606006320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705606006320</updated>
+      <workItem from="1705606007421" duration="371000" />
+      <workItem from="1705606400360" duration="224000" />
+      <workItem from="1705606633347" duration="19295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

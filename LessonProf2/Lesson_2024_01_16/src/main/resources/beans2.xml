@@ -8,7 +8,8 @@
     </bean>
     <bean id="emailNotificationService" class="org.zadanie.task1_LoadingBeansFromXml.entity.EmailNotificationServiceImpl">
     </bean>
-    <bean id="notificationService" class="org.zadanie.task1_LoadingBeansFromXml.service.NotificationService">
+    <bean id="notificationService" class="org.zadanie.task1_LoadingBeansFromXml.service.NotificationService"
+          depends-on="smsNotificationService,emailNotificationService">
         <constructor-arg ref="smsNotificationService"/>
         <constructor-arg ref="emailNotificationService"/>
     </bean>
