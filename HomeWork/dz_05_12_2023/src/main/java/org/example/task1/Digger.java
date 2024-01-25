@@ -1,7 +1,5 @@
 package org.example.task1;
 
-import java.time.LocalDateTime;
-
 public class Digger extends Thread {
     private Trench trench;
 
