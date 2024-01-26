@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 import org.task1.entities.Task;
 import org.task1.entities.service.NotificationService;
 
-@Component("email")
+//@Component("email")
 public class EmailNotificationService implements NotificationService {
 
     @Override

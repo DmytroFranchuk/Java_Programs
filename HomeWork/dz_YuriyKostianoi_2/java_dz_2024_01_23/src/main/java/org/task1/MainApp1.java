@@ -35,8 +35,8 @@ public class MainApp1 {
         taskList.getTasks().forEach(System.out::println);
 
 //        taskList.sendNotifications(context.getBean(NotificationService.class));
-//        taskList.sendNotifications(context.getBean("push", NotificationService.class));
-        taskList.sendNotifications(context.getBean("email", NotificationService.class));
+        taskList.sendNotifications(context.getBean("push", NotificationService.class));
+//        taskList.sendNotifications(context.getBean("email", NotificationService.class));
 
 
         System.out.println();
