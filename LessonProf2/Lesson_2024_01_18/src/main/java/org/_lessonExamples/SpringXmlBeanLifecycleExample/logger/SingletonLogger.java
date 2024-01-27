@@ -56,7 +56,9 @@ public class SingletonLogger implements Closeable {
     @Override
     public void close() {
         System.out.print("Closing the logger ");
-        loading();
+//        loading();
+        showProgressBar();
+
         try {
             writer.close();
         } catch (IOException e) {
@@ -67,7 +69,8 @@ public class SingletonLogger implements Closeable {
     public void open() {
         this.commonLevel = LogLevel.DEBUG;
         System.out.print("Opening necessary connections: ");
-        loading();
+//        loading1();
+        showProgressBar();
     }
 
     private void loading() {
@@ -83,4 +86,38 @@ public class SingletonLogger implements Closeable {
         }
         System.out.println("100%");
     }
+
+    private void loading1() {
+        System.out.print("Loading: ");
+        for (int i = 0; i <= 100; i++) {
+            System.out.print(i + "%");
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.print("\b\b\b"); // Удаляем три последних символа (процент, цифра и пробел)
+        }
+        System.out.println("100%");
+    }
+
+    public void showProgressBar() {
+        final int total = 100;
+        System.out.print("Loading: ");
+
+        for (int i = 0; i <= total; i++, sleep(50))
+            System.out.printf("\r[%s] %d%%", "=".repeat(i / 2), i);
+
+//        System.out.println("\nLoading complete!");
+        System.out.println();
+    }
+
+    private void sleep(long milliseconds) {
+        try {
+            Thread.sleep(milliseconds);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

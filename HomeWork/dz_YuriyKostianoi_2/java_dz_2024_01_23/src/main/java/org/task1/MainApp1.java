@@ -34,17 +34,8 @@ public class MainApp1 {
         taskList.getTasks().sort(Comparator.comparing(Task::getPriority).reversed());
         taskList.getTasks().forEach(System.out::println);
 
-//        taskList.sendNotifications(context.getBean(NotificationService.class));
         taskList.sendNotifications(context.getBean("push", NotificationService.class));
 //        taskList.sendNotifications(context.getBean("email", NotificationService.class));
-
-
-        System.out.println();
-        String[] beanNames = context.getBeanDefinitionNames();
-        int number = 0;
-        for (String beanName : beanNames) {
-            Object bean = context.getBean(beanName);
-            System.out.println("Bean " + ++number + ": " + beanName);
-        }
+//        taskList.sendNotifications(context.getBean(NotificationService.class));
     }
 }

@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 import org.task1.entities.Task;
 import org.task1.entities.service.NotificationService;
 
-//@Component("sms")
-//@Primary
+@Component("sms")
+@Primary
 public class SmsNotificationService implements NotificationService {
 
     @Override
