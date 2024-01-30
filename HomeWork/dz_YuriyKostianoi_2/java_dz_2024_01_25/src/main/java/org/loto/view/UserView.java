@@ -35,13 +35,9 @@ public class UserView extends JFrame {
         getBarrel = addButton("Достать из мешка", 25, 195, 150, 46);
         mixAgain = addButton("Сдать заново", 25, 260, 150, 46);
         addCardLabel();
-
         cardPlayer1 = controller.returnCard(1);
         cardPlayer2 = controller.returnCard(2);
         retake(cardPlayer1, cardPlayer2);
-
-//        controller.addBagOfKegs();
-
 
         mixAgain.addActionListener(e -> {
             if (mixAgain.isEnabled()) {
@@ -49,7 +45,6 @@ public class UserView extends JFrame {
                 cardPlayer1 = controller.getExchangeCard(1);
                 cardPlayer2 = controller.getExchangeCard(2);
                 retake(cardPlayer1, cardPlayer2);
-//                controller.addBagOfKegs();
                 mixAgain.setEnabled(true);
                 getBarrel.setEnabled(true);
             }
@@ -60,7 +55,6 @@ public class UserView extends JFrame {
             if (currentBarrel > 0)
                 outputGameResults.setText(outputGameResults.getText() + " " + count++ + "[" + currentBarrel + "] ");
             else getBarrel.setEnabled(false);
-
             if (controller.checkOutputResult(1, currentBarrel))
                 outputPlayer1.setText(outputPlayer1.getText() + " " + currentBarrel);
             if (controller.checkOutputResult(2, currentBarrel))
@@ -69,31 +63,9 @@ public class UserView extends JFrame {
             if (winner > 0) {
                 if (winner == 1 || winner == 3) outputPlayer1.setText(outputPlayer1.getText() + " ПОБЕДА");
                 if (winner == 2 || winner == 3) outputPlayer2.setText(outputPlayer2.getText() + " ПОБЕДА");
+                outputGameResults.setText(outputGameResults.getText() + "< КОНЕЦ ИГРЫ !!! >");
                 getBarrel.setEnabled(false);
             }
-
-
-
-//            try {
-////                System.out.println(cardPlayer1[2][3].intValue());
-//
-//                Thread.sleep(200);
-//            } catch (InterruptedException ex) {
-//                throw new RuntimeException(ex);
-//            }
-
-//            controller.generateBarrelNumber();
-
-
-
-
-
-//            if (count <= 90 && isGame) {
-//                outputGameResults.setText(outputGameResults.getText() + " " + count++ + "[" + controller.generateBarrelNumber() + "] ");
-//                str = outputGameResults.getText();
-//            } else {
-//                outputGameResults.setText(str + "< КОНЕЦ ИГРЫ !!! >");
-//            }
         });
 
     }
