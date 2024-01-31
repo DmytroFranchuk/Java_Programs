@@ -1,115 +1,22 @@
+ =========================================
+ == 0:0 0:1 0:2 0:3 0:4 0:5 0:6 0:7 0:8 ==
+ == 1:0 1:1 1:2 1:3 1:4 1:5 1:6 1:7 1:8 ==
+ == 2:0 2:1 2:2 2:3 2:4 2:5 2:6 2:7 2:8 ==
+ =========================================
+
+
+
+ =========================================
+ == 0:0 0:1 0:2 0:3 0:4 0:5 0:6 0:7 0:8 ==
+ == 1:0 1:1 1:2 1:3 1:4 1:5 1:6 1:7 1:8 ==
+ == 2:0 2:1 2:2 2:3 2:4 2:5 2:6 2:7 2:8 ==
+ =========================================
+
+
+
+
+
 //                    System.out.println(Arrays.deepToString(temp));
-
-
-
-Map<Integer, List<Integer>> summary = new HashMap<>();
-        List<Integer> resultFromSet1 = new ArrayList<>(set1);
-        set3.addAll(set1);
-
-        int n = resultFromSet1.size();
-        for (int i = 0; i < 3; i++) {
-            List<Integer> numbersForRow = new ArrayList<>();
-            while (numbersForRow.size() < 5) {
-                int position = random.nextInt(0, n);
-                int value = resultFromSet1.get(position);
-                int digit = value / 10;
-                boolean isDigit = false;
-                for (Integer elem: numbersForRow) {
-                    if (digit == (elem / 10)) {
-                        isDigit = true;
-                        break;
-                    }
-                }
-                if (!isDigit) {
-                    numbersForRow.add(resultFromSet1.get(position));
-                    resultFromSet1.remove(position);
-                    n--;
-                    if (numbersForRow.size() == 5) {
-                        summary.put(i, numbersForRow);
-                        numbersForRow.clear();
-                    }
-                }
-            }
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // Здесь расставить по карточке из set1 в Integer[][] cardNum = new Integer[3][9];
-        // 0:0 0:1 0:2 0:3 0:4 0:5 0:6 0:7 0:8
-        // 1:0 1:1 1:2 1:3 1:4 1:5 1:6 1:7 1:8
-        // 2:0 2:1 2:2 2:3 2:4 2:5 2:6 2:7 2:8
-
-
-
-
-
-        // Случайным образом выбрать 3 раза по 5 элементов из set1(15 элементов) в Map<Integer, List<Integer>> map1 = new HashMap<>();
-
-        // сгенерированные 15 чисел карты - set1: [3, 4, 16, 23, 34, 40, 44, 50, 57, 68, 69, 74, 77, 81, 83]
-        // деление на 3 группы по 5 элементов, так чтобы в каждую группу входил только один разряд десятков числа
-
-        Map<Integer, List<Integer>> summary = new HashMap<>();
-        List<Integer> resultFromSet1 = new ArrayList<>(set1);
-
-        int n = resultFromSet1.size();
-        set3.addAll(set1);
-        for (int i = 0; i < 3; i++) {
-            List<Integer> numbersForRow = new ArrayList<>();
-            while (numbersForRow.size() < 5 && !resultFromSet1.isEmpty()) {  // последние 5 все перекинуть в мапу
-                // выбираю число случайным образом из тех 15
-
-                int position = ThreadLocalRandom.current().nextInt(0, n);
-                int number = resultFromSet1.get(position);
-                if (numbersForRow.stream().noneMatch(num -> num / 10 == number / 10)) {
-                    numbersForRow.add(number);
-                    resultFromSet1.remove(position);
-                    n--;
-                }
-                summary.put(i, numbersForRow);
-            }
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
       drawButton.addActionListener(new ActionListener() {
@@ -130,22 +37,3 @@ Map<Integer, List<Integer>> summary = new HashMap<>();
 
 
             //        label2.setText(label2.getText() + 56);
-
-                public void drawNumbers() {
-                }
-
-
-                       Integer[][] cardNum = new Integer[3][9];
-                        boolean stop = false;
-                        int count = 1;
-                        while (!stop) {
-                            Set<Integer> set = new TreeSet<>();
-                            if (set.size() != 15) {
-                                set.add(ThreadLocalRandom.current().nextInt(1, 91));
-                            } else {
-                                stop = true;
-                                System.out.println(set.toArray().toString());
-                            }
-                            System.out.println(count++);
-                        }
-                        return cardNum;

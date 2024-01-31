@@ -16,8 +16,8 @@ public class UserView extends JFrame {
 
 
     private List<CardPanel> playerCards;
-    private Integer[][] cardPlayer1;
-    private Integer[][] cardPlayer2;
+    private int[][] cardPlayer1 = new int[3][9];
+    private int[][] cardPlayer2 = new int[3][9];
     private CardLabel outputPlayer1;
     private CardLabel outputPlayer2;
     private CardLabel outputGameResults;
@@ -40,14 +40,11 @@ public class UserView extends JFrame {
         retake(cardPlayer1, cardPlayer2);
 
         mixAgain.addActionListener(e -> {
-            if (mixAgain.isEnabled()) {
-                mixAgain.setEnabled(false);
+//                mixAgain.setEnabled(false);
                 cardPlayer1 = controller.getExchangeCard(1);
                 cardPlayer2 = controller.getExchangeCard(2);
                 retake(cardPlayer1, cardPlayer2);
-                mixAgain.setEnabled(true);
                 getBarrel.setEnabled(true);
-            }
         });
 
         getBarrel.addActionListener(e -> {
@@ -55,16 +52,34 @@ public class UserView extends JFrame {
             if (currentBarrel > 0)
                 outputGameResults.setText(outputGameResults.getText() + " " + count++ + "[" + currentBarrel + "] ");
             else getBarrel.setEnabled(false);
-            if (controller.checkOutputResult(1, currentBarrel))
+            if (controller.checkOutputResult(1, currentBarrel)) {
                 outputPlayer1.setText(outputPlayer1.getText() + " " + currentBarrel);
-            if (controller.checkOutputResult(2, currentBarrel))
+                for (int i = 0; i < cardPlayer1.length; i++) {
+                    for (int j = 0; j < cardPlayer1[i].length; j++) {
+                        if (currentBarrel == cardPlayer1[i][j])
+                            playerCards.get(0).setButtonEnabled(i, j,false);
+                    }
+                }
+
+
+            }
+            if (controller.checkOutputResult(2, currentBarrel)) {
                 outputPlayer2.setText(outputPlayer2.getText() + " " + currentBarrel);
+                for (int i = 0; i < cardPlayer2.length; i++) {
+                    for (int j = 0; j < cardPlayer2[i].length; j++) {
+                        if (currentBarrel == cardPlayer2[i][j])
+                            playerCards.get(1).setButtonEnabled(i, j,false);
+                    }
+                }
+
+            }
             int winner = controller.checkResultGame();
             if (winner > 0) {
                 if (winner == 1 || winner == 3) outputPlayer1.setText(outputPlayer1.getText() + " ПОБЕДА");
                 if (winner == 2 || winner == 3) outputPlayer2.setText(outputPlayer2.getText() + " ПОБЕДА");
                 outputGameResults.setText(outputGameResults.getText() + "< КОНЕЦ ИГРЫ !!! >");
                 getBarrel.setEnabled(false);
+                mixAgain.setEnabled(true);
             }
         });
 
@@ -116,10 +131,11 @@ public class UserView extends JFrame {
         return button;
     }
 
-    private void retake(Integer[][] cardPlayer1, Integer[][] cardPlayer2) {
+    private void retake(int[][] cardPlayer1, int[][] cardPlayer2) {
         try {
             for (int i = 0; i < cardPlayer1.length; i++) {
                 for (int j = 0; j < cardPlayer1[i].length; j++) {
+                    playerCards.get(0).setButtonEnabled(i, j,true);
                     playerCards.get(0).setButtonText(i, j, "");
                     if (cardPlayer1[i][j] == -1) playerCards.get(0).setButtonEnabled(i, j, true);
                     else
@@ -129,6 +145,7 @@ public class UserView extends JFrame {
             Thread.sleep(200);
             for (int i = 0; i < cardPlayer2.length; i++) {
                 for (int j = 0; j < cardPlayer2[i].length; j++) {
+                    playerCards.get(1).setButtonEnabled(i, j,true);
                     playerCards.get(1).setButtonText(i, j, "");
                     if (cardPlayer2[i][j] == -1) playerCards.get(1).setButtonEnabled(i, j, true);
                     else

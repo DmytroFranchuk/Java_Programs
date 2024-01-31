@@ -9,11 +9,11 @@ public class Controller {
         this.model = model;
     }
 
-    public Integer[][] returnCard(int idPlayer) {
+    public int[][] returnCard(int idPlayer) {
         return model.getPlayer(idPlayer).getPlayerCard().getCard();
     }
 
-    public Integer[][] getExchangeCard(int idPlayer) {
+    public int[][] getExchangeCard(int idPlayer) {
         return model.exchangeCard(idPlayer).getCard();
     }
 

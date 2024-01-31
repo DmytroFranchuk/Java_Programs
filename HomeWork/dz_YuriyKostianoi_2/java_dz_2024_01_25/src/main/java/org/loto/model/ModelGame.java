@@ -44,7 +44,7 @@ public class ModelGame {
         Player player;
         if (idPlayer == 1) player = player1;
         else player = player2;
-        Integer[][] checkCard = player.getPlayerCard().getCard();
+        int [][] checkCard = player.getPlayerCard().getCard();
         for (int i = 0; i < checkCard.length; i++) {
             for (int j = 0; j < checkCard[i].length; j++) {
                 if (checkCard[i][j] == barrelValue) {

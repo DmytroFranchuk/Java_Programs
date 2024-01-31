@@ -1,6 +1,7 @@
 package org.loto.model;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -32,12 +33,12 @@ public class Basket {
     public Barrel takeBarrel() {
         Barrel takenBarrel = null;
         if (!barrelList.isEmpty()) {
+            Collections.shuffle(barrelList);
             int barrelIndex = new Random().nextInt(barrelList.size());
             takenBarrel = barrelList.remove(barrelIndex);
             deliveryOrder.add(takenBarrel);
             System.out.println("Basket " + barrelList.size() + ":" + takenBarrel.getBarrelNumber());
         }
-
         return takenBarrel;
     }
 

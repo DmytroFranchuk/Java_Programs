@@ -1,21 +1,23 @@
 package org.loto.model;
 
+import org.task3.NumberGeneratorForCard;
+
 import java.util.*;
 
 public class Card {
-    private Integer[][] card;
+    private int [][] card;
     private static int count = 1;
 
     public Card() {
-        this.card = init();
+        this.card = NumberGeneratorForCard.init();
     }
 
-    public Integer[][] getCard() {
+    public int[][] getCard() {
         return card;
     }
 
-    private Integer[][] init() {
-        Integer[][] playingField = new Integer[3][9];
+    private int [][] init() {
+        int [][] playingField = new int [3][9];
         boolean isGenerateAgain;
         do {
             isGenerateAgain = false;
