@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "c1174a3c-557d-4b69-aaae-1fa1cdae0f91",
+		"name": "Dzadanie_30_01_2024",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29973314"
+	},
+	"item": [
+		{
+			"name": "поиск",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://habr.com/ru/search/?q=IoC%20java%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B&target_type=posts&order=relevance",
+					"protocol": "https",
+					"host": [
+						"habr",
+						"com"
+					],
+					"path": [
+						"ru",
+						"search",
+						""
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "IoC%20java%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B"
+						},
+						{
+							"key": "target_type",
+							"value": "posts"
+						},
+						{
+							"key": "order",
+							"value": "relevance"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "страница про mvc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://habr.com/ru/articles/336816/",
+					"protocol": "https",
+					"host": [
+						"habr",
+						"com"
+					],
+					"path": [
+						"ru",
+						"articles",
+						"336816",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "пост запрос",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://habr.com/ru/articles/336816/",
+					"protocol": "https",
+					"host": [
+						"habr",
+						"com"
+					],
+					"path": [
+						"ru",
+						"articles",
+						"336816",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "регистрация",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://account.habr.com/register/?state=93416204e9514b12d159b658c&consumer=habr&host=habr.com&hl=ru_RU",
+					"protocol": "https",
+					"host": [
+						"account",
+						"habr",
+						"com"
+					],
+					"path": [
+						"register",
+						""
+					],
+					"query": [
+						{
+							"key": "state",
+							"value": "93416204e9514b12d159b658c"
+						},
+						{
+							"key": "consumer",
+							"value": "habr"
+						},
+						{
+							"key": "host",
+							"value": "habr.com"
+						},
+						{
+							"key": "hl",
+							"value": "ru_RU"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "вход в аккаунт",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://account.habr.com/login/?consumer=habr&state=93416204e9514b12d159b658c",
+					"protocol": "https",
+					"host": [
+						"account",
+						"habr",
+						"com"
+					],
+					"path": [
+						"login",
+						""
+					],
+					"query": [
+						{
+							"key": "consumer",
+							"value": "habr"
+						},
+						{
+							"key": "state",
+							"value": "93416204e9514b12d159b658c"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
