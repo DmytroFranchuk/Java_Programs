@@ -1,0 +1,5 @@
+        List<Product> productList = productService.getProducts();
+        model.addAttribute("productList", productList);
+        model.addAttribute("feedbackDto", new FeedbackDto("", 0, ""));
+
+

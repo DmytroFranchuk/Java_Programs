@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Average Rating for Product</title>
+</head>
+<body>
+<h1>Average Rating for Product</h1>
+<p th:text="${averageRating}"></p>
+
+<h2>Product Details:</h2>
+<p th:text="'Product ID: ' + ${product.id()}"></p>
+<p th:text="'Product Name: ' + ${product.name()}"></p>
+
+</body>
+</html>
