@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>Cafe Merry Baker</title>
+    </head>
+    <body>
+        <h2>YOUR ORDER IS ACCEPTED!</h2>
+        <p th:object="${guestDto}">
+            Dear <span th:text="*{name}"></span>
+            , your id is
+            <span th:text="*{id}"></span>
+        </p>
+    </body>
+</html>
