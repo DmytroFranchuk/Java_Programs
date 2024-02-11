@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Setting status</title>
+</head>
+<body>
+<h2>User setting status</h2>
+<form th:object="${users}" th:action="@{/view/submit}" th:method="PATCH">
+    <div>
+        <label for="userId">Select UserId:</label>
+        <select id="userId" name="userId">
+            <option th:each="user : ${users}"
+                    th:value="${user.id()}"
+                    th:text="${user.id() + ' - ' + user.firstName() + ' ' + user.lastName()}"></option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="status">Status: </label>
+        <select id="status" name="status">
+            <option th:each="status : ${T(org.example.dto.Status).values()}"
+                    th:value="${status}" th:text="${status.name()}">
+            </option>
+        </select>
+    </div>
+
+    <br>
+
+    <button type="submit">Submit</button>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <a href="../../">Go to Web application start</a>
+
+</form>
+</body>
+</html>

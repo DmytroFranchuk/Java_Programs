@@ -10,228 +10,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70cdbbc8-76eb-49db-9428-f73fb5960a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lesson_2024_01_30/src/main/java/org/example/mvc_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/MyWebAppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/CalcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/FirstController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/RandomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/CalcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mvc_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/show_calc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/show_lie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/show_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/show_truth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/out/artifacts/Lesson_2024_02_06_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/java/org/example/config/MyWebAppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/java/org/example/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/java/org/example/controllers/CalcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/java/org/example/controllers/FirstController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/java/org/example/controllers/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/java/org/example/controllers/RandomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/java/org/example/services/CalcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/java/org/example/services/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/java/org/example/services/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/resources/task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/webapp/WEB-INF/views/mvc_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/webapp/WEB-INF/views/show_calc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/webapp/WEB-INF/views/show_lie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/webapp/WEB-INF/views/show_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/webapp/WEB-INF/views/show_truth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Lesson_2024_02_06/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task1/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task1/clases/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task1/clases/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task1/clases/Relative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task1/clases/SmartHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task1/reflect/InvokeFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task1/reflect/ReflectionHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task2/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task3/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task3/logger/LogLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task3/logger/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task4/task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_12/src/main/java/org/zadanie/task5/task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task1_World/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task1_World/World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task2_Terminator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task2_Terminator/pojo/JohnConnor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task2_Terminator/pojo/Terminator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task3_Transport/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task3_Transport/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task3_Transport/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task3_Transport/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task3_Transport/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task3_Transport/TransportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task4_DataBase/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task4_DataBase/config/DatabaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/disease/Immunity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/disease/Organism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/interfaces/Vaccinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/vaccineImpl/Corona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/vaccineImpl/Flu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/vaccineImpl/Measles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/vaccineImpl/Rabies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/resources/applicationContext2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/resources/applicationContext3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/main/resources/beans2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_19/src/test/java/org/springExample/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/src/main/java/org/task1/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/src/main/java/org/task1/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/src/main/java/org/task1/pojo/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/src/main/java/org/task1/pojo/ColorProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/src/main/java/org/task1/pojo/FavoritColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/src/main/java/org/task1/pojo/Rainbow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/src/main/java/org/task2/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/src/main/java/org/task2/FoodItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/src/main/java/org/task2/Refrigerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/src/main/java/org/task2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_01_26/src/test/java/org/task1/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_01/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_01/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_2024_01_30/src/main/java/org/example/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_2024_01_30/src/main/java/org/example/mvc_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task1/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task1/clases/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task1/clases/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task1/clases/Relative.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task1/clases/SmartHouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task1/reflect/InvokeFirst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task1/reflect/ReflectionHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task2/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task2/Task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task3/Task3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task3/logger/LogLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task3/logger/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task4/task4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_12/src/main/java/org/zadanie/task5/task5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task1_World/MainApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task1_World/World.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task2_Terminator/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task2_Terminator/pojo/JohnConnor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task2_Terminator/pojo/Terminator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task3_Transport/Bicycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task3_Transport/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task3_Transport/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task3_Transport/Motorcycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task3_Transport/Transport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task3_Transport/TransportFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task4_DataBase/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task4_DataBase/config/DatabaseConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/disease/Immunity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/disease/Organism.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/interfaces/Vaccinations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/vaccineImpl/Corona.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/vaccineImpl/Flu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/vaccineImpl/Measles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/java/org/springExample/task5_Immunity/model/vaccineImpl/Rabies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/resources/applicationContext2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/resources/applicationContext3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/resources/bean.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/main/resources/beans2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_19/src/test/java/org/springExample/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/src/main/java/org/task1/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/src/main/java/org/task1/config/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/src/main/java/org/task1/pojo/Color.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/src/main/java/org/task1/pojo/ColorProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/src/main/java/org/task1/pojo/FavoritColor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/src/main/java/org/task1/pojo/Rainbow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/src/main/java/org/task2/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/src/main/java/org/task2/FoodItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/src/main/java/org/task2/Refrigerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/src/main/java/org/task2/Task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktika_2024_01_26/src/test/java/org/task1/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/controllers/ClimateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/controllers/FirstController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/controllers/HeaderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/controllers/MessageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/controllers/SecondController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/controllers/TaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/dto/CreateResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/dto/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/dto/Weather.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/services/MessageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/services/TaskService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/java/org/example/services/WeatherService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/webapp/WEB-INF/applicationContextMVC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika/Praktika_2024_02_02/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika_2024_02_02/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Praktika_2024_02_02/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/java_dz_2024_02_01/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/java/org/example/dto/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/resources/cod.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/webapp/WEB-INF/views/user_status_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/SpringMvcFilterAndInterceptorExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/SpringMvcHtmlFormProblemExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/SpringMvcScopesExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktika/Praktika_2024_02_09/SpringMvcModelToViewExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktika/Praktika_2024_02_09/SpringMvcModelToViewExample/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,9 +63,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2bzhPFjNEaDVSeAzCVgwNm8mdLS" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
@@ -262,7 +77,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Java/2/Java_Programs/LessonProf2/Lesson_2024_02_06/src/main/webapp/WEB-INF",
+    "last_opened_file_path": "C:/Java/2/Java_Programs/LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -273,6 +88,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\2\Java_Programs\LessonProf2\Lesson_2024_02_06\src\main\java\org\lecture\example_Three" />
+      <recent name="C:\Java\2\Java_Programs\LessonProf2\Lesson_2024_02_06\src\main\java\org\lecture\example_Two" />
+      <recent name="C:\Java\2\Java_Programs\LessonProf2\Lesson_2024_02_06\src\main\java\org\lecture\example_One" />
       <recent name="C:\Java\2\Java_Programs\LessonProf2\Lesson_2024_02_06\src\main\webapp\WEB-INF" />
       <recent name="C:\Java\2\Java_Programs\LessonProf2\Lesson_2024_02_06\src\main\java\org\example" />
     </key>
@@ -375,6 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707223805371</updated>
       <workItem from="1707223806471" duration="2643000" />
+      <workItem from="1707678128260" duration="2635000" />
     </task>
     <servers />
   </component>

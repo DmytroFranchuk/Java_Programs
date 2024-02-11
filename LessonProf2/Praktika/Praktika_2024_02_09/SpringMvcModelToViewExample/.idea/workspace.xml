@@ -10,27 +10,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="835ef439-75e3-4507-84b1-f4ab6ff38768" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/DishController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/GuestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/DishDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Guest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/GuestRegistrationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mappper/DishMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/GuestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/ServiceMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/task/task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/guest_created.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/guest_registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/guest_welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/java/org/example/config/WelcomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/java/org/example/dto/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/java/org/example/dto/UserSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/java/org/example/filter/LoggingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/java/org/example/filter/LoggingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/resources/cod.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/resources/taski.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/webapp/WEB-INF/views/user_status_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08/src/main/webapp/WEB-INF/views/welcome_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/SpringMvcFilterAndInterceptorExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcFilterAndInterceptorExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/SpringMvcHtmlFormProblemExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcHtmlFormProblemExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/SpringMvcScopesExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LessonYuriyKostianoi_2/Lesson_2024_02_08/SpringMvcScopesExample/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson_2024_02_06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson_2024_02_06/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +97,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Book/connexion/spring-boot-ws/resteasy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java/2/Java_Programs/HomeWork/dz_YuriyKostianoi_2/java_dz_2024_02_08&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -186,7 +209,8 @@
       <option name="presentableId" value="Default" />
       <updated>1707495228891</updated>
       <workItem from="1707495242024" duration="20540000" />
-      <workItem from="1707576775675" duration="1894000" />
+      <workItem from="1707576775675" duration="7714000" />
+      <workItem from="1707665469734" duration="1823000" />
     </task>
     <servers />
   </component>
