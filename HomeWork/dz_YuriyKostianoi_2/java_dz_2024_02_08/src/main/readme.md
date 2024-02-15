@@ -33,3 +33,49 @@ _Может работать с объектами ServletRequest и ServletResp
 _Может работать с объектами HttpServletRequest, HttpServletResponse и 
 Object handler. Обладает более высоким уровнем абстракции, так как 
 имеет доступ к контроллеру и его методу_
+
+
+
+
+#### @RequestScope:
+Описание: Аннотация @RequestScope указывает, что бин существует в пределах одного HTTP-запроса. 
+Каждый новый запрос создает новый экземпляр бина.
+####
+    @Component
+    @Scope("request")
+    public class MyRequestScopedBean {
+        // ...
+    }
+
+#### @SessionScope:
+Описание: Аннотация @SessionScope говорит о том, что бин будет существовать в рамках одной 
+HTTP-сессии. Каждый новый пользовательский сеанс создает новый экземпляр бина.
+####
+    @Component
+    @Scope("session")
+    public class MySessionScopedBean {
+        // ...
+    }
+
+#### @ApplicationScope:
+Описание: Аннотация @ApplicationScope предназначена для глобального бина, существующего 
+в течение всего времени работы веб-приложения.
+####
+    @Component
+    @Scope("application")
+    public class MyApplicationScopedBean {
+        // ...
+    }
+
+#### @SessionAttributes:
+Описание: Аннотация @SessionAttributes используется на уровне контроллера для указания 
+атрибутов сессии, которые должны сохраняться между запросами контроллера.
+####
+    @Controller
+    @SessionAttributes("mySessionAttribute")
+    public class MyController {
+        // ...
+    }
+
+
+
