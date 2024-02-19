@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Friend</title>
+    <style>
+        form {
+            max-width: 300px;
+            margin: 25px;
+        }
+        label {
+            display: block;
+            margin-bottom: 15px;
+        }
+        input, button {
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+<h2>Add Friend</h2>
+
+<form th:object="${friend}"
+      th:action="@{/friends/save}"
+      method="post">
+
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" th:field="*{name}" required>
+        <p style="color: red"
+           th:if="${#fields.hasErrors('name')}"
+           th:text="${#strings.listJoin(#fields.errors('name'), ', ')}"></p>
+    </div>
+    <div>
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" th:field="*{surname}" required>
+        <p style="color: red"
+           th:if="${#fields.hasErrors('surname')}"
+           th:text="${#strings.listJoin(#fields.errors('surname'), ', ')}"></p>
+    </div>
+    <div>
+        <label for="dateOfBirth">Date of Birth:</label>
+        <input type="date" id="dateOfBirth" th:field="*{dateOfBirth}" required>
+        <p style="color: red"
+           th:if="${#fields.hasErrors('dateOfBirth')}"
+           th:text="${#strings.listJoin(#fields.errors('dateOfBirth'), ', ')}"></p>
+    </div>
+
+    <button type="submit">Save record</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend List</title>
+</head>
+<body>
+
+<h2>Friend List</h2>
+
+<form action="/friends/show" method="post">
+    <label for="friendSelect">Choose a friend:</label>
+    <select id="friendSelect" name="friend">
+        <option
+                th:each="friend : ${friendList}"
+                th:value="${friend}"
+                th:text="${friend.getName() + ' ' + friend.getSurname() + ' ' + friend.getDateOfBirth()}">
+
+        </option>
+    </select>
+    <button type="submit">Show information</button>
+</form>
+
+</body>
+</html>

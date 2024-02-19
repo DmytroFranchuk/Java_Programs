@@ -1,4 +1,4 @@
-package org.example.config;
+package org.example.controller;
 
 import org.example.dto.UserSession;
 import org.springframework.beans.factory.annotation.Autowired;
