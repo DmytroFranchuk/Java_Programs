@@ -3,6 +3,7 @@ package org.example.controller;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.PositiveOrZero;
 import org.example.dto.User;
+import org.example.dto.UserEditData;
 import org.example.dto.UserFormData;
 import org.example.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -56,7 +57,6 @@ public class ViewController {
             return "user_registration"; // теперь укажем ошибки в форме регистрации
         }
         User newUser = userService.createUser(userForm.toUser());
-        model.addAttribute("userForm", userForm);
         model.addAttribute("newUser", newUser);
         return "user_registered";
     }
@@ -69,12 +69,12 @@ public class ViewController {
     @GetMapping("/profile/{userId}/edit")
     public String getEditProfileForm(@PathVariable("userId") @PositiveOrZero long userId, Model model) {
         User user = userService.getUser(userId);
-        UserFormData userFormData = new UserFormData();
-        userFormData.setFirstName(user.firstName());
-        userFormData.setLastName(user.lastName());
-        userFormData.setBirthDate(user.birthDate());
-        userFormData.setEmail(user.email());
-        model.addAttribute("editForm", userFormData);
+        UserEditData userEditData = new UserEditData();
+        userEditData.setFirstName(user.firstName());
+        userEditData.setLastName(user.lastName());
+        userEditData.setBirthDate(user.birthDate());
+        userEditData.setEmail(user.email());
+        model.addAttribute("editForm", userEditData);
         model.addAttribute("userId", userId);
         return "user_profile_edit";
     }

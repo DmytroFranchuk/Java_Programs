@@ -16,6 +16,8 @@ public final class UserFormData {
     @Email(message = "Email not correct")
     private String email;
 
+    @AssertTrue(message = "Tick agreement checkbox")
+    private Boolean agree = false;
     public UserFormData() { }
 
     public User toUser() {
@@ -24,6 +26,14 @@ public final class UserFormData {
 
     public String getFirstName() {
         return firstName;
+    }
+
+    public boolean getAgree() {
+        return agree;
+    }
+
+    public void setAgree(boolean agree) {
+        this.agree = agree;
     }
 
     public void setFirstName(String firstName) {
