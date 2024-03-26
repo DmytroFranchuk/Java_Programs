@@ -1,0 +1,24 @@
+org.springframework.transaction.annotation.Transactional
+
+@Bean // Бин для автоматического управления тразакциями
+    public PlatformTransactionManager transactionManager(DataSource dataSource) 
+{
+        JpaTransactionManager transactionManager = new JpaTransactionManager();
+        transactionManager.setEntityManagerFactory(entityManagerFactory		(dataSource).getObject());
+        return transactionManager;
+    }
+
+@Configuration
+@EnableTransactionManagement
+@EnableJpaRepositories(basePackages = "org.example")
+
+
+INSERT INTO students (first_name, age, course_num, gender)
+ VALUES ('Иван', 29, 3, 'm');
+INSERT INTO students (first_name, age, course_num, gender)
+ VALUES ('Ирина', 25, 1, 'f');
+INSERT INTO students (first_name, age, course_num, gender)
+ VALUES ('Олег', 27, 2, 'm');
+
+INSERT INTO user_details (user_id, phone) values (1, '+19138447979');
+INSERT INTO user_details (user_id, phone) values (3, '+35152921515');

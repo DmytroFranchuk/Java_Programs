@@ -1,0 +1,13 @@
+Пример SWT токена (после декодирования).
+Issuer=http://auth.myservice.com&
+Audience=http://myservice.com&
+ExpiresOn=1435937883&
+UserName=John Smith&
+UserRole=Admin&
+HMACSHA256=KOUQRPSpy64rvT2KnYyQKtFFXUIggnesSpE7ADA4o9w
+
+Пример подписанного JWT токена (после декодирования 1 и 2 блоков).
+{ «alg»: «HS256», «typ»: «JWT» }.
+{ «iss»: «auth.myservice.com», «aud»: «myservice.com», «exp»: «1435937883», «userName»: «John Smith», «userRole»: «Admin» }.
+S9Zs/8/uEGGTVVtLggFTizCsMtwOJnRhjaQ2BMUQhcY
+

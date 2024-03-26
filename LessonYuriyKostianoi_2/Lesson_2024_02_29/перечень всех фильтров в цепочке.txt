@@ -1,0 +1,132 @@
+полный список фильтров Spring Security с кратким описанием:
+
+ForceEagerSessionCreationFilter:
+Принудительное создание сессии для запросов.
+
+ChannelProcessingFilter:
+Обработка канала (HTTP или HTTPS) запроса.
+
+WebAsyncManagerIntegrationFilter:
+Интеграция с менеджером WebAsync.
+
+SecurityContextPersistenceFilter:
+Сохранение и восстановление контекста безопасности.
+
+HeaderWriterFilter:
+Запись заголовков в HTTP-ответ.
+
+CorsFilter:
+Обработка Cross-Origin Resource Sharing (CORS).
+
+CsrfFilter:
+Защита от атаки подделки межсайтового запроса (CSRF).
+
+LogoutFilter:
+Обработка запросов на выход.
+
+OAuth2AuthorizationRequestRedirectFilter:
+Обработка перенаправлений OAuth2 для запроса авторизации.
+
+Saml2WebSsoAuthenticationRequestFilter:
+Обработка запросов на аутентификацию SAML2 Web SSO.
+
+X509AuthenticationFilter:
+Аутентификация на основе сертификата X.509.
+
+AbstractPreAuthenticatedProcessingFilter:
+Абстрактный фильтр предварительной аутентификации.
+
+CasAuthenticationFilter:
+Аутентификация с использованием CAS (Central Authentication Service).
+
+OAuth2LoginAuthenticationFilter:
+Аутентификация через протокол OAuth2 при входе.
+
+UsernamePasswordAuthenticationFilter:
+Аутентификация по имени пользователя и паролю.
+
+OpenIDAuthenticationFilter:
+Аутентификация через OpenID.
+
+DefaultLoginPageGeneratingFilter:
+Генерация страницы входа по умолчанию.
+
+DefaultLogoutPageGeneratingFilter:
+Генерация страницы выхода по умолчанию.
+
+ConcurrentSessionFilter:
+Управление параллельными сессиями.
+
+DigestAuthenticationFilter:
+Аутентификация по методу Digest.
+
+BearerTokenAuthenticationFilter:
+Аутентификация по токену Bearer.
+
+BasicAuthenticationFilter:
+Базовая аутентификация.
+
+RequestCacheAwareFilter:
+Обработка кеша запросов.
+
+SecurityContextHolderAwareRequestFilter:
+Обработка запросов с учетом контекста безопасности.
+
+JaasApiIntegrationFilter:
+Интеграция с API JAAS (Java Authentication and Authorization Service).
+
+RememberMeAuthenticationFilter:
+Аутентификация через "Запомнить меня".
+
+AnonymousAuthenticationFilter:
+Анонимная аутентификация.
+
+OAuth2AuthorizationCodeGrantFilter:
+Обработка авторизационного кода OAuth2.
+
+SessionManagementFilter:
+Управление сессиями.
+
+ExceptionTranslationFilter:
+Обработка исключений безопасности.
+
+FilterSecurityInterceptor:
+Интерсептор безопасности фильтра.
+
+SwitchUserFilter:
+Переключение пользователя.
+
+
+Хорошо, давайте рассмотрим полную схему взаимосвязи в Spring Security:
+
+HTTP Security (HttpSecurity): Определяет правила безопасности для HTTP-запросов. Это настраивается с использованием методов authorizeRequests(), formLogin(), logout() и других. HttpSecurity конфигурируется в классе, расширяющем WebSecurityConfigurerAdapter.
+
+AuthenticationManager (AuthenticationManager): Отвечает за процесс аутентификации. Обычно используется ProviderManager в качестве реализации, который делегирует аутентификацию провайдерам аутентификации.
+
+AuthenticationProvider (AuthenticationProvider): Провайдер аутентификации ответственен за аутентификацию пользователя. В Spring Security есть различные встроенные провайдеры, такие как DaoAuthenticationProvider, LdapAuthenticationProvider, а также возможность создания собственных провайдеров.
+
+UserDetailsService (UserDetailsService): Интерфейс, который используется провайдерами аутентификации для получения информации о пользователе. Обычно реализуется пользовательским сервисом, который загружает информацию о пользователях из базы данных или другого источника.
+
+UserDetails (UserDetails): Представляет информацию о пользователе. Обычно включает в себя имя пользователя, пароль и список ролей. Пользовательский класс, реализующий UserDetails, может быть использован для предоставления дополнительной информации о пользователе.
+
+Authentication (Authentication): После успешной аутентификации формируется объект Authentication, который содержит информацию о пользователе и его ролях. Объект Authentication хранится в SecurityContextHolder.
+
+SecurityContextHolder (SecurityContextHolder): Хранит текущий контекст безопасности. Позволяет получить доступ к текущему объекту Authentication в любом месте приложения.
+
+SecurityContext (SecurityContext): Представляет контекст безопасности, включая текущий объект Authentication. Хранится в SecurityContextHolder.
+
+SecurityConfigurerAdapter (SecurityConfigurerAdapter): Позволяет настроить определенные аспекты безопасности. К примеру, WebSecurityConfigurerAdapter предоставляет настройки для HttpSecurity.
+
+FilterChainProxy (FilterChainProxy): Обрабатывает входящие HTTP-запросы и координирует применение фильтров безопасности. Содержит цепочку фильтров, таких как UsernamePasswordAuthenticationFilter, SecurityContextPersistenceFilter, LogoutFilter и другие.
+
+SecurityFilterChain (SecurityFilterChain): Определяет конкретную цепочку фильтров для обработки определенных URL-путей. Может быть определен в классе конфигурации с использованием SecurityConfigurerAdapter.
+
+GrantedAuthority (GrantedAuthority): Представляет роль или полномочие пользователя. Обычно используется вместе с UserDetails для предоставления информации о ролях пользователя.
+
+AccessDecisionManager (AccessDecisionManager): Определяет, имеет ли пользователь доступ к определенному ресурсу или операции. Используется для принятия решения на основе ролей и прав доступа.
+
+AccessDeniedHandler (AccessDeniedHandler): Обрабатывает ситуации, когда у пользователя нет прав доступа к определенному ресурсу.
+
+AuthenticationEntryPoint (AuthenticationEntryPoint): Обрабатывает ситуации, когда пользователь неаутентифицирован и пытается получить доступ к защищенному ресурсу.
+
+Эти компоненты взаимодействуют друг с другом для обеспечения безопасности в приложении, и конфигурируются с использованием Java-кода или XML-конфигурации в зависимости от предпочтений разработчика.
