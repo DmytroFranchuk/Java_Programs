@@ -1,11 +1,11 @@
 package de.telran.SpringTechnologyBankApp.services.bank.interf;
 
 import de.telran.SpringTechnologyBankApp.dtos.bank.manager.ManagerDto;
+import de.telran.SpringTechnologyBankApp.dtos.bank.manager.ManagerDtoForByCondition;
 import de.telran.SpringTechnologyBankApp.entities.enums.StatusType;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.Optional;
 
 public interface ManagerService {
     ManagerDto createManager(ManagerDto manager);
@@ -16,7 +16,7 @@ public interface ManagerService {
 
     void deleteManagerById(Long id);
 
-    List<ManagerDto> getAllManagersWhereStatusTypeIs(StatusType status);
+    List<ManagerDtoForByCondition> getAllManagersWhereStatusTypeIs(StatusType status);
 
-    List<ManagerDto> findAllManagersCreatedAfterDate(LocalDateTime createdAt);
+    List<ManagerDtoForByCondition> getAllManagersCreatedAfterDate(LocalDateTime createdAt);
 }

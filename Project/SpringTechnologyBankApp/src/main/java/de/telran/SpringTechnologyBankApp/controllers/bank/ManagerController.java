@@ -1,16 +1,21 @@
 package de.telran.SpringTechnologyBankApp.controllers.bank;
 
 import de.telran.SpringTechnologyBankApp.dtos.bank.manager.ManagerDto;
+import de.telran.SpringTechnologyBankApp.dtos.bank.manager.ManagerDtoForByCondition;
+import de.telran.SpringTechnologyBankApp.entities.enums.StatusType;
 import de.telran.SpringTechnologyBankApp.services.bank.interf.ManagerService;
+import lombok.Data;
 import lombok.RequiredArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.AbstractMap;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
-import java.util.stream.Stream;
 
 @RestController
 @RequestMapping("/api/v1/managers")
@@ -49,4 +54,21 @@ public class ManagerController {
         response.put("message", String.format("Менеджер с id %d успешно удален", id));
         return ResponseEntity.ok(response);
     }
+
+    @GetMapping("/status/{status}")
+    public ResponseEntity<List<ManagerDtoForByCondition>> getManagersByStatus(@PathVariable("status")StatusType status) {
+        List<ManagerDtoForByCondition> managers = managerService.getAllManagersWhereStatusTypeIs(status);
+        return ResponseEntity.ok(managers);
+    }
+
+    @GetMapping("/createdAt")
+    public ResponseEntity<List<ManagerDtoForByCondition>> getAllManagersAfterDate(
+            @RequestParam("date")
+            @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate dateTime)
+    {
+        List<ManagerDtoForByCondition> managers = managerService.getAllManagersCreatedAfterDate(dateTime.atStartOfDay());
+        return ResponseEntity.ok(managers);
+    }
+
+
 }

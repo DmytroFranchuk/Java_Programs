@@ -2,6 +2,7 @@ package de.telran.SpringTechnologyBankApp.mappers.bank;
 
 import de.telran.SpringTechnologyBankApp.dtos.bank.manager.ClientForManagerDto;
 import de.telran.SpringTechnologyBankApp.dtos.bank.manager.ManagerDto;
+import de.telran.SpringTechnologyBankApp.dtos.bank.manager.ManagerDtoForByCondition;
 import de.telran.SpringTechnologyBankApp.dtos.bank.manager.ProductForManagerDto;
 import de.telran.SpringTechnologyBankApp.entities.bank.Client;
 import de.telran.SpringTechnologyBankApp.entities.bank.Manager;
@@ -42,6 +43,8 @@ public interface ManagerMapper {
     @Mapping(target = "createdAt", ignore = true)
     @Mapping(target = "updatedAt", ignore = true)
     ManagerDto managerToManagerDto(Manager manager);
+
+    ManagerDtoForByCondition managerToManagerDtoWithoutCollections(Manager manager);
 
     @Named("mapToProducts")
     default List<ProductForManagerDto> mapProducts(@NotNull Set<Product> products) {

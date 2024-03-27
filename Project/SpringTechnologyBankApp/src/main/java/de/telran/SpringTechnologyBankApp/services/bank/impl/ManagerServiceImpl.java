@@ -1,6 +1,7 @@
 package de.telran.SpringTechnologyBankApp.services.bank.impl;
 
 import de.telran.SpringTechnologyBankApp.dtos.bank.manager.ManagerDto;
+import de.telran.SpringTechnologyBankApp.dtos.bank.manager.ManagerDtoForByCondition;
 import de.telran.SpringTechnologyBankApp.entities.bank.Client;
 import de.telran.SpringTechnologyBankApp.entities.bank.Manager;
 import de.telran.SpringTechnologyBankApp.entities.bank.Product;
@@ -20,6 +21,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -33,7 +35,6 @@ public class ManagerServiceImpl implements ManagerService {
 
     @Override
     public ManagerDto createManager(ManagerDto managerDto) {
-//        Manager manager = managerMapper.managerDtoToManager(managerDto);
         return Optional.of(managerDto)
                 .map(managerMapper::managerDtoToManager)
                 .map(managerRepository::save)
@@ -48,7 +49,6 @@ public class ManagerServiceImpl implements ManagerService {
     }
 
     @Override
-    @Transactional
     public ManagerDto updateManagerById(Long id, ManagerDto manager) {
         Manager existingManager = managerRepository.findById(id)
                 .orElseThrow(() -> new NotFoundEntityException("Менеджер с id: " + id + " не найден"));
@@ -68,39 +68,43 @@ public class ManagerServiceImpl implements ManagerService {
     }
 
     @Override
+    @Transactional
     public void deleteManagerById(Long id) {
         Manager managerToDelete = managerRepository.findById(id)
                 .orElseThrow(() -> new NotFoundEntityException("Менеджер с id: " + id + " не найден"));
-        managerToDelete.setStatusType(StatusType.REMOVED);
-        managerRepository.save(managerToDelete);
-
-        ManagerDto transitManagerDto = new ManagerDto();
-        transitManagerDto.setStatusType(StatusType.INACTIVE);
-        transitManagerDto.setRoleType(RoleType.ROLE_MANAGER);
-        transitManagerDto.setFirstName("Transit_Manager");
-        transitManagerDto.setLastName("Transit_Manager");
-        Manager transitManager = managerMapper.managerDtoToManager(transitManagerDto);
-        managerRepository.save(transitManager);
-
-        List<Client> clientsToTransfer = clientRepository.findAllByManagerId(id);
-        List<Product> productsToTransfer = productRepository.findAllByManagerId(id);
-
-        clientsToTransfer.forEach(client -> client.setManager(transitManager));
-        productsToTransfer.forEach(product -> product.setManager(transitManager));
-
-        clientRepository.saveAll(clientsToTransfer);
-        productRepository.saveAll(productsToTransfer);
-        managerRepository.delete(managerToDelete);
+        try {
+            managerToDelete.setStatusType(StatusType.REMOVED);
+            managerRepository.save(managerToDelete);
+            Manager transitManager = createTransitManager();
+            managerRepository.save(transitManager);
+            List<Client> clientsToTransfer = clientRepository.findAllByManagerId(id);
+            List<Product> productsToTransfer = productRepository.findAllByManagerId(id);
+            clientsToTransfer.forEach(client -> client.setManager(transitManager));
+            productsToTransfer.forEach(product -> product.setManager(transitManager));
+            clientRepository.saveAll(clientsToTransfer);
+            productRepository.saveAll(productsToTransfer);
+        } catch (Exception exception) {
+            throw new NotDeletionEntityException("Не удалось удалить менеджера с id: " + id);
+        }
     }
 
     @Override
-    public List<ManagerDto> getAllManagersWhereStatusTypeIs(StatusType status) {
-        return null;
+    public List<ManagerDtoForByCondition> getAllManagersWhereStatusTypeIs(StatusType status) {
+        List<Manager> managers = managerRepository.findAllByStatusType(status);
+        if (managers.isEmpty()) {
+            throw new NotFoundEntityException("Не найдено менеджеров с указанным статусом: " + status);
+        }
+        return managers.stream()
+                .map(managerMapper::managerToManagerDtoWithoutCollections)
+                .collect(Collectors.toList());
     }
 
     @Override
-    public List<ManagerDto> findAllManagersCreatedAfterDate(LocalDateTime createdAt) {
-        return null;
+    public List<ManagerDtoForByCondition> getAllManagersCreatedAfterDate(LocalDateTime createdAt) {
+        List<Manager> managers = managerRepository.findManagersByCreatedAtAfter(createdAt);
+        return managers.stream()
+                .map(managerMapper::managerToManagerDtoWithoutCollections)
+                .collect(Collectors.toList());
     }
 
     private <T> void updateFieldIfNotNull(T newValue, Consumer<T> setter) {
@@ -109,7 +113,16 @@ public class ManagerServiceImpl implements ManagerService {
         }
     }
 
-
-    
-
+    private Manager createTransitManager() {
+        Manager transitManager = new Manager();
+        transitManager.setStatusType(StatusType.INACTIVE);
+        transitManager.setRoleType(RoleType.ROLE_MANAGER);
+        transitManager.setFirstName("Transit_Manager");
+        transitManager.setLastName("Transit_Manager");
+        transitManager.setDescription("Transit_Manager");
+        transitManager.setEmail("Transit_Manager");
+        transitManager.setLogin("Transit_Manager");
+        transitManager.setPassword("Transit_Manager");
+        return transitManager;
+    }
 }
